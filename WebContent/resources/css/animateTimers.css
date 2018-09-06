@@ -4,22 +4,21 @@
 /* landingPage */
 
 #landing1{
-    -webkit-animation-duration: 2s;
+    -webkit-animation-duration: 1s;
     -webkit-animation-delay: 0s;  
 
-    -moz-animation-duration: 2s;
+    -moz-animation-duration: 1s;
     -moz-animation-delay: 0s;  
 
-    -ms-animation-duration: 2s;
+    -ms-animation-duration: 1s;
     -ms-animation-delay: 0s; 
 
-    -o-animation-duration: 2s;
+    -o-animation-duration: 1s;
     -o-animation-delay: 0s;
 
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-delay: 0s;  
-  }
-
+}
 #landing2,
 #landing3,
 #landing4{
@@ -37,8 +36,7 @@
 
     animation-duration: 3s;
     animation-delay: 0s;  
-  }
-
+}
 #landing5{
     -webkit-animation-duration: 1s;
     -webkit-animation-delay: 0s;  
@@ -109,7 +107,6 @@
     animation-duration: 1s;
     animation-delay: 0s; 
 }
-
 #stepByStep2{
     -webkit-animation-duration: 1s;
     -webkit-animation-delay: 200ms;  
@@ -126,7 +123,6 @@
     animation-duration: 1s;
     animation-delay: 200ms; 
 }
-
 #stepByStep3{
     -webkit-animation-duration: 1s;
     -webkit-animation-delay: 400ms;  

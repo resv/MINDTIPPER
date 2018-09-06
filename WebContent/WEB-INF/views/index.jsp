@@ -78,9 +78,9 @@
       <div class="container">
         <div class="row">
           <div class="col-xl-9 mx-auto">                 
-              <h1 class="mb-5">
-                <span class="animated wow zoomIn" id="landing1">Mind</span>
-                <span class="animated wow fadeInDown" id="landing2">Tipper</span>
+                <h1 class="mb-5">
+                <span class="animated wow fadeIn" id="landing1">Mind</span>
+                <span class="animated wow fadeIn" id="landing2">Tipper</span>
               </h1>
             <h2 class="text-white-50 mx-auto mt-2 mb-5 animated wow fadeInDown" id="landing3">
               Calculate every decision. Share your options.<br>Find out which detail matters</h2>
