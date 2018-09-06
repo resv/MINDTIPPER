@@ -48,7 +48,7 @@ body {
   header.masthead {
     position: relative;
     background-color: #343a40;
-    background: url("/resources/imgs/bg1.jpg") no-repeat center center;
+    background: no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

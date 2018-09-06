@@ -22,8 +22,9 @@
 	<!-- SIMPLE LINE ICONS API RESOURCE PATH -->
 	<link href="<c:url value="/resources/API/simple-line-icons/css/simple-line-icons.css"/>" rel="stylesheet" type="text/css">
 	
-	<!-- GOOGLE FONT API RESOURCE CDN -->
+	<!-- GOOGLE FONT API RESOURCE CDN + Local file (will remove one of them once I can figure out why it isn't working in eclipse browser but works in chrome-->
 	<link href="<c:url value="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic"/>" rel="stylesheet" type="text/css">
+	<link href="<c:url value="/resources/API/google-fonts/google-fonts.css"/>" rel="stylesheet">
 	
 	<!-- CSS RESOURCE PATH -->
 	<link href="<c:url value="/resources/css/animate.css"/>" rel="stylesheet">
@@ -72,7 +73,7 @@
 
 
     <!-- landingPage // MASTHEAD -->
-    <header class="masthead text-white text-center js-scroll-trigger" id="landingPage">
+    <header class="masthead text-white text-center js-scroll-trigger" style="background-image: url('resources/imgs/bg1.jpg');" id="landingPage">
       <div class="overlay"></div>
       <div class="container">
         <div class="row">

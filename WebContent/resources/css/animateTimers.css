@@ -6,31 +6,87 @@
 #landing1{
     -webkit-animation-duration: 2s;
     -webkit-animation-delay: 0s;  
+
+    -moz-animation-duration: 2s;
+    -moz-animation-delay: 0s;  
+
+    -ms-animation-duration: 2s;
+    -ms-animation-delay: 0s; 
+
+    -o-animation-duration: 2s;
+    -o-animation-delay: 0s;
+
+    animation-duration: 2s;
+    animation-delay: 0s;  
   }
-#landing2{
-    -webkit-animation-duration: 3s;
-    -webkit-animation-delay: 0s;
-  }
-#landing3{
-    -webkit-animation-duration: 3s;
-    -webkit-animation-delay: 0s;
-  }
+
+#landing2,
+#landing3,
 #landing4{
     -webkit-animation-duration: 3s;
-    -webkit-animation-delay: 0s;
+    -webkit-animation-delay: 0s;  
+
+    -moz-animation-duration: 3s;
+    -moz-animation-delay: 0s;  
+
+    -ms-animation-duration: 3s;
+    -ms-animation-delay: 0s; 
+
+    -o-animation-duration: 3s;
+    -o-animation-delay: 0s;
+
+    animation-duration: 3s;
+    animation-delay: 0s;  
   }
+
 #landing5{
     -webkit-animation-duration: 1s;
-    -webkit-animation-delay: 0s;
+    -webkit-animation-delay: 0s;  
+
+    -moz-animation-duration: 1s;
+    -moz-animation-delay: 0s;  
+
+    -ms-animation-duration: 1s;
+    -ms-animation-delay: 0s; 
+
+    -o-animation-duration: 1s;
+    -o-animation-delay: 0s;
+
+    animation-duration: 1s;
+    animation-delay: 0s; 
 }
 #landing6{
     -webkit-animation-duration: 3s;
-    -webkit-animation-delay: 1s;
-    opacity: 0;
+    -webkit-animation-delay: 1s;  
+
+    -moz-animation-duration: 3s;
+    -moz-animation-delay: 1s;  
+
+    -ms-animation-duration: 3s;
+    -ms-animation-delay: 1s; 
+
+    -o-animation-duration: 3s;
+    -o-animation-delay: 1s;
+
+    animation-duration: 3s;
+    animation-delay: 1s;
+    opacity:0;
 }
 #landing7{
     -webkit-animation-duration: 2s;
-    -webkit-animation-delay: 4s;
+    -webkit-animation-delay: 4s;  
+
+    -moz-animation-duration: 2s;
+    -moz-animation-delay: 4s;  
+
+    -ms-animation-duration: 2s;
+    -ms-animation-delay: 4s; 
+
+    -o-animation-duration: 2s;
+    -o-animation-delay: 4s;
+
+    animation-duration: 2s;
+    animation-delay: 4s; 
     opacity: 0;
 }
 
@@ -39,17 +95,53 @@
 
 #stepByStep1{
     -webkit-animation-duration: 1s;
-    -webkit-animation-delay: 0s;
+    -webkit-animation-delay: 0s;  
+
+    -moz-animation-duration: 1s;
+    -moz-animation-delay: 0s;  
+
+    -ms-animation-duration: 1s;
+    -ms-animation-delay: 0s; 
+
+    -o-animation-duration: 1s;
+    -o-animation-delay: 0s;
+
+    animation-duration: 1s;
+    animation-delay: 0s; 
 }
 
 #stepByStep2{
     -webkit-animation-duration: 1s;
-    -webkit-animation-delay: 200ms;
+    -webkit-animation-delay: 200ms;  
+
+    -moz-animation-duration: 1s;
+    -moz-animation-delay: 200ms;  
+
+    -ms-animation-duration: 1s;
+    -ms-animation-delay: 200ms; 
+
+    -o-animation-duration: 1s;
+    -o-animation-delay: 200ms;
+
+    animation-duration: 1s;
+    animation-delay: 200ms; 
 }
 
 #stepByStep3{
     -webkit-animation-duration: 1s;
-    -webkit-animation-delay: 400ms;
+    -webkit-animation-delay: 400ms;  
+
+    -moz-animation-duration: 1s;
+    -moz-animation-delay: 400ms;  
+
+    -ms-animation-duration: 1s;
+    -ms-animation-delay: 400ms; 
+
+    -o-animation-duration: 1s;
+    -o-animation-delay: 400ms;
+
+    animation-duration: 1s;
+    animation-delay: 400ms; 
 }
 
 
@@ -60,47 +152,108 @@
 /* --------------------------------- */
 /* POSSIBLE BY... // TESTIMONIALS */
 
-#portrait1{
-    -webkit-animation-duration: 1.2s;
-    -webkit-animation-delay: 700ms;
-}
-
-#portrait2{
-    -webkit-animation-duration: 1s;
-    -webkit-animation-delay: 200ms;
-}
-
+#portrait1,
 #portrait3{
     -webkit-animation-duration: 1.2s;
-    -webkit-animation-delay: 700ms;
+    -webkit-animation-delay: 700ms;  
+
+    -moz-animation-duration: 1.2s;
+    -moz-animation-delay: 700ms;  
+
+    -ms-animation-duration: 1.2s;
+    -ms-animation-delay: 700ms; 
+
+    -o-animation-duration: 1.2s;
+    -o-animation-delay: 700ms;
+
+    animation-duration: 1.2s;
+    animation-delay: 700ms; 
+}
+#portrait2{
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: 200ms;  
+
+    -moz-animation-duration: 1s;
+    -moz-animation-delay: 200ms;  
+
+    -ms-animation-duration: 1s;
+    -ms-animation-delay: 200ms; 
+
+    -o-animation-duration: 1s;
+    -o-animation-delay: 200ms;
+
+    animation-duration: 1s;
+    animation-delay: 200ms; 
 }
 
 /* NAME OF ORG */
-.title1{
+.title1,
+.title3{
     -webkit-animation-duration: 2s;
-    -webkit-animation-delay: 1400ms;
+    -webkit-animation-delay: 1400ms;  
+
+    -moz-animation-duration: 2s;
+    -moz-animation-delay: 1400ms;  
+
+    -ms-animation-duration: 2s;
+    -ms-animation-delay: 1400ms; 
+
+    -o-animation-duration: 2s;
+    -o-animation-delay: 1400ms;
+
+    animation-duration: 2s;
+    animation-delay: 1400ms; 
 }
 .title2{
     -webkit-animation-duration: 2s;
-    -webkit-animation-delay: 200ms;
-}
-.title3{
-    -webkit-animation-duration: 2s;
-    -webkit-animation-delay: 1400ms;
+    -webkit-animation-delay: 200ms;  
+
+    -moz-animation-duration: 2s;
+    -moz-animation-delay: 200ms;  
+
+    -ms-animation-duration: 2s;
+    -ms-animation-delay: 200ms; 
+
+    -o-animation-duration: 2s;
+    -o-animation-delay: 200ms;
+
+    animation-duration: 2s;
+    animation-delay: 200ms; 
 }
 
 /* MOTTO */
-#motto1{
+#motto1,
+#motto3{
     -webkit-animation-duration: 2s;
-    -webkit-animation-delay: 1400ms;
+    -webkit-animation-delay: 1400ms;  
+
+    -moz-animation-duration: 2s;
+    -moz-animation-delay: 1400ms;  
+
+    -ms-animation-duration: 2s;
+    -ms-animation-delay: 1400ms; 
+
+    -o-animation-duration: 2s;
+    -o-animation-delay: 1400ms;
+
+    animation-duration: 2s;
+    animation-delay: 1400ms; 
 }
 #motto2{
     -webkit-animation-duration: 2s;
-    -webkit-animation-delay: 200ms;
-}
-#motto3{
-    -webkit-animation-duration: 2s;
-    -webkit-animation-delay: 1400ms;
+    -webkit-animation-delay: 200ms;  
+
+    -moz-animation-duration: 2s;
+    -moz-animation-delay: 200ms;  
+
+    -ms-animation-duration: 2s;
+    -ms-animation-delay: 200ms; 
+
+    -o-animation-duration: 2s;
+    -o-animation-delay: 200ms;
+
+    animation-duration: 2s;
+    animation-delay: 200ms; 
 }
 
 /* --------------------------------- */
