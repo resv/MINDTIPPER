@@ -2,7 +2,6 @@
     pageEncoding="ISO-8859-1"%>
     
     <!-- PREREQ FOR RESOURCES -->
-<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%> 
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
     
     
@@ -14,7 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
      <title>MIND TIPPER</title>
     
-    <!-- BOOSTRAP API RESOURCE PATH -->
+    <!-- BOOTSTRAP API RESOURCE PATH -->
 	<link href="<c:url value="/resources/API/bootstrap/css/bootstrap.min.css"/>" rel="stylesheet">
 	
 	<!-- FONTAWESOME API RESOURCE PATH -->
