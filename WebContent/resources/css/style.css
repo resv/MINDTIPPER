@@ -29,84 +29,84 @@ header.masthead .scroll-down {
 /* ----------------------------------- */
 
 body {
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
+/* ----------------------------------- */
+
+/* JUMBOTRON // MASTHEAD */
+header.masthead {
+  position: relative;
+  background-color: #343a40;
+  background: no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+header.masthead .overlay {
+  position: absolute;
+  background-color: #212529;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+}
+header.masthead h1 {
+  font-size: 2rem;
+}
+/* USED TO SIZE BACKGROUND IMAGE (FONT-SIZE) */
+@media (min-width: 768px) {
+  header.masthead {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
   }
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: 700;
+  header.masthead h1 {
+    font-size: 13rem;
   }
+}
   
 /* ----------------------------------- */
 
-  /* JUMBOTRON // MASTHEAD */
-  header.masthead {
-    position: relative;
-    background-color: #343a40;
-    background: no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    padding-top: 8rem;
-    padding-bottom: 8rem;
-  }
-  header.masthead .overlay {
-    position: absolute;
-    background-color: #212529;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    opacity: 0.3;
-  }
-  header.masthead h1 {
-    font-size: 2rem;
-  }
-  /* USED TO SIZE BACKGROUND IMAGE (FONT-SIZE) */
-  @media (min-width: 768px) {
-    header.masthead {
-      padding-top: 12rem;
-      padding-bottom: 12rem;
-    }
-    header.masthead h1 {
-      font-size: 13rem;
-    }
-  }
-  
-  /* ----------------------------------- */
+/* STEP BY STEP // ICON GRID */
+.features-icons {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
 
-  /* STEP BY STEP // ICON GRID */
-  .features-icons {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-  }
-  
-  .features-icons .features-icons-item {
-    max-width: 20rem;
-  }
-  
-  .features-icons .features-icons-item .features-icons-icon {
-    height: 7rem;
-  }
-  
-  .features-icons .features-icons-item .features-icons-icon i {
-    font-size: 4.5rem;
-  }
-  
-  .features-icons .features-icons-item:hover .features-icons-icon i {
-    font-size: 7rem;
-  }
-  
-  /* ----------------------------------- */
+.features-icons .features-icons-item {
+  max-width: 20rem;
+}
 
- /* SHOWCASE */
- /* removes scroll bars upon slide in animation */
+.features-icons .features-icons-item .features-icons-icon {
+  height: 7rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon i {
+  font-size: 4.5rem;
+}
+
+.features-icons .features-icons-item:hover .features-icons-icon i {
+  font-size: 7rem;
+}
+  
+/* ----------------------------------- */
+
+/* SHOWCASE */
+/* removes scroll bars upon slide in animation */
 .showcase{
   overflow: hidden;
 }
@@ -128,26 +128,30 @@ body {
 /* ----------------------------------- */
 
 
-  /* POSSIBLE BY AVATARS */
-  .testimonials {
-    padding-top: 7rem;
-    padding-bottom: 7rem;
-  }
+/* POSSIBLE BY AVATARS */
+.testimonials {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.testimonials .testimonial-item {
+  max-width: 18rem;
+}
   
-  .testimonials .testimonial-item {
-    max-width: 18rem;
-  }
-  
-  .testimonials .testimonial-item img {
-    max-width: 12rem;
-    box-shadow: 0px 5px 5px 0px #adb5bd;
-  }
+.testimonials .testimonial-item img {
+  max-width: 12rem;
+  box-shadow: 0px 5px 5px 0px #adb5bd;
+}
   
 /* ----------------------------------- */
 
-  /* FOOTER */
-  footer.footer {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-  }
+/* FOOTER */
+footer.footer {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
   
