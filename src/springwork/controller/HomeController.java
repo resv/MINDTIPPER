@@ -36,7 +36,7 @@ public class HomeController {
 		return mav;
 	}
 	
-	
+	//SAMPLE OF A THE EXAMPLE WE DID IN CLASS
 	@RequestMapping("/displayroute")
 	public ModelAndView userPage(HttpServletRequest request) {
 		ModelAndView mav = new ModelAndView("UserPage");
