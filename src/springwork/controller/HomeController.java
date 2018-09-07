@@ -19,11 +19,23 @@ public class HomeController {
 //		return mav;
 //	}
 	
+	
+//------------NAVBAR CONTROLLERS---------------//	
+	
+	//NAVBAR & HOME PAGE - NAVBAR BRAND BUTTON	
 	@RequestMapping("/")
-	public ModelAndView welcome() {
-		ModelAndView mav = new ModelAndView("index");
+	public ModelAndView index() {
+		ModelAndView mav = new ModelAndView("home");
 		return mav;
 	}
+	
+	//NAVBAR - MENU BUTTON
+	@RequestMapping("/menu")
+	public ModelAndView menu() {
+		ModelAndView mav = new ModelAndView("menu");
+		return mav;
+	}
+	
 	
 	@RequestMapping("/displayroute")
 	public ModelAndView userPage(HttpServletRequest request) {
@@ -33,4 +45,6 @@ public class HomeController {
 		mav.addObject("user_name", request.getParameter("name"));
 		return mav;
 	}
+	
+	
 }
