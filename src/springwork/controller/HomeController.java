@@ -36,6 +36,13 @@ public class HomeController {
 		return mav;
 	}
 	
+	//NAVBAR - REGISTERLOGIN BUTTON
+		@RequestMapping("/registerLogin")
+		public ModelAndView registerLogin() {
+			ModelAndView mav = new ModelAndView("registerLogin");
+			return mav;
+		}
+	
 	//SAMPLE OF A THE EXAMPLE WE DID IN CLASS
 	@RequestMapping("/displayroute")
 	public ModelAndView userPage(HttpServletRequest request) {
