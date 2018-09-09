@@ -1,0 +1,84 @@
+/* NAVBAR COLOR SPEED TRANSITION */
+#mainNav {
+background-color: transparent;
+-webkit-transition: background-color 0.3s ease-in-out;
+transition: background-color 0.3s ease-in-out;
+border-style: none none solid none;
+border-width: 0px 0px 1px 0px;
+border-color: transparent;
+color:white;
+}
+/* NAVBAR COLLAPSE TEXT */
+#mainNav .navbar-brand,
+#mainNav .nav-link {
+text-align: right;
+color:white;
+}
+/* STOCK LINK HOVER */
+#mainNav .nav-link:hover {
+color: gray;
+}
+
+/* NAVBAR COLLAPSE MENU BUTTON STOCK*/
+#mainNav .navbar-toggler {
+font-size: 80%;
+padding: 0.75rem;
+color: white;
+border: 1px solid white;
+
+}
+#mainNav .navbar-toggler:focus {
+outline: none;
+color: white;
+}
+#mainNav .navbar-toggler:hover {
+outline: none;
+color: gray;
+border: 1px solid gray;
+}
+
+/* NAVBAR ON SHRINK SETTINGS */
+#mainNav.navbar-shrink {
+background-color: white;
+border-style: none none solid none;
+border-width: 0px 0px 1px 0px;
+border-color: black;
+}
+
+#mainNav.navbar-shrink .navbar-brand,
+#mainNav.navbar-shrink .nav-link{
+color: black;
+text-align: right;
+}
+#mainNav.navbar-shrink .nav-link:hover {
+color: gray;
+}
+
+/* NAVBAR COLLAPSE MENU BUTTON ON SHRINK */
+#mainNav.navbar-shrink .navbar-toggler{
+color:black;
+border: 1px solid black;
+}
+#mainNav.navbar-shrink .navbar-toggler:hover{
+color:gray;
+border: 1px solid gray;
+}
+
+/* SEARCH BAR ANIMATION */
+#searchbar {
+width: 47.5px;
+-webkit-transition: width 0.4s ease-in-out;
+transition: width 0.4s ease-in-out;
+background-color: transparent;
+border: 2px solid transparent;
+}
+.searchBar:hover{
+cursor: pointer;
+}
+#searchbar:focus {
+width: 50%;
+color: gray;
+background-color: white;
+border: 2px solid white;
+cursor: text;
+}

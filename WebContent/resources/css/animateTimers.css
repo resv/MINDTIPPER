@@ -93,51 +93,51 @@
 
 #stepByStep1{
     -webkit-animation-duration: 1s;
-    -webkit-animation-delay: 0s;  
+    -webkit-animation-delay: 500ms;  
 
     -moz-animation-duration: 1s;
-    -moz-animation-delay: 0s;  
+    -moz-animation-delay: 500ms;  
 
     -ms-animation-duration: 1s;
-    -ms-animation-delay: 0s; 
+    -ms-animation-delay: 500ms; 
 
     -o-animation-duration: 1s;
-    -o-animation-delay: 0s;
+    -o-animation-delay: 500ms;
 
     animation-duration: 1s;
-    animation-delay: 0s; 
+    animation-delay: 500ms; 
 }
 #stepByStep2{
     -webkit-animation-duration: 1s;
-    -webkit-animation-delay: 200ms;  
+    -webkit-animation-delay: 1000ms;  
 
     -moz-animation-duration: 1s;
-    -moz-animation-delay: 200ms;  
+    -moz-animation-delay: 1000ms;  
 
     -ms-animation-duration: 1s;
-    -ms-animation-delay: 200ms; 
+    -ms-animation-delay: 1000ms; 
 
     -o-animation-duration: 1s;
-    -o-animation-delay: 200ms;
+    -o-animation-delay: 1000ms;
 
     animation-duration: 1s;
-    animation-delay: 200ms; 
+    animation-delay: 1000ms; 
 }
 #stepByStep3{
     -webkit-animation-duration: 1s;
-    -webkit-animation-delay: 400ms;  
+    -webkit-animation-delay: 1500ms;  
 
     -moz-animation-duration: 1s;
-    -moz-animation-delay: 400ms;  
+    -moz-animation-delay: 1500ms;  
 
     -ms-animation-duration: 1s;
-    -ms-animation-delay: 400ms; 
+    -ms-animation-delay: 1500ms; 
 
     -o-animation-duration: 1s;
-    -o-animation-delay: 400ms;
+    -o-animation-delay: 1500ms;
 
     animation-duration: 1s;
-    animation-delay: 400ms; 
+    animation-delay: 1500ms; 
 }
 
 
