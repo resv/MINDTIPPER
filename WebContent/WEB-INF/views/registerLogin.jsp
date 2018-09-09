@@ -92,7 +92,7 @@
                               <div class="form-row">
                                 <div class="col-md-6">
                                   <div class="form-label-group">
-                                    <input type="email" id="inputEmail" class="form-control" placeholder="Email Address" required="required" autofocus="autofocus">
+                                    <input type="email" id="inputEmail" class="form-control" placeholder="Email Address" required="required">
                                     <label for="firstName">Email Address</label>
                                   </div>
                                 </div>
