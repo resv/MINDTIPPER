@@ -48,7 +48,7 @@
 	    <!-- <input class="col-lg-3 col-md-3 col-sm-5 col-xs-5 form-control" type="text" name="searchbar" id="searchbar" placeholder="&#128269 Search"/> -->
 	
 	    <!-- RESPONSIVE SIZE, SEARCH BAR USING UNICODE  -->
-	    <input class="form-control js-scroll-trigger searchBar" type="text" name="searchbar" id="searchbar" placeholder="&#128269 Search"/>
+	    <input class="form-control js-scroll-trigger searchBar" type="text" name="searchbar" id="searchbar" placeholder="&#128269 Search Decisions"/>
 	
 	    <!-- COLLAPSE NAVIGATION MENU BUTTON -->
 	    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -74,7 +74,7 @@
 
 
 <!-- landingPage // MASTHEAD -->
-    <header class="masthead text-white text-center js-scroll-trigger" style="background-image: url('resources/imgs/bg1.jpg');" id="landingPage">
+    <header class="masthead text-white text-center js-scroll-trigger" style="background-image: url('resources/imgs/bg3.jpg');" id="landingPage">
       <div class="overlay"></div>
       <div class="container">
         <div class="row">
@@ -85,7 +85,9 @@
               </h1>
             <h2 class="text-white-50 mx-auto mt-2 mb-5 animated wow fadeInDown" id="landing3">
               Calculate every decision. Share your options.<br>Find out which detail matters</h2>
+              <div class="animated wow pulse infinite">
             <a class="btn btn-primary js-scroll-trigger animated wow fadeInDown" id="landing4" href="<c:url value="/menu" />">Get Started</a>
+          		</div>
           </div>
         </div>
       </div>

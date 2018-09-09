@@ -54,19 +54,19 @@
     animation-delay: 0s; 
 }
 #landing6{
-    -webkit-animation-duration: 3s;
+    -webkit-animation-duration: 6s;
     -webkit-animation-delay: 1s;  
 
-    -moz-animation-duration: 3s;
+    -moz-animation-duration: 6s;
     -moz-animation-delay: 1s;  
 
-    -ms-animation-duration: 3s;
+    -ms-animation-duration: 6s;
     -ms-animation-delay: 1s; 
 
-    -o-animation-duration: 3s;
+    -o-animation-duration: 6s;
     -o-animation-delay: 1s;
 
-    animation-duration: 3s;
+    animation-duration: 6s;
     animation-delay: 1s;
     opacity:0;
 }
