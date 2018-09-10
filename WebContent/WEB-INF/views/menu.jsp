@@ -146,54 +146,53 @@
        </div>
      </section>
 
-<!-- FOOTER ( INTERNAL STYLE CSS + EXTERNAL CSS )-->
-     <footer class="footer bg-light js-scroll-trigger">
-         <div class="container">
-             <div class="row">
-                 <!-- FOOTER CONTENTS -->
-             <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
-                 <ul class="list-inline mb-2">
-                 <li class="list-inline-item">
-                     <a href="<c:url value="contact" />">Contact</a>
-                 </li>
-                 <li class="list-inline-item">&sdot;</li>
-                 <li class="list-inline-item">
-                     <a href="#">Business Inquiries</a>
-                 </li>
-                 <li class="list-inline-item">&sdot;</li>
-                 <li class="list-inline-item">
-                     <a href="#">Terms of Use</a>
-                 </li>
-                 <li class="list-inline-item">&sdot;</li>
-                 <li class="list-inline-item">
-                     <a href="#">Privacy Policy</a>
-                 </li>
-                 </ul>
-                 <p class="text-muted small mb-4 mb-lg-0">&copy; MINDTIPPER 2018. All Rights Reserved.</p>
-             </div>
-             <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
-                 <ul class="list-inline mb-0">
-                 <li class="list-inline-item mr-3">
-                     <a href="https://www.linkedin.com/in/adamkim456/">
-                     <i class="fa fa-linkedin-square fa-2x fa-fw"></i>
-                     </a>
-                 </li>
-                 <li class="list-inline-item mr-3">
-                     <a href="https://twitter.com/Resv_">
-                     <i class="fa fa-twitter fa-2x fa-fw"></i>
-                     </a>
-                 </li>
-                 <li class="list-inline-item">
-                     <a href="https://www.instagram.com/resvvv/">
-                     <i class="fa fa-instagram fa-2x fa-fw"></i>
-                     </a>
-                 </li>
-                 </ul>
-             </div>
-             </div>
-         </div>
-     </footer>
-     
+<!-- FOOTER -->
+    <footer class="footer bg-light js-scroll-trigger">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+            <ul class="list-inline mb-2">
+              <li class="list-inline-item">
+                <a href="<c:url value="contact" />">Contact Us</a>
+              </li>
+              <li class="list-inline-item">&sdot;</li>
+              <li class="list-inline-item">
+                <a href="#">About Us</a>
+              </li>
+              <li class="list-inline-item">&sdot;</li>
+              <li class="list-inline-item">
+                <a href="#">Terms of Use</a>
+              </li>
+              <li class="list-inline-item">&sdot;</li>
+              <li class="list-inline-item">
+                <a href="#">Privacy</a>
+              </li>
+            </ul>
+            <p class="text-muted small mb-4 mb-lg-0">&copy; MINDTIPPER 2018. All Rights Reserved.</p>
+          </div>
+          <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
+            <ul class="list-inline mb-0">
+              <li class="list-inline-item mr-3">
+                <a href="https://www.linkedin.com/in/adamkim456/">
+                  <i class="fa fa-linkedin-square fa-2x fa-fw"></i>
+                </a>
+              </li>
+              <li class="list-inline-item mr-3">
+                <a href="https://twitter.com/Resv_">
+                  <i class="fa fa-twitter fa-2x fa-fw"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.instagram.com/resvvv/">
+                  <i class="fa fa-instagram fa-2x fa-fw"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
 <!-- BOOTSTRAP AND JS RESOURCE SCRIPT PATH -->
 	<script src="<c:url value="/resources/API/jquery/jquery.min.js"/>"></script>
 	<script src="<c:url value="/resources/API/bootstrap/js/bootstrap.bundle.min.js"/>"></script>
@@ -204,6 +203,6 @@
 
 <!-- JQUERY SCRIPT -->
 	<script src="<c:url value="/resources/js/jquery.js"/>"></script>
-
+	
 </body>
 </html>
