@@ -110,7 +110,8 @@
                 <i class="icon-bulb m-auto text-primary"></i>
               </div>
               <h3>Can't decide on something?</h3>
-              <p class="lead mb-0">Enter two options of the decision you have to make e.g. Summer Weather VS Winter Weather.</p>
+              <p class="lead mb-0">Enter two options of the decision you have to make.
+              						<br>e.g. Summer vs Winter</p>
             </div>
           </div>
           <div class="col-lg-4">
