@@ -60,7 +60,7 @@
                     <a class="nav-link js-scroll-trigger" href="<c:url value="/menu" />">New Decision</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="<c:url value="/registerLogin" />">Sign Up/ Login</a>
+                    <a class="nav-link js-scroll-trigger" href="<c:url value="/registerLogin" />">Sign Up / Login</a>
                 </li>
                 </ul>
             </div>
@@ -76,7 +76,7 @@
             <div class="row">
                 <div class="col-md-10 col-lg-5 mx-auto text-center">
 <!-- REGISTER CARD SPACING -->
-                <div class="card card-register mx-auto mt-5">
+                <div class="card card-register mx-auto mt-5 animated wow fadeIn">
 <!-- REGISTER CONTENTS -->
                   <div class="card-header">Register</div>
                   <div class="card-body">
@@ -130,7 +130,7 @@
 <!-- LOGIN CARD BOX -->
               <div class="col-md-8 col-lg-4 mx-auto text-center">
 <!-- LOGIN CARD SPACING -->
-              <div class="card card-login mx-auto mt-5 text-center">
+              <div class="card card-login mx-auto mt-5 text-center animated wow fadeIn">
 <!-- LOGIN CARD CONTENTS -->
                       <div class="card-header">Login</div>
                       <div class="card-body">

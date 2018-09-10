@@ -60,7 +60,7 @@
                     <a class="nav-link js-scroll-trigger" href="<c:url value="/menu" />">New Decision</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="<c:url value="/registerLogin" />">Sign Up/ Login</a>
+                    <a class="nav-link js-scroll-trigger" href="<c:url value="/registerLogin" />">Sign Up / Login</a>
                 </li>
                 </ul>
             </div>
@@ -69,9 +69,9 @@
     
     
 <!-- FORGOT PASS CARD FORM-->
-<section class="js-scroll-trigger" style="padding: 12rem 0rem 22rem; height: auto;">
+<section class="js-scroll-trigger" style="padding: 12rem 2rem 22rem; height: auto;">
 <div class="container">
-	<div class="col-md-10 col-lg-5 mx-auto text-center">
+	<div class="col-md-10 col-lg-5 mx-auto text-center animated wow fadeIn">
 		<div class="card card-login mx-auto mt-5">
 			<div class="card-header">Reset Password</div>
 				<div class="card-body">

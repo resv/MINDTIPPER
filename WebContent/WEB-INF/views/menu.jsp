@@ -60,7 +60,7 @@
                    <a class="nav-link js-scroll-trigger" href="<c:url value="/menu" />">New Decision</a>
                </li>
                <li class="nav-item">
-                   <a class="nav-link js-scroll-trigger" href="<c:url value="/registerLogin" />">Sign Up/ Login</a>
+                   <a class="nav-link js-scroll-trigger" href="<c:url value="/registerLogin" />">Sign Up / Login</a>
                </li>
                </ul>
            </div>
