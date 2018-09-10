@@ -10,7 +10,7 @@
 <head>
     <meta charset="ISO-8859-1">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Forgot Password - MIND TIPPER</title>
+    <title>Contact Us - MIND TIPPER</title>
 
   <!-- BOOTSTRAP API RESOURCE PATH -->
 	<link href="<c:url value="/resources/API/bootstrap/css/bootstrap.min.css"/>" rel="stylesheet">
@@ -67,39 +67,66 @@
         </div>
     </nav>
     
-    
-<!-- FORGOT PASS CARD FORM-->
-<section class="js-scroll-trigger" style="padding: 12rem 2rem 22rem; height: auto;">
-<div class="container">
-	<div class="col-md-10 col-lg-5 mx-auto text-center animated wow fadeIn">
-		<div class="card card-login mx-auto mt-5">
-			<div class="card-header">Reset Password</div>
-				<div class="card-body">
-				  <div class="text-center mb-4">
-					<h4>Forgot your password?</h4>
-					<p>Enter the email address linked to your account, instructions on how to reset your password will be sent.</p>
-				  </div>
-				  
-					<form>
-						<div class="form-group">
-						  <div class="form-label-group">
-						    <input type="email" id="inputEmail" class="form-control" placeholder="Enter email address" required="required" autofocus="autofocus">
-						    <label for="inputEmail">Enter email address</label>
-						  </div>
-						</div>
-						
-					  <a class="btn btn-primary btn-block" href="login.html">Reset Password</a>
-					  
-					</form>
-					
-					<div class="text-center">
-					  <a class="d-block small mt-3" href="<c:url value="/registerLogin" />">Back to Login / Register page</a>
-					</div>
-			</div>
-		</div>
-	</div>
-</div>
+   
+<!-- CONTACT SECTION, TWITTER LINK ICON LINK INSIDE h2 TAG, CSS STYLING IS INTERNAL NO UNDERLINE OVER HOVER -->
+<section class="js-scroll-trigger" style="padding: 12rem 2rem 10rem; height: auto;">
+    <div class="container">
+        <h2 class="text-center text-black mb-0">CONTACT US<a href="https://twitter.com/Resv_" style="text-decoration: none;">
+                                                                <i class="fa fa-twitter fa-1x fa-fw animated wow pulse infinite"></i>
+                                                        </a></h2>
+            <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                <div class="control-group">
+                    <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                        <label>Name</label>
+                        <input class="form-control" id="name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name.">
+                        <p class="help-block text-danger"></p>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                        <label>Email Address</label>
+                        <input class="form-control" id="email" type="email" placeholder="Email Address" required="required" data-validation-required-message="Please enter your email address.">
+                        <p class="help-block text-danger"></p>
+                    </div>
+                </div>
+                <div class="control-group">
+                        <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                            <label>Decision #ID</label>
+                            <input class="form-control" id="Decision_ID" type="text" placeholder="Decision #ID (Optional)" required="" data-validation-required-message="Please enter your decision #ID">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                <div class="control-group">
+                    <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                        <label>Subject</label>
+                        <input class="form-control" id="Subject" type="text" placeholder="Subject" required="required" data-validation-required-message="Please enter your subject.">
+                        <p class="help-block text-danger"></p>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                        <label>Message</label>
+                        <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message."></textarea>
+                        <p class="help-block text-danger"></p>
+                    </div>
+                </div>
+                <br>
+                <div id="success"></div>
+                    <div class="form-group text-center">
+                        <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Send</button>
+                    </div>
+                </form>
+            </div>
+            </div>
+    </div>
 </section>
+
+
+
+
+
 
     <!-- FOOTER -->
     <footer class="footer bg-light js-scroll-trigger">
@@ -161,4 +188,6 @@
 
 </body>
 </html>
+       
+    
     

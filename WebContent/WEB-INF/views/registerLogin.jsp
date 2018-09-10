@@ -179,7 +179,7 @@
         <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
             <ul class="list-inline mb-2">
             <li class="list-inline-item">
-                <a href="#">Contact</a>
+                <a href="<c:url value="contact" />">Contact</a>
             </li>
             <li class="list-inline-item">&sdot;</li>
             <li class="list-inline-item">

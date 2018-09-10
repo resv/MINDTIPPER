@@ -43,8 +43,18 @@ public class HomeController {
 			return mav;
 		}
 		
+//------------FOOTER CONTROLLERS--------------//		
+	//FOOTER - CONTACT US BUTTON
+			@RequestMapping("/contact")
+			public ModelAndView contact() {
+				ModelAndView mav = new ModelAndView("contact");
+				return mav;
+			}
 		
-//------------REGISTERLOGIN PAGE --------------//	
+		
+		
+		
+//------------REGISTERLOGIN PAGE--------------//	
 		
 	//FORGOT PASSWORD LINK
 		@RequestMapping("/forgotPassword")
