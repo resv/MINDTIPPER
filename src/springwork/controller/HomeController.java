@@ -42,6 +42,16 @@ public class HomeController {
 			ModelAndView mav = new ModelAndView("registerLogin");
 			return mav;
 		}
+		
+		
+//------------REGISTERLOGIN PAGE --------------//	
+		
+	//FORGOT PASSWORD LINK
+		@RequestMapping("/forgotPassword")
+		public ModelAndView forgotPassword() {
+			ModelAndView mav = new ModelAndView("forgotPassword");
+			return mav;
+		}	
 	
 	//SAMPLE OF A THE EXAMPLE WE DID IN CLASS
 	@RequestMapping("/displayroute")

@@ -10,7 +10,7 @@
 <head>
     <meta charset="ISO-8859-1">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Login Register - MIND TIPPER</title>
+    <title>Forgot Password - MIND TIPPER</title>
 
   <!-- BOOTSTRAP API RESOURCE PATH -->
 	<link href="<c:url value="/resources/API/bootstrap/css/bootstrap.min.css"/>" rel="stylesheet">
@@ -67,110 +67,39 @@
         </div>
     </nav>
     
-      
-
-<!-- ROW OF CARD FORMS-->
-<section class="js-scroll-trigger" style="padding: 8rem 2rem 22rem; height: auto;">
-        <div class="container">
-<!-- ROW SPACING -->
-            <div class="row">
-                <div class="col-md-10 col-lg-5 mx-auto text-center">
-<!-- REGISTER CARD SPACING -->
-                <div class="card card-register mx-auto mt-5">
-<!-- REGISTER CONTENTS -->
-                  <div class="card-header">Register</div>
-                  <div class="card-body">
-                    <form>
-                      <div class="form-group">
-                              <div class="form-label-group">
-                                <input type="text" id="inputUsername" class="form-control" placeholder="Username" required="required">
-                                <label for="inputEmail">UserName <br>
-                                  (Email will be used to login)</label>
-                              </div>
-                            </div>
-                            <div class="form-group">
-                              <div class="form-row">
-                                <div class="col-md-6">
-                                  <div class="form-label-group">
-                                    <input type="email" id="inputEmail" class="form-control" placeholder="Email Address" required="required">
-                                    <label for="firstName">Email Address</label>
-                                  </div>
-                                </div>
-                                <div class="col-md-6">
-                                  <div class="form-label-group">
-                                    <input type="email" id="confirmEmail" class="form-control" placeholder="Confirm Email" required="required">
-                                    <label for="lastName">Confirm Email Address</label>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="form-group">
-                              <div class="form-row">
-                                <div class="col-md-6">
-                                  <div class="form-label-group">
-                                    <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="required">
-                                    <label for="inputPassword">Password</label>
-                                  </div>
-                                </div>
-                                <div class="col-md-6">
-                                  <div class="form-label-group">
-                                    <input type="password" id="confirmPassword" class="form-control" placeholder="Confirm Password" required="required">
-                                    <label for="confirmPassword">Confirm password</label>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <a class="btn btn-primary btn-block" href="SEND TO USER PAGEEE">Register</a>
-                    </form>
-                  </div>
-                </div>
-              </div>
-        
-
-<!-- LOGIN CARD BOX -->
-              <div class="col-md-8 col-lg-4 mx-auto text-center">
-<!-- LOGIN CARD SPACING -->
-              <div class="card card-login mx-auto mt-5 text-center">
-<!-- LOGIN CARD CONTENTS -->
-                      <div class="card-header">Login</div>
-                      <div class="card-body">
-                        <form>
-                          <div class="form-group">
-                            <div class="form-label-group">
-                              <input type="email" id="loginInputEmail" class="form-control" placeholder="Email Address" required="required" autofocus="autofocus">
-                              <label for="inputEmail">Email address</label>
-                            </div>
-                          </div>
-                          <div class="form-group">
-                            <div class="form-label-group">
-                              <input type="password" id="loginInputPassword" class="form-control" placeholder="Password" required="required">
-                              <label for="inputPassword">Password</label>
-                            </div>
-                          </div>
-                          <div class="form-group">
-                            <div class="checkbox">
-                              <label>
-                                <input type="checkbox" value="remember-me">Remember Password</label>
-                            </div>
-                          </div>
-                          <a class="btn btn-primary btn-block" href="SEND TO USER PAGEEE">Login</a>
-                        </form>
-                        <div class="text-center">
-                            <br>
-                          <a class="d-block small" href="<c:url value="/forgotPassword" />">Forgot Password?</a>
-                        </div>
-                      </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
+    
+<!-- FORGOT PASS CARD FORM-->
+<section class="js-scroll-trigger" style="padding: 12rem 0rem 22rem; height: auto;">
+<div class="container">
+	<div class="col-md-10 col-lg-5 mx-auto text-center">
+		<div class="card card-login mx-auto mt-5">
+			<div class="card-header">Reset Password</div>
+				<div class="card-body">
+				  <div class="text-center mb-4">
+					<h4>Forgot your password?</h4>
+					<p>Enter the email address linked to your account, instructions on how to reset your password will be sent.</p>
+				  </div>
+				  
+					<form>
+						<div class="form-group">
+						  <div class="form-label-group">
+						    <input type="email" id="inputEmail" class="form-control" placeholder="Enter email address" required="required" autofocus="autofocus">
+						    <label for="inputEmail">Enter email address</label>
+						  </div>
+						</div>
+						
+					  <a class="btn btn-primary btn-block" href="login.html">Reset Password</a>
+					  
+					</form>
+					
+					<div class="text-center">
+					  <a class="d-block small mt-3" href="<c:url value="/registerLogin" />">Back to Login / Register page</a>
+					</div>
+			</div>
+		</div>
+	</div>
+</div>
 </section>
-
-
-
-
-
 
     <!-- FOOTER -->
     <footer class="footer bg-light js-scroll-trigger">
