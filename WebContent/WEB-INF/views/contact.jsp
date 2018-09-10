@@ -70,7 +70,7 @@
    
 <!-- CONTACT SECTION, TWITTER LINK ICON LINK INSIDE h2 TAG, CSS STYLING IS INTERNAL NO UNDERLINE OVER HOVER -->
 <section class="js-scroll-trigger" style="padding: 12rem 2rem 4rem; height: auto;">
-    <div class="container">
+    <div class="container animated wow fadeIn">
         <h2 class="text-center text-black mb-0">CONTACT US<a href="https://twitter.com/Resv_" style="text-decoration: none;">
                                                                 <i class="fa fa-twitter fa-1x fa-fw animated wow pulse infinite"></i>
                                                         </a></h2>
@@ -175,19 +175,18 @@
     </div>
     </footer>
 
-    <!-- BOOTSTRAP AND JS SCRIPT -->
-    <script src="API/jquery/jquery.min.js"></script>
-    <script src="API/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- BOOTSTRAP AND JS RESOURCE SCRIPT PATH -->
+	<script src="<c:url value="/resources/API/jquery/jquery.min.js"/>"></script>
+	<script src="<c:url value="/resources/API/bootstrap/js/bootstrap.bundle.min.js"/>"></script>
 
-    <!-- WOW JS SCRIPT -->
-    <script src="js/wow.js"></script>
-    <script>new WOW().init();</script>
+<!-- WOW JS SCRIPT -->
+	<script src="<c:url value="/resources/js/wow.js"/>"></script>
+	<script> new WOW().init();</script>
 
-    <!-- JQUERY SCRIPT -->
-    <script src="js/jquery.js"></script>
+<!-- JQUERY SCRIPT -->
+	<script src="<c:url value="/resources/js/jquery.js"/>"></script>
 
 </body>
 </html>
-       
     
     

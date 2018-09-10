@@ -219,17 +219,16 @@
     </div>
     </footer>
 
-    <!-- BOOTSTRAP AND JS SCRIPT -->
-    <script src="API/jquery/jquery.min.js"></script>
-    <script src="API/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- BOOTSTRAP AND JS RESOURCE SCRIPT PATH -->
+	<script src="<c:url value="/resources/API/jquery/jquery.min.js"/>"></script>
+	<script src="<c:url value="/resources/API/bootstrap/js/bootstrap.bundle.min.js"/>"></script>
 
-    <!-- WOW JS SCRIPT -->
-    <script src="js/wow.js"></script>
-    <script>new WOW().init();</script>
+<!-- WOW JS SCRIPT -->
+	<script src="<c:url value="/resources/js/wow.js"/>"></script>
+	<script> new WOW().init();</script>
 
-    <!-- JQUERY SCRIPT -->
-    <script src="js/jquery.js"></script>
-
+<!-- JQUERY SCRIPT -->
+	<script src="<c:url value="/resources/js/jquery.js"/>"></script>
+	
 </body>
 </html>
-    
