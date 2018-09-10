@@ -69,7 +69,7 @@
     
    
 <!-- CONTACT SECTION, TWITTER LINK ICON LINK INSIDE h2 TAG, CSS STYLING IS INTERNAL NO UNDERLINE OVER HOVER -->
-<section class="js-scroll-trigger" style="padding: 12rem 2rem 10rem; height: auto;">
+<section class="js-scroll-trigger" style="padding: 12rem 2rem 4rem; height: auto;">
     <div class="container">
         <h2 class="text-center text-black mb-0">CONTACT US<a href="https://twitter.com/Resv_" style="text-decoration: none;">
                                                                 <i class="fa fa-twitter fa-1x fa-fw animated wow pulse infinite"></i>

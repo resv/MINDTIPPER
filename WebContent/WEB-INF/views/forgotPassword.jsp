@@ -69,7 +69,7 @@
     
     
 <!-- FORGOT PASS CARD FORM-->
-<section class="js-scroll-trigger" style="padding: 12rem 2rem 22rem; height: auto;">
+<section class="js-scroll-trigger" style="padding: 12rem 2rem 21rem; height: auto;">
 <div class="container">
 	<div class="col-md-10 col-lg-5 mx-auto text-center animated wow fadeIn">
 		<div class="card card-login mx-auto mt-5">
