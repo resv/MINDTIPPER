@@ -94,7 +94,7 @@
                 <div class="control-group">
                         <div class="form-group floating-label-form-group controls mb-0 pb-2">
                             <label>Decision #ID</label>
-                            <input class="form-control" id="Decision_ID" type="text" placeholder="Decision #ID (Optional)" required="" data-validation-required-message="Please enter your decision #ID">
+                            <input class="form-control" id="Decision_ID" type="text" placeholder="Decision #ID (Optional)" data-validation-required-message="Please enter your decision #ID">
                             <p class="help-block text-danger"></p>
                         </div>
                     </div>
