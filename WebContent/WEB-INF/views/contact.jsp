@@ -70,10 +70,10 @@
    
 <!-- CONTACT SECTION, TWITTER LINK ICON LINK INSIDE h2 TAG, CSS STYLING IS INTERNAL NO UNDERLINE OVER HOVER -->
 <section class="js-scroll-trigger" style="padding: 12rem 2rem 4rem; height: auto;">
-    <div class="container animated wow fadeIn">
+    <div class="container">
         <h2 class="text-center text-black mb-0">CONTACT US<a href="https://twitter.com/Resv_" style="text-decoration: none;">
-                                                                <i class="fa fa-twitter fa-1x fa-fw animated wow pulse infinite"></i>
-                                                        </a></h2>
+                                                          	<i class="fa fa-twitter fa-1x fa-fw animated wow pulse infinite"></i>
+                                                          </a></h2>
             <div class="row">
             <div class="col-lg-8 mx-auto">
                 <form name="sentMessage" id="contactForm" novalidate="novalidate">
@@ -94,14 +94,14 @@
                 <div class="control-group">
                         <div class="form-group floating-label-form-group controls mb-0 pb-2">
                             <label>Decision #ID</label>
-                            <input class="form-control" id="Decision_ID" type="text" placeholder="Decision #ID (Optional)" data-validation-required-message="Please enter your decision #ID">
+                            <input class="form-control" id="decisionID" type="text" placeholder="Decision #ID (Optional)">
                             <p class="help-block text-danger"></p>
                         </div>
                     </div>
                 <div class="control-group">
                     <div class="form-group floating-label-form-group controls mb-0 pb-2">
                         <label>Subject</label>
-                        <input class="form-control" id="Subject" type="text" placeholder="Subject" required="required" data-validation-required-message="Please enter your subject.">
+                        <input class="form-control" id="subject" type="text" placeholder="Subject" required="required" data-validation-required-message="Please enter your subject.">
                         <p class="help-block text-danger"></p>
                     </div>
                 </div>
@@ -135,7 +135,7 @@
         <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
             <ul class="list-inline mb-2">
             <li class="list-inline-item">
-                <a href="<c:url value="contact" />">Contact</a>
+                <a href="<c:url value="contact" />">Contact Us</a>
             </li>
             <li class="list-inline-item">&sdot;</li>
             <li class="list-inline-item">
@@ -185,6 +185,11 @@
 
 <!-- JQUERY SCRIPT -->
 	<script src="<c:url value="/resources/js/jquery.js"/>"></script>
+	
+<!-- VALIDATION SCRIPTS -->
+    <script src="<c:url value="/resources/js/contactValidation/bootstrapValidation.js"/>"></script>
+    <script src="<c:url value="/resources/js/contactValidation/contactValidation.js"/>"></script>
+	
 
 </body>
 </html>
