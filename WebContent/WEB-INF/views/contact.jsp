@@ -139,7 +139,7 @@
             </li>
             <li class="list-inline-item">&sdot;</li>
             <li class="list-inline-item">
-                <a href="#">Business Inquiries</a>
+                <a href="#">About Us</a>
             </li>
             <li class="list-inline-item">&sdot;</li>
             <li class="list-inline-item">
@@ -147,7 +147,7 @@
             </li>
             <li class="list-inline-item">&sdot;</li>
             <li class="list-inline-item">
-                <a href="#">Privacy Policy</a>
+                <a href="#">Privacy</a>
             </li>
             </ul>
             <p class="text-muted small mb-4 mb-lg-0">&copy; MINDTIPPER 2018. All Rights Reserved.</p>

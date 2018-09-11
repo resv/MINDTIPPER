@@ -85,17 +85,16 @@
 							createdElements.push($helpBlock[0]);
           }
 
-          // =============================================================
-          //                                     SNIFF HTML FOR VALIDATORS
-          // =============================================================
+          //----------------------------------SNIFF HTML FOR VALIDATORS----------------------------------
+
 
           // *snort sniff snuffle*
 
           if (settings.options.sniffHtml) {
             var message = "";
-            // ---------------------------------------------------------
-            //                                                   PATTERN
-            // ---------------------------------------------------------
+
+            //----------------------------------PATTERN----------------------------------
+
             if ($this.attr("pattern") !== undefined) {
               message = "Not in the expected format<!-- data-validation-pattern-message to override -->";
               if ($this.data("validationPatternMessage")) {
@@ -104,9 +103,8 @@
               $this.data("validationPatternMessage", message);
               $this.data("validationPatternRegex", $this.attr("pattern"));
             }
-            // ---------------------------------------------------------
-            //                                                       MAX
-            // ---------------------------------------------------------
+
+            //----------------------------------MAX----------------------------------
             if ($this.attr("max") !== undefined || $this.attr("aria-valuemax") !== undefined) {
               var max = ($this.attr("max") !== undefined ? $this.attr("max") : $this.attr("aria-valuemax"));
               message = "Too high: Maximum of '" + max + "'<!-- data-validation-max-message to override -->";
@@ -116,9 +114,8 @@
               $this.data("validationMaxMessage", message);
               $this.data("validationMaxMax", max);
             }
-            // ---------------------------------------------------------
-            //                                                       MIN
-            // ---------------------------------------------------------
+
+            //----------------------------------MIN----------------------------------
             if ($this.attr("min") !== undefined || $this.attr("aria-valuemin") !== undefined) {
               var min = ($this.attr("min") !== undefined ? $this.attr("min") : $this.attr("aria-valuemin"));
               message = "Too low: Minimum of '" + min + "'<!-- data-validation-min-message to override -->";
@@ -128,9 +125,8 @@
               $this.data("validationMinMessage", message);
               $this.data("validationMinMin", min);
             }
-            // ---------------------------------------------------------
-            //                                                 MAXLENGTH
-            // ---------------------------------------------------------
+
+            //----------------------------------MAXLENGTH----------------------------------
             if ($this.attr("maxlength") !== undefined) {
               message = "Too long: Maximum of '" + $this.attr("maxlength") + "' characters<!-- data-validation-maxlength-message to override -->";
               if ($this.data("validationMaxlengthMessage")) {
@@ -139,9 +135,8 @@
               $this.data("validationMaxlengthMessage", message);
               $this.data("validationMaxlengthMaxlength", $this.attr("maxlength"));
             }
-            // ---------------------------------------------------------
-            //                                                 MINLENGTH
-            // ---------------------------------------------------------
+
+            //----------------------------------MINLENGTH----------------------------------
             if ($this.attr("minlength") !== undefined) {
               message = "Too short: Minimum of '" + $this.attr("minlength") + "' characters<!-- data-validation-minlength-message to override -->";
               if ($this.data("validationMinlengthMessage")) {
@@ -150,9 +145,8 @@
               $this.data("validationMinlengthMessage", message);
               $this.data("validationMinlengthMinlength", $this.attr("minlength"));
             }
-            // ---------------------------------------------------------
-            //                                                  REQUIRED
-            // ---------------------------------------------------------
+
+            //----------------------------------REQUIRED----------------------------------
             if ($this.attr("required") !== undefined || $this.attr("aria-required") !== undefined) {
               message = settings.builtInValidators.required.message;
               if ($this.data("validationRequiredMessage")) {
@@ -160,9 +154,8 @@
               }
               $this.data("validationRequiredMessage", message);
             }
-            // ---------------------------------------------------------
-            //                                                    NUMBER
-            // ---------------------------------------------------------
+
+            //----------------------------------NUMBER----------------------------------
             if ($this.attr("type") !== undefined && $this.attr("type").toLowerCase() === "number") {
               message = settings.builtInValidators.number.message;
               if ($this.data("validationNumberMessage")) {
@@ -170,8 +163,8 @@
               }
               $this.data("validationNumberMessage", message);
             }
-            // ---------------------------------------------------------
-            //                                                     EMAIL
+
+            //----------------------------------EMAIL----------------------------------
             // ---------------------------------------------------------
             if ($this.attr("type") !== undefined && $this.attr("type").toLowerCase() === "email") {
               message = "Not a valid email address<!-- data-validator-validemail-message to override -->";
@@ -182,9 +175,9 @@
               }
               $this.data("validationValidemailMessage", message);
             }
-            // ---------------------------------------------------------
-            //                                                MINCHECKED
-            // ---------------------------------------------------------
+
+            //---------------------------------MINCHECKED----------------------------------
+
             if ($this.attr("minchecked") !== undefined) {
               message = "Not enough options checked; Minimum of '" + $this.attr("minchecked") + "' required<!-- data-validation-minchecked-message to override -->";
               if ($this.data("validationMincheckedMessage")) {
@@ -193,9 +186,8 @@
               $this.data("validationMincheckedMessage", message);
               $this.data("validationMincheckedMinchecked", $this.attr("minchecked"));
             }
-            // ---------------------------------------------------------
-            //                                                MAXCHECKED
-            // ---------------------------------------------------------
+
+            //----------------------------------MAXCHECKED----------------------------------
             if ($this.attr("maxchecked") !== undefined) {
               message = "Too many options checked; Maximum of '" + $this.attr("maxchecked") + "' required<!-- data-validation-maxchecked-message to override -->";
               if ($this.data("validationMaxcheckedMessage")) {
@@ -206,9 +198,9 @@
             }
           }
 
-          // =============================================================
-          //                                       COLLECT VALIDATOR NAMES
-          // =============================================================
+
+          //----------------------------------COLLECT VALIDATOR NAMES----------------------------------
+ 
 
           // Get named validators
           if ($this.data("validation") !== undefined) {
@@ -223,9 +215,8 @@
             }
           });
 
-          // =============================================================
-          //                                     NORMALISE VALIDATOR NAMES
-          // =============================================================
+          //----------------------------------NORMALISE VALIDATOR NAMES----------------------------------
+
 
           var validatorNamesToInspect = validatorNames;
           var newValidatorNamesToInspect = [];
@@ -267,9 +258,9 @@
 
           } while (validatorNamesToInspect.length > 0)
 
-          // =============================================================
-          //                                       SET UP VALIDATOR ARRAYS
-          // =============================================================
+
+          //----------------------SET UP VALIDATOR ARRAYS---------------------------
+
 
           var validators = {};
 
@@ -345,9 +336,9 @@
             }
           });
 
-          // =============================================================
-          //                                         STORE FALLBACK VALUES
-          // =============================================================
+ 
+          //-----------------------STORE FALLBACK VALUES------------------------
+
 
           $helpBlock.data(
             "original-contents",
@@ -385,9 +376,9 @@
             )
           );
 
-          // =============================================================
-          //                                                    VALIDATION
-          // =============================================================
+
+          // ----------------VALIDATION-----------------------------
+      
 
           $this.bind(
             "validation.validation",
@@ -419,9 +410,8 @@
             }
           );
 
-          // =============================================================
-          //                                             WATCH FOR CHANGES
-          // =============================================================
+          // --------- WATCH FOR CHANGES--------------------
+  
           $this.bind(
             "submit.validation",
             function () {
