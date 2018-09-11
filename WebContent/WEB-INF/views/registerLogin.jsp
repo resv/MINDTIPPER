@@ -144,7 +144,7 @@
               </div>
         
 
-              <!-- LOGIN CARD BOX -->
+              <!-- LOGIN CARD BOX (HTML5 DEFAULT VALIDATION FOR EMAIL IS PRESENT, CAN REMOVE JAVASCRIPT FUNCTIONS) -->
               <div class="col-md-8 col-lg-4 mx-auto text-center">
                   <!-- LOGIN CARD SPACING -->
                   <div class="card card-login mx-auto mt-5 text-center animated wow fadeIn">

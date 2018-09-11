@@ -62,6 +62,15 @@ public class HomeController {
 			ModelAndView mav = new ModelAndView("forgotPassword");
 			return mav;
 		}	
+		
+//------------USER PAGE--------------//	
+
+	//USER PAGE
+		@RequestMapping("/user")
+		public ModelAndView user() {
+			ModelAndView mav = new ModelAndView("user");
+			return mav;
+		}			
 	
 	//SAMPLE OF A THE EXAMPLE WE DID IN CLASS
 	@RequestMapping("/displayroute")
