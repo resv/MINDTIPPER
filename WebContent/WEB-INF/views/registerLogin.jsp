@@ -119,7 +119,7 @@
                     <form name="RegForm" action="menu.html" onsubmit="return regValidate()" method="post"> 
                       <div class="form-group">
                               <div class="form-label-group">
-                                <label for="regUsername">Username</label>
+                                <!-- <label for="regUsername">Username</label> -->
                                 <input type="text" id="regUsername" class="form-control" required="required" placeholder="Username" minlength="4" maxlength="25" 
                                 pattern="[A-Za-z0-9_]{4,25}"
                                 title="Minimum of 4-25 characters. Only letters (either case), numbers, and the underscore.">
