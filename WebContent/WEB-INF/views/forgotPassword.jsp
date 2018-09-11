@@ -68,38 +68,36 @@
     </nav>
     
     
+
 <!-- FORGOT PASS CARD FORM-->
-<section class="js-scroll-trigger" style="padding: 12rem 2rem 21rem; height: auto;">
-<div class="container">
-	<div class="col-md-10 col-lg-5 mx-auto text-center animated wow fadeIn">
-		<div class="card card-login mx-auto mt-5">
-			<div class="card-header">Reset Password</div>
-				<div class="card-body">
-				  <div class="text-center mb-4">
-					<h4>Forgot your password?</h4>
-					<p>Enter the email address linked to your account, instructions on how to reset your password will be sent.</p>
-				  </div>
-				  
-					<form>
-						<div class="form-group">
-						  <div class="form-label-group">
-						    <input type="email" id="inputEmail" class="form-control" placeholder="Enter email address" required="required" autofocus="autofocus">
-						    <label for="inputEmail">Enter email address</label>
-						  </div>
-						</div>
-						
-					  <a class="btn btn-primary btn-block" href="login.html">Reset Password</a>
-					  
-					</form>
-					
-					<div class="text-center">
-					  <a class="d-block small mt-3" href="<c:url value="/registerLogin" />">Back to Login / Register page</a>
-					</div>
-			</div>
-		</div>
-	</div>
-</div>
+<section class="js-scroll-trigger" style="padding: 12rem 2rem 22rem; height: auto;">
+                        <div class="container">
+                                <div class="col-md-10 col-lg-5 mx-auto text-center  animated wow fadeIn">
+                          <div class="card card-login mx-auto mt-5">
+                            <div class="card-header">Reset Password</div>
+                            <div class="card-body">
+                              <div class="text-center mb-4">
+                                <h4>Forgot your password?</h4>
+                                <p>Enter the email address linked to your account, instructions on how to reset your password will be sent.</p>
+                              </div>
+                              <form>
+                                <div class="form-group">
+                                  <div class="form-label-group">
+                                    <input type="email" id="inputEmail" class="form-control" placeholder="Enter email address" required="required" autofocus="autofocus">
+                                    <label for="inputEmail">Enter email address</label>
+                                  </div>
+                                </div>
+                                <a class="btn btn-primary btn-block" href="login.html">Reset Password</a>
+                              </form>
+                              <div class="text-center">
+                                <a class="d-block small mt-3" href="registerLogin.html">Back to Login / Register page</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
 </section>
+
 
     <!-- FOOTER -->
     <footer class="footer bg-light js-scroll-trigger">
