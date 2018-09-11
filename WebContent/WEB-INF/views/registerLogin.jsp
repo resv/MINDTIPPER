@@ -37,7 +37,7 @@
 <!-- NAVIGATION -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
         <div class="container">
-            <a class="navbar-brand btn js-scroll-trigger" href="<c:url value="/" />">Mind Tipper</a>
+            <a class="navbar-brand btn js-scroll-trigger" style="color:black" href="<c:url value="/" />">Mind Tipper</a>
             
             <!-- STATIC SIZE, SEARCH BAR USING UNICODE  -->
             <!-- <input class="col-lg-3 col-md-3 col-sm-5 col-xs-5 form-control" type="text" name="searchbar" id="searchbar" placeholder="&#128269 Search"/> -->
@@ -211,7 +211,7 @@
                             </form>
                             <div class="text-center">
                                 <br>
-                              <a class="d-block small" href="FORGOT PASSWORD PAGEEEEE">Forgot Password?</a>
+                              <a class="d-block small" href="<c:url value="forgotPassword" />">Forgot Password?</a>
                             </div>
                           </div>
                         </div>

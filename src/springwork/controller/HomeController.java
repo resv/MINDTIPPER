@@ -24,7 +24,7 @@ public class HomeController {
 	
 	//NAVBAR & HOME PAGE - NAVBAR BRAND BUTTON	
 	@RequestMapping("/")
-	public ModelAndView index() {
+	public ModelAndView home() {
 		ModelAndView mav = new ModelAndView("home");
 		return mav;
 	}
