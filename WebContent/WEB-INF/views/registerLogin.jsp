@@ -116,7 +116,7 @@
 <!-- REGISTER CONTENTS -->
                   <div class="card-header text-center">Register</div>
                   <div class="card-body">
-                    <form name="RegForm" action="menu.html" onsubmit="return regValidate()" method="post"> 
+                    <form name="regForm" action="menu.html" onsubmit="return regValidate()" method="post"> 
                       <div class="form-group">
                               <div class="form-label-group">
                                 <!-- <label for="regUsername">Username</label> -->
@@ -181,44 +181,45 @@
 
               <!-- LOGIN CARD BOX -->
               <div class="col-md-8 col-lg-4 mx-auto text-center">
-              <!-- LOGIN CARD SPACING -->
-              <div class="card card-login mx-auto mt-5 text-center animated wow fadeIn">
-                  <!-- LOGIN CARD CONTENTS -->
-                      <div class="card-header">Login</div>
-                      <div class="card-body">
-                        <form>
-                          <div class="form-group">
-                            <div class="form-label-group">
-                              <br>
-                              <input type="email" id="loginInputEmail" class="form-control" placeholder="Email Address" required="required" autofocus="autofocus">
-                              <!-- <label for="inputEmail">Email address</label> -->
+                  <!-- LOGIN CARD SPACING -->
+                  <div class="card card-login mx-auto mt-5 text-center animated wow fadeIn">
+                      <!-- LOGIN CARD CONTENTS -->
+                          <div class="card-header">Login</div>
+                          <div class="card-body">
+                            <form name="logForm" action="menu.html" onsubmit="return logValidate()" method="post"> 
+                              <div class="form-group">
+                                <div class="form-label-group">
+                                  <br>
+                                  <input type="email" id="logEmail" class="form-control" placeholder="Email Address" required="required" autofocus="autofocus" title="Please enter a valid email address.">
+                                  <!-- <label for="logEmail">Email address</label> -->
+                                </div>
+                              </div>
+                              <div class="form-group">
+                                <div class="form-label-group">
+                                  <input type="password" id="logPassword" class="form-control" placeholder="Password" required="required">
+                                  <!-- <label for="logPassword">Password</label> -->
+                                </div>
+                              </div>
+                              <div class="form-group">
+                                <div class="checkbox">
+                                  <label>
+                                    <input type="checkbox" value="remember-me">Remember Password</label>
+                                </div>
+                              </div>
+                              <!-- <a class="btn btn-primary btn-block" href="GO TO USER HOME PAGE">Login</a> -->
+                              <input class="btn btn-primary btn-block" type="submit" value="Login" name="login">
+                            </form>
+                            <div class="text-center">
+                                <br>
+                              <a class="d-block small" href="FORGOT PASSWORD PAGEEEEE">Forgot Password?</a>
                             </div>
                           </div>
-                          <div class="form-group">
-                            <div class="form-label-group">
-                              <input type="password" id="loginInputPassword" class="form-control" placeholder="Password" required="required">
-                              <!-- <label for="inputPassword">Password</label> -->
-                            </div>
-                          </div>
-                          <div class="form-group">
-                            <div class="checkbox">
-                              <label>
-                                <input type="checkbox" value="remember-me">Remember Password</label>
-                            </div>
-                          </div>
-                          <a class="btn btn-primary btn-block" href="GO TO USER HOME PAGE">Login</a>
-                        </form>
-                        <div class="text-center">
-                            <br>
-                          <a class="d-block small" href="forgotPassword.html">Forgot Password?</a>
                         </div>
-                      </div>
+    
                     </div>
-
                 </div>
             </div>
-        </div>
-</section>
+    </section>
 
 
 
