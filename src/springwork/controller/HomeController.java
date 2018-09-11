@@ -72,6 +72,16 @@ public class HomeController {
 			return mav;
 		}			
 	
+//------------SEARCH PAGE--------------//	
+
+	//SEARCH PAGE
+		@RequestMapping("/search")
+		public ModelAndView search() {
+			ModelAndView mav = new ModelAndView("search");
+			return mav;
+		}	
+		
+		
 	//SAMPLE OF A THE EXAMPLE WE DID IN CLASS
 	@RequestMapping("/displayroute")
 	public ModelAndView userPage(HttpServletRequest request) {

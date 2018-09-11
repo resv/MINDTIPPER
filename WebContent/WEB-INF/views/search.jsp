@@ -10,7 +10,7 @@
 <head>
     <meta charset="ISO-8859-1">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>MENU - MIND TIPPER</title>
+    <title>Search - MIND TIPPER</title>
 
   <!-- BOOTSTRAP API RESOURCE PATH -->
 	<link href="<c:url value="/resources/API/bootstrap/css/bootstrap.min.css"/>" rel="stylesheet">
@@ -32,6 +32,7 @@
 	<link href="<c:url value="/resources/css/style.css"/>" rel="stylesheet">
 		
 </head>
+
 
 <body>
 <!-- NAVIGATION (REMOVED SEARCH BAR HERE DUE TO ONPAGE SEARCH BAR && INTERNAL STYLE CSS) -->
@@ -67,85 +68,94 @@
        </div>
    </nav>
    
-     
+   
+   
 
- 
-<!-- learnOrPick SECTION ( ON PAGE SEARCH BAR WITH INTERNAL STYLE CSS ) -->
-   <section class="js-scroll-trigger" style="padding: 7rem 2rem 5rem; height: auto;">
-       <div class="container">
-         <div class="row">
-           <div class="col-md-10 col-lg-8 mx-auto text-center">
+   <!-- SEARCH JUMBOTRON -->
+   <section class="js-scroll-trigger" style="padding: 7rem 0rem 2rem; height: auto;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-lg-8 mx-auto text-center">
 
-             <h2 class="text-black mb-5">Before we begin, you must make a Decision.</h2>
- 
-             <form class="form-inline d-flex">
-               <input type="search" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" placeholder="&#128269 Search for a Decision...">
-               <button type="submit" class="btn btn-primary mx-auto">Search</button>
-             </form>
- 
-           </div>
-         </div>
-       </div>
-     </section>
- 
-<!-- 3by1 BOXES ( WITH INTERNAL STYLE CSS ESPECIALLY FONT AWESOME-->
-     <section class=" bg-black js-scroll-trigger" style="padding: 0rem 0rem 16.5rem; height: auto;">
-       <div class="container">
-         <div class="row">
- 
-              
-           <div class="col-md-4 mb-3 mb-md-0">
-               <a href="GO TO NEW DECISION PAGEE OR SINGUP OR LOGIN IF SESSION SAYS SO" style="color:black; text-decoration: none;">
-                   <div class="card py-4 h-100 animated wow zoomIn">
-                       <div class="card-body text-center">
-                       <h4 class="text-uppercase m-0"><i class="fa fa-play fa-lg" style="color:yellowgreen"></i> <br><br> Tutorial</h4>
-                       <hr class="my-4">
-                           <div class="medium text-black-100">
-                           <span style="font-weight: bold; font-style: italic;">New Here?</span>
-                           <br><br>
-                           Check out our quick GIF tutorial<br>It'll only take 20 seconds of you're time!
-                           </div>
-                       </div>
-                   </div>
-               </a>
-           </div>
+                <h2 class="text-black mb-5">Search decisions made around the world</h2>
+  
+                <form class="form-inline d-flex">
+                  <input type="search" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" placeholder="&#128269 Search for a Decision...">
+                  <button type="submit" class="btn btn-primary mx-auto">Search</button>
+                </form>
+    
+        </div>
+      </div>
+    </div>
+  </section>
 
-           <div class="col-md-4 mb-3 mb-md-0">
-               <a href="<c:url value="/search" />" style="color:black; text-decoration: none;">
-                   <div class="card py-4 h-100 animated wow zoomIn">
-                       <div class="card-body text-center">
-                       <h4 class="text-uppercase m-0"><i class="fa fa-paste fa-lg"style="color:red"></i> <br><br> Template</h4>
-                       <hr class="my-4">
-                           <div class="medium text-black-100">
-                           <span style="font-weight: bold; font-style: italic;">Put in your two cents</span>
-                           <br><br
-                           >Weigh your decision by retaking a decision other people have taken or use theirs as a starting template.
-                           </div>
-                       </div>
-                   </div>
-               </a>
-           </div>
- 
-           <div class="col-md-4 mb-3 mb-md-0">
-               <a href="GO TO NEW DECISION PAGEE OR SINGUP OR LOGIN IF SESSION SAYS SO" style="color:black; text-decoration: none;">
-                   <div class="card py-4 h-100 animated wow zoomIn">
-                       <div class="card-body text-center">
-                       <h4 class="text-uppercase m-0 animated wow pulse infinite delay-1s"><i class="fa fa-plus fa-lg" style="color:blue"></i> <br><br> New Decision</h4>
-                       <hr class="my-4">
-                           <div class="medium text-black-100">
-                           <span style="font-weight: bold; font-style: italic;">Start on a clean slate</span>
-                           <br><br>
-                           Start a new decision of your own.
-                           </div>
-                       </div>
-                   </div>
-               </a>
-           </div>
 
-         </div>
-       </div>
-     </section>
-
+<!-- DECISION ACTIVITY TABLE -->
+<section class="js-scroll-trigger animated wow fadeIn" style="padding: 0rem 0rem 8rem; height: auto">
+            <div class="card-body">
+              <div class="table-responsive col-md-12 col-lg-10 mx-auto">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                  <thead>
+                    <tr style="cursor: pointer">
+                      <th>Stars<span style="float: right"><i class="fa fa-sort"></i></span></th>
+                      <th>Decision ID<span style="float: right"><i class="fa fa-sort"></i></span></th>
+                      <th>Decisions<span style="float: right"><i class="fa fa-sort"></i></span></th>
+                      <th>Date Created<span style="float: right"><i class="fa fa-sort"></i></span></th>
+                      <th>Win Percentage<span style="float: right"><i class="fa fa-sort"></i></span></th>
+                      <th>Winner<span style="float: right"><i class="fa fa-sort"></i></span></th>
+                      <th>Username<span style="float: right"><i class="fa fa-sort"></i></span></th>
+                      <th>Level<span style="float: right"><i class="fa fa-sort"></i></span></th>
+                      <th>Template / Share</th>
+                    </tr>
+                  </thead>
+                
+                  <tbody>
+                    <tr>
+                      <td>Stars</td>
+                      <td>Decision ID</td>
+                      <td class="text-center">Decision Title<br> Choice titleA VS Choice titleB</td>
+                      <td>Date Created</td>
+                      <td>Win Percentage</td>
+                      <td>Winner</td>
+                      <td>Complete</td>
+                      <td>Privacy</td>
+                      <td>  <button type="button" class="btn btn-danger btn-sm m-0 waves-effect"><i class="fa fa-paste"></i></button>
+                        <button type="button" class="btn btn-primary btn-sm m-0 waves-effect"><i class="fa fa-share-alt-square fa-lg"></i></button>
+                      </td>
+                    </tr>
+                    <tr>
+                        <td>223</td>
+                        <td>45</td>
+                        <td class="text-center">Which is the better season? <br> Summer VS Winter</td>
+                        <td>11/23/17</td>
+                        <td>68</td>
+                        <td>Summer</td>
+                        <td>iAMaUSER</td>
+                        <td>1</td>
+                        <td>  <button type="button" class="btn btn-danger btn-sm m-0 waves-effect"><i class="fa fa-paste"></i></button>
+                                <button type="button" class="btn btn-primary btn-sm m-0 waves-effect"><i class="fa fa-share-alt-square fa-lg"></i></button>
+                        </td>
+                    </tr>
+                    <tr>
+                      <td>223</td>
+                      <td>45</td>
+                      <td class="text-center">Which is the better season? <br> Summer VS Winter</td>
+                      <td>11/23/17</td>
+                      <td>68</td>
+                      <td>Summer</td>
+                      <td>iAMaUSER</td>
+                      <td>1</td>
+                      <td>  <button type="button" class="btn btn-danger btn-sm m-0 waves-effect"><i class="fa fa-paste"></i></button>
+                            <button type="button" class="btn btn-primary btn-sm m-0 waves-effect"><i class="fa fa-share-alt-square fa-lg"></i></button>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </section>
+          
+          
 <!-- FOOTER -->
     <footer class="footer bg-light js-scroll-trigger">
       <div class="container">
@@ -192,7 +202,8 @@
         </div>
       </div>
     </footer>
-
+   
+   
 <!-- BOOTSTRAP AND JS RESOURCE SCRIPT PATH -->
 	<script src="<c:url value="/resources/API/jquery/jquery.min.js"/>"></script>
 	<script src="<c:url value="/resources/API/bootstrap/js/bootstrap.bundle.min.js"/>"></script>
@@ -204,5 +215,15 @@
 <!-- JQUERY SCRIPT -->
 	<script src="<c:url value="/resources/js/jquery.js"/>"></script>
 	
+	     <!-- TABLE JS SCRIPTS-->
+        <script src="<c:url value="/resources/js/tables/jquery.dataTables.js"/>"></script>
+        <script src="<c:url value="/resources/js/tables/dataTables.bootstrap4.js"/>"></script>
+        <script src="<c:url value="/resources/js/tables/datatables.js"/>"></script>
+    
+	
 </body>
 </html>
+   
+   
+   
+   
