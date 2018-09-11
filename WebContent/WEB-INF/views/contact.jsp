@@ -125,9 +125,6 @@
 
 
 
-
-
-
     <!-- FOOTER -->
     <footer class="footer bg-light js-scroll-trigger">
     <div class="container">
@@ -187,8 +184,8 @@
 	<script src="<c:url value="/resources/js/jquery.js"/>"></script>
 	
 <!-- VALIDATION SCRIPTS -->
-    <script src="<c:url value="/resources/js/contactValidation/bootstrapValidation.js"/>"></script>
-    <script src="<c:url value="/resources/js/contactValidation/contactValidation.js"/>"></script>
+    <script src="<c:url value="/resources/js/validation/bootstrapValidation.js"/>"></script>
+    <script src="<c:url value="/resources/js/validation/contactValidation.js"/>"></script>
 	
 
 </body>

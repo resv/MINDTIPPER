@@ -69,82 +69,135 @@
     
       
 
+<body>
+    <!-- NAVIGATION -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand btn js-scroll-trigger" href="home.html">Mind Tipper</a>
+            
+            <!-- STATIC SIZE, SEARCH BAR USING UNICODE  -->
+            <!-- <input class="col-lg-3 col-md-3 col-sm-5 col-xs-5 form-control" type="text" name="searchbar" id="searchbar" placeholder="&#128269 Search"/> -->
+        
+            <!-- RESPONSIVE SIZE, SEARCH BAR USING UNICODE  -->
+            <input class="form-control js-scroll-trigger searchBar" type="text" name="searchbar" id="searchbar" placeholder="&#128269 Search"/>
+        
+            <!-- COLLAPSE NAVIGATION MENU BUTTON -->
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars"></i>
+            </button>
+    
+        <!-- NAVBAR CONTENTS -->
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="GO TO HISTORY PAGGGGGGE">History</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="menu.html">New Decision</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="registerLogin.html">Sign Up / Login</a>
+                </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+      
+
 <!-- ROW OF CARD FORMS-->
 <section class="js-scroll-trigger" style="padding: 8rem 2rem 22rem; height: auto;">
         <div class="container">
 <!-- ROW SPACING -->
             <div class="row">
-                <div class="col-md-10 col-lg-5 mx-auto text-center">
+                <div class="col-md-10 col-lg-5 mx-auto">
 <!-- REGISTER CARD SPACING -->
                 <div class="card card-register mx-auto mt-5 animated wow fadeIn">
 <!-- REGISTER CONTENTS -->
-                  <div class="card-header">Register</div>
+                  <div class="card-header text-center">Register</div>
                   <div class="card-body">
-                    <form>
+                    <form name="RegForm" action="menu.html" onsubmit="return regValidate()" method="post"> 
                       <div class="form-group">
                               <div class="form-label-group">
-                                <input type="text" id="inputUsername" class="form-control" placeholder="Username" required="required">
-                                <label for="inputEmail">UserName <br>
-                                  (Email will be used to login)</label>
+                                <label for="regUsername">Username</label>
+                                <input type="text" id="regUsername" class="form-control" required="required" placeholder="Username" minlength="4" maxlength="25" 
+                                pattern="[A-Za-z0-9_]{4,25}"
+                                title="Minimum of 4-25 characters. Only letters (either case), numbers, and the underscore.">
+                                <small class="form-text text-muted">Minimum of 4-25 characters. Only letters (either case), numbers, and the underscore.</small>
+                              
                               </div>
                             </div>
+
+
                             <div class="form-group">
                               <div class="form-row">
                                 <div class="col-md-6">
                                   <div class="form-label-group">
-                                    <input type="email" id="inputEmail" class="form-control" placeholder="Email Address" required="required">
-                                    <label for="firstName">Email Address</label>
+                                    <!-- <label for="regEmail">Email Address</label> -->
+                                    <input type="email" id="regEmail" class="form-control" required="required" placeholder="Email Address">   
                                   </div>
                                 </div>
+
+
                                 <div class="col-md-6">
                                   <div class="form-label-group">
-                                    <input type="email" id="confirmEmail" class="form-control" placeholder="Confirm Email" required="required">
-                                    <label for="lastName">Confirm Email Address</label>
+                                      <!-- <label for="regConfirmEmail">Confirm Email</label> -->
+                                    <input type="email" id="regConfirmEmail" class="form-control" required="required" placeholder="Confirm Email">
                                   </div>
                                 </div>
                               </div>
+                              <small class="form-text text-muted">We believe in privacy and will never give out your email address.</small>
                             </div>
+                
+
                             <div class="form-group">
                               <div class="form-row">
                                 <div class="col-md-6">
                                   <div class="form-label-group">
-                                    <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="required">
-                                    <label for="inputPassword">Password</label>
+                                      <!-- <label for="regPassword">Password</label> -->
+                                    <input type="password" id="regPassword" class="form-control" required="required" placeholder="Password" minlength="8" maxlength="25" 
+                                                pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" 
+                                            title="You must enter a minimum of 8-25 characters and must contain at least one number, one uppercase, and one lowercase letter. No special characters.">
                                   </div>
                                 </div>
+
+
                                 <div class="col-md-6">
                                   <div class="form-label-group">
-                                    <input type="password" id="confirmPassword" class="form-control" placeholder="Confirm Password" required="required">
-                                    <label for="confirmPassword">Confirm password</label>
+                                      <!-- <label for="regConfirmPassword">Confirm password</label> -->
+                                    <input type="password" id="regConfirmPassword" class="form-control" required="required" placeholder="Confirm Password" >
                                   </div>
                                 </div>
                               </div>
+                              <small class="form-text text-muted">Minimum of 8-25 characters and must contain at least one number, one uppercase, and one lowercase letter. No special characters.</small>
                             </div>
-                            <a class="btn btn-primary btn-block" href="SEND TO USER PAGEEE">Register</a>
+                            <!-- <a class="btn btn-primary btn-block" href="GO TO USER HOME PAGE">Register</a> -->
+                            <input class="btn btn-primary btn-block" type="submit" value="Register" name="Submit">
                     </form>
                   </div>
                 </div>
               </div>
         
 
-<!-- LOGIN CARD BOX -->
+              <!-- LOGIN CARD BOX -->
               <div class="col-md-8 col-lg-4 mx-auto text-center">
-<!-- LOGIN CARD SPACING -->
+              <!-- LOGIN CARD SPACING -->
               <div class="card card-login mx-auto mt-5 text-center animated wow fadeIn">
-<!-- LOGIN CARD CONTENTS -->
+                  <!-- LOGIN CARD CONTENTS -->
                       <div class="card-header">Login</div>
                       <div class="card-body">
                         <form>
                           <div class="form-group">
                             <div class="form-label-group">
+                              <br>
                               <input type="email" id="loginInputEmail" class="form-control" placeholder="Email Address" required="required" autofocus="autofocus">
-                              <label for="inputEmail">Email address</label>
+                              <!-- <label for="inputEmail">Email address</label> -->
                             </div>
                           </div>
                           <div class="form-group">
                             <div class="form-label-group">
                               <input type="password" id="loginInputPassword" class="form-control" placeholder="Password" required="required">
-                              <label for="inputPassword">Password</label>
+                              <!-- <label for="inputPassword">Password</label> -->
                             </div>
                           </div>
                           <div class="form-group">
@@ -153,11 +206,11 @@
                                 <input type="checkbox" value="remember-me">Remember Password</label>
                             </div>
                           </div>
-                          <a class="btn btn-primary btn-block" href="SEND TO USER PAGEEE">Login</a>
+                          <a class="btn btn-primary btn-block" href="GO TO USER HOME PAGE">Login</a>
                         </form>
                         <div class="text-center">
                             <br>
-                          <a class="d-block small" href="<c:url value="/forgotPassword" />">Forgot Password?</a>
+                          <a class="d-block small" href="forgotPassword.html">Forgot Password?</a>
                         </div>
                       </div>
                     </div>
@@ -229,6 +282,9 @@
 
 <!-- JQUERY SCRIPT -->
 	<script src="<c:url value="/resources/js/jquery.js"/>"></script>
+	
+<!-- JQUERY SCRIPT -->
+	<script src="<c:url value="/resources/validation/registerValidation.js"/>"></script>
 	
 </body>
 </html>
