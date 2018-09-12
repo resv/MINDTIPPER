@@ -81,7 +81,7 @@ public class HomeController {
 			return mav;
 		}	
 		
-//------------NEW DECISION PAGE PAGE--------------//	
+//------------NEW DECISION PAGE--------------//	
 
 //NEW DECISION PAGE
 	@RequestMapping("/newDecision")
@@ -89,7 +89,16 @@ public class HomeController {
 		ModelAndView mav = new ModelAndView("newDecision");
 		return mav;
 	}	
-	
+
+//------------TEST PAGE--------------//	
+
+// TEST PAGE
+	@RequestMapping("/homeTest")
+	public ModelAndView homeTest() {
+		ModelAndView mav = new ModelAndView("homeTest");
+		return mav;
+	}	
+			
 		
 		
 	//SAMPLE OF A THE EXAMPLE WE DID IN CLASS
