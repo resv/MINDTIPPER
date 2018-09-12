@@ -107,13 +107,45 @@ public class HomeController {
 	}	
 	
 //FOOTER - CONTACT US TEST BUTTON
-		@RequestMapping("/contactTest")
-		public ModelAndView contactTest() {
-			ModelAndView mav = new ModelAndView("contactTest");
-			return mav;
-		}
+	@RequestMapping("/contactTest")
+	public ModelAndView contactTest() {
+		ModelAndView mav = new ModelAndView("contactTest");
+		return mav;
+	}
+//MENU TEST BUTTON
+	@RequestMapping("/menuTest")
+	public ModelAndView menuTest() {
+		ModelAndView mav = new ModelAndView("menuTest");
+		return mav;
+	}		
 		
+//SEARCH TEST PAGE
+	@RequestMapping("/searchTest")
+	public ModelAndView searchTest() {
+		ModelAndView mav = new ModelAndView("searchTest");
+		return mav;
+	}
 		
+//NAVBAR - REGISTERLOGIN TEST BUTTON
+	@RequestMapping("/registerLoginTest")
+	public ModelAndView registerLoginTest() {
+		ModelAndView mav = new ModelAndView("registerLoginTest");
+		return mav;
+	}
+
+//FORGOT PASSWORD TEST LINK
+@RequestMapping("/forgotPasswordTest")
+public ModelAndView forgotPasswordTest() {
+	ModelAndView mav = new ModelAndView("forgotPasswordTest");
+	return mav;
+}	
+
+//NEW DECISION TESTt PAGE
+	@RequestMapping("/newDecisionTest")
+	public ModelAndView newDecisionTest() {
+		ModelAndView mav = new ModelAndView("newDecisionTest");
+		return mav;
+	}	
 		
 	//SAMPLE OF A THE EXAMPLE WE DID IN CLASS
 	@RequestMapping("/displayroute")

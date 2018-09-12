@@ -59,6 +59,7 @@
 	<!-- VALIDATION SCRIPTS -->
     <script src="<c:url value="/resources/js/validation/bootstrapValidation.js"/>"></script>
     <script src="<c:url value="/resources/js/validation/contactValidation.js"/>"></script>
+    <script src="<c:url value="/resources/validation/registerValidation.js"/>"></script>
 	
 	
 	  <!-- TABLE JS SCRIPTS-->
