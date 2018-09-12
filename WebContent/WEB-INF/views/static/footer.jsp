@@ -56,6 +56,11 @@
 <!-- JQUERY SCRIPT -->
 	<script src="<c:url value="/resources/js/jquery.js"/>"></script>
 	
+	<!-- VALIDATION SCRIPTS -->
+    <script src="<c:url value="/resources/js/validation/bootstrapValidation.js"/>"></script>
+    <script src="<c:url value="/resources/js/validation/contactValidation.js"/>"></script>
+	
+	
 	  <!-- TABLE JS SCRIPTS-->
         <script src="<c:url value="/resources/js/tables/jquery.dataTables.js"/>"></script>
         <script src="<c:url value="/resources/js/tables/dataTables.bootstrap4.js"/>"></script>

@@ -24,4 +24,3 @@
 	<link href="<c:url value="/resources/css/animateTimers.css"/>" rel="stylesheet">
 	<link href="<c:url value="/resources/css/navbar.css"/>" rel="stylesheet">
 	<link href="<c:url value="/resources/css/style.css"/>" rel="stylesheet">
-	<link href="<c:url value="/resources/css/navbarHome.css"/>" rel="stylesheet">

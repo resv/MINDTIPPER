@@ -90,15 +90,29 @@ public class HomeController {
 		return mav;
 	}	
 
-//------------TEST PAGE--------------//	
+//------------TEST PAGE------------------------------------------------------------------------//	
 
-// TEST PAGE
+// HOMETEST PAGE
 	@RequestMapping("/homeTest")
 	public ModelAndView homeTest() {
 		ModelAndView mav = new ModelAndView("homeTest");
 		return mav;
 	}	
-			
+
+//USERTEST PAGE
+	@RequestMapping("/userTest")
+	public ModelAndView userTest() {
+		ModelAndView mav = new ModelAndView("userTest");
+		return mav;
+	}	
+	
+//FOOTER - CONTACT US TEST BUTTON
+		@RequestMapping("/contactTest")
+		public ModelAndView contactTest() {
+			ModelAndView mav = new ModelAndView("contactTest");
+			return mav;
+		}
+		
 		
 		
 	//SAMPLE OF A THE EXAMPLE WE DID IN CLASS

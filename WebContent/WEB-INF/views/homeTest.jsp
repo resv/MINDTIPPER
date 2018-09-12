@@ -10,6 +10,7 @@
 
 <head>
 	<%@include file="/WEB-INF/views/static/header.jsp"%>
+	<link href="<c:url value="/resources/css/navbarHome.css"/>" rel="stylesheet">
 	<title>MIND TIPPER</title>
 </head>
 	

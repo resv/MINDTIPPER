@@ -9,15 +9,16 @@
 <html>
 
 <head>
-	<%@include file="/WEB-INF/views/reuseable/header.jsp"%>
+<!----------------------------HEADER---------------------------->
+	<%@include file="/WEB-INF/views/static/header.jsp"%>
 	<title>CHAAAAAAAAAAAAAAAAAAAAAAAAAANGEEEEEEEEEEEE TITLE - MIND TIPPER</title>
 </head>
 	
 <body>
-<!-- NAVBAR -->
-	<%@include file="/WEB-INF/views/reuseable/navbar.jsp"%>
+<!----------------------------NAVBAR---------------------------->
+	<%@include file="/WEB-INF/views/static/navbar.jsp"%>
 	
-<!-- CONTENT -->	
+<!----------------------------CONTENT---------------------------->
 
 	
 	
@@ -26,7 +27,7 @@
 	
 	
 	
-<!-- FOOTER -->	
-	<%@include file="/WEB-INF/views/reuseable/footer.jsp"%>
+<!----------------------------FOOTER---------------------------->
+	<%@include file="/WEB-INF/views/static/footer.jsp"%>
 </body>
 </html>
