@@ -43,6 +43,14 @@ public class HomeController {
 			return mav;
 		}
 		
+	//NAVBAR - PRIVACY POLICY BUTTON
+			@RequestMapping("/privacy")
+			public ModelAndView privacy() {
+				ModelAndView mav = new ModelAndView("privacy");
+				return mav;
+			}
+		
+		
 //------------FOOTER CONTROLLERS--------------//		
 	//FOOTER - CONTACT US BUTTON
 			@RequestMapping("/contact")

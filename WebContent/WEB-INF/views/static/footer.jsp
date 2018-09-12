@@ -17,7 +17,7 @@
               </li>
               <li class="list-inline-item">&sdot;</li>
               <li class="list-inline-item">
-                <a href="#">Privacy</a>
+                <a href="<c:url value="privacy" />">Privacy</a>
               </li>
             </ul>
             <p class="text-muted small mb-4 mb-lg-0">&copy; MINDTIPPER 2018. All Rights Reserved.</p>
