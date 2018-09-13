@@ -506,7 +506,7 @@ to make public) ; marketing leads and search results and links, including paid l
 <hr>
 
 <!-- 14. HOW CAN YOU CONTACT US ABOUT THIS POLICY? -->
-<div class="col-md-12" style="padding: 4rem 0rem 42rem; height: auto;" id="14">
+<div class="col-md-12" style="padding: 4rem 0rem 50rem; height: auto;" id="14">
 <h3 class="text-center">14. HOW CAN YOU CONTACT US ABOUT THIS POLICY?</h3>
 <div class="text-muted text-center" style="padding: 0rem 0rem 3rem; height: auto;"></div>
 <div>

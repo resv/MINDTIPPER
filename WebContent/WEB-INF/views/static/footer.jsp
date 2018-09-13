@@ -1,5 +1,5 @@
 <!-- FOOTER -->
-    <footer class="footer bg-light js-scroll-trigger">
+    <footer class="footer bg-light js-scroll-trigger" id="noFixed">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 h-100 text-center text-lg-left my-auto">

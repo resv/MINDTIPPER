@@ -413,7 +413,7 @@
 <hr>
 
     
-<div class="col-md-12" style="padding: 1rem 0rem 49rem; height: auto;">
+<div class="col-md-12" style="padding: 1rem 0rem 1rem; height: auto;">
 <h3 class="text-center">MISCELLANEOUS</h3>
 <br>
 <div>
@@ -435,7 +435,7 @@
 <hr>
 
     
-<div class="col-md-12" style="padding: 1rem 0rem 45rem; height: auto;">
+<div class="col-md-12" style="padding: 1rem 0rem 56rem; height: auto;">
 <h3 class="text-center">CONTACT US</h3>
 <br>
 <div>
