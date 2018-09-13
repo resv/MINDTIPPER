@@ -9,15 +9,15 @@
               </li>
               <li class="list-inline-item">&sdot;</li>
               <li class="list-inline-item">
-                <a href="#">About Us</a>
+                <a href="<c:url value="about" />">About Us</a>
               </li>
               <li class="list-inline-item">&sdot;</li>
               <li class="list-inline-item">
-                <a href="#">Terms of Use</a>
+                <a href="<c:url value="terms" />">Terms of Use</a>
               </li>
               <li class="list-inline-item">&sdot;</li>
               <li class="list-inline-item">
-                <a href="<c:url value="privacy" />">Privacy</a>
+                <a href="<c:url value="privacy" />">Privacy Policy</a>
               </li>
             </ul>
             <p class="text-muted small mb-4 mb-lg-0">&copy; MINDTIPPER 2018. All Rights Reserved.</p>

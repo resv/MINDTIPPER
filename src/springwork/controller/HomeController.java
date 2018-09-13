@@ -43,21 +43,35 @@ public class HomeController {
 			return mav;
 		}
 		
-	//NAVBAR - PRIVACY POLICY BUTTON
-			@RequestMapping("/privacy")
-			public ModelAndView privacy() {
-				ModelAndView mav = new ModelAndView("privacy");
-				return mav;
-			}
-		
 		
 //------------FOOTER CONTROLLERS--------------//		
 	//FOOTER - CONTACT US BUTTON
-			@RequestMapping("/contact")
-			public ModelAndView contact() {
-				ModelAndView mav = new ModelAndView("contact");
-				return mav;
-			}
+	@RequestMapping("/contact")
+	public ModelAndView contact() {
+		ModelAndView mav = new ModelAndView("contact");
+		return mav;
+	}
+			
+	//FOOTER - ABOUT POLICY BUTTON
+	@RequestMapping("/about")
+	public ModelAndView about() {
+		ModelAndView mav = new ModelAndView("about");
+		return mav;
+	}		
+			
+	//FOOTER - TERMS POLICY BUTTON
+	@RequestMapping("/terms")
+	public ModelAndView terms() {
+		ModelAndView mav = new ModelAndView("terms");
+		return mav;
+	}
+	
+	//FOOTER - PRIVACY POLICY BUTTON
+	@RequestMapping("/privacy")
+	public ModelAndView privacy() {
+		ModelAndView mav = new ModelAndView("privacy");
+		return mav;
+	}
 		
 		
 		

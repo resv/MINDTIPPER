@@ -93,6 +93,14 @@
 		           <small class="form-text text-muted">Minimum of 8-25 characters and must contain at least one number, one uppercase, and one lowercase letter. No special characters.</small>
 		           </div>
 		       	   <!-- <a class="btn btn-primary btn-block" href="GO TO USER HOME PAGE">Register</a> -->
+		       	   
+		       	    <div class="form-group">
+		                  <div class="checkbox">
+		                    By creating an account, you agree to our <a href="<c:url value="terms" />">Terms of Use</a> and acknowledge reading our <a href="<c:url value="privacy" />">User Privacy Notice</a>.
+		                  </div>
+	                </div>
+		       	   
+		       	   
 		           <input class="btn btn-primary btn-block" type="submit" value="Register" name="Submit">
 		</form>
 					

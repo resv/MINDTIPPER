@@ -14,7 +14,7 @@
 	<title>Privacy Policy - MIND TIPPER</title>
 </head>
 	
-<body>
+<body oncontextmenu="return false;" class="noselect">
 <!----------------------------NAVBAR---------------------------->
 	<%@include file="/WEB-INF/views/static/navbar.jsp"%>
 	
@@ -506,15 +506,15 @@ to make public) ; marketing leads and search results and links, including paid l
 <hr>
 
 <!-- 14. HOW CAN YOU CONTACT US ABOUT THIS POLICY? -->
-<div class="col-md-12" style="padding: 4rem 0rem 1rem; height: auto;" id="14">
+<div class="col-md-12" style="padding: 4rem 0rem 42rem; height: auto;" id="14">
 <h3 class="text-center">14. HOW CAN YOU CONTACT US ABOUT THIS POLICY?</h3>
 <div class="text-muted text-center" style="padding: 0rem 0rem 3rem; height: auto;"></div>
 <div>
     If you have any further questions or comments about us or our policies, you may email us at Policy@MindTipper.com
 </div>
-</div>
+<br>
 <p class="text-center"><a type="link" href="#contents">Back to Table of Contents</a></p>
-<hr>
+</div>
 
 </div>
 <!-- END OF POLICY CONTENT CONTAINER -->	
