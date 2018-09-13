@@ -1,3 +1,6 @@
+/* Credit to: WOW.JS, animate.css is from wow.js a very powerful easy to use javascript animation */
+
+
 (function() {
     var MutationObserver, Util, WeakMap, getComputedStyle, getComputedStyleRX,
       bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; },
