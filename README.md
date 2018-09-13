@@ -1,4 +1,5 @@
 # Deleted and made a brand new Case Study repo in attempt to keep this project seperate from Java Training (exercises).
+# README REVISION 1.1 (UNDER CONSTRUCTION)
 
 Platform PerScholas Bronx, New York
 2018-08-PL-JD02
@@ -114,8 +115,3 @@ Software:
       
       Spring MVC / JSP
       Baeldung
-   
-
-        
-        
-        
