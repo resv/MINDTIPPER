@@ -1,11 +1,18 @@
 package springwork.controller;
 
+import java.io.IOException;
+import java.util.List;
+
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
+
+import MINDTIPPER.spring.interfaces.DecisionInfoDAOi;
+import MINDTIPPER.spring.models.DecisionInfo;
 
 
 
@@ -32,8 +39,19 @@ public class HomeController {
 //	}
 	
 
-	
-	
+//	@Autowired
+//    private DecisionInfoDAOi decisionInfoDAOi;
+// 
+//	
+//	@RequestMapping(value="/search")
+//	public ModelAndView dList(ModelAndView model) throws IOException{
+//	    List<DecisionInfo> dList = decisionInfoDAOi.list();
+//	    model.addObject("dList", dList);
+//	    model.setViewName("search");
+//	 
+//	    return model;
+//	}
+//	
 //------------NAVBAR CONTROLLERS---------------//	
 	
 	//NAVBAR & HOME PAGE - NAVBAR BRAND BUTTON	
@@ -110,7 +128,7 @@ public class HomeController {
 		
 //------------SEARCH PAGE--------------//	
 
-	//SEARCH PAGE
+//	//SEARCH PAGE
 		@RequestMapping("/search")
 		public ModelAndView search() {
 			ModelAndView mav = new ModelAndView("search");

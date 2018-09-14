@@ -34,7 +34,7 @@ function regValidate()
         return false;
     }
   
-    if (regEmail.value !== regConfirmEmail.value)                          
+    if (regEmail != regConfirmEmail)                          
     {
         window.alert("Email does not match.");
         regConfirmEmail.focus();
@@ -47,10 +47,9 @@ function regValidate()
         regPassword.focus();
         return false;
     } 
-    if (regPassword.value !== regConfirmPassword.value)                       
+    if (regPassword != regConfirmPassword)                       
     {
         window.alert("Password does not match");
-        regPassword.focus();
         regPassword.focus();
         return false;
     } 

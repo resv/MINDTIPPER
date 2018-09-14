@@ -1,11 +1,15 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1" 
+<%-- <%@ page language="java" contentType="text/html; charset=ISO-8859-1" 
     pageEncoding="ISO-8859-1"%>
     
     <!-- TAGLIB FOR RESOURCES -->
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %> --%>
+  <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+   
     
-    
-<!DOCTYPE html>
+<!-- <!DOCTYPE html> -->
 <html>
 
 <head>
@@ -22,7 +26,7 @@
 
 
 <!-- SEARCH JUMBOTRON -->
-<section class="js-scroll-trigger" style="padding: 7rem 0rem 2rem; height: auto;">
+<!-- <section class="js-scroll-trigger" style="padding: 7rem 0rem 2rem; height: auto;">
   <div class="container">
     <div class="row">
       <div class="col-md-10 col-lg-8 mx-auto text-center">
@@ -37,11 +41,11 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
 
 <!-- DECISION ACTIVITY TABLE -->
-<section class="js-scroll-trigger animated wow fadeIn" style="padding: 0rem 0rem 8rem; height: auto">
+<!-- <section class="js-scroll-trigger animated wow fadeIn" style="padding: 0rem 0rem 8rem; height: auto">
   <div class="card-body">
     <div class="table-responsive col-md-12 col-lg-10 mx-auto">
       <table class="table table-bordered" id="dataTable">
@@ -58,8 +62,46 @@
             <th>Template / Share</th>
           </tr>
         </thead>
-      
-        <tbody>
+         -->
+        
+        
+        <div align="center">
+            <h1>Contact List</h1>
+            <h3><a href="">New Contact</a></h3>
+            <table border="1">
+                <th>No</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Address</th>
+                <th>Telephone</th>
+                <th>Action</th>
+                 
+                 
+                <c:forEach var="DecisionInfo" items="${dList}" >
+                <tr>
+                    
+                    <td>${DecisionInfo.decision_id}</td>
+                    <td>${DecisionInfo.user_id}</td>
+                    <td>${DecisionInfo.date_created}</td>
+                    <td>${DecisionInfo.winner}</td>
+                    <td>${DecisionInfo.win_percent}</td>
+                    <td>${DecisionInfo.complete}</td>
+                    <td>${DecisionInfo.privacy}</td>
+                    <td>${DecisionInfo.star}</td>
+                    <td>
+                        <a href="">Edit</a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="">Delete</a>
+                    </td>
+                            
+                </tr>
+                </c:forEach>             
+            </table>
+        </div>    
+                       dasdsa
+                       
+                       
+        <!-- <tbody>
           <tr>
             <td>Stars</td>
             <td>Decision ID</td>
@@ -104,7 +146,7 @@
     </div>
   </div>
 </section>	
-	
+	 -->
 	
 	
 	

@@ -34,7 +34,7 @@
 		<div class="card-header text-center">Register</div>
 				<div class="card-body">
         
-		<form name="regForm" action="menu.html" onsubmit="return regValidate()" method="post">
+		<form name="regForm" action="menu.html" onsubmit="regValidate()" method="post">
 		
 			<div class="form-group">
 		        <div class="form-label-group">
@@ -76,7 +76,7 @@
 		             	<div class="form-label-group">
 		                 	<!-- <label for="regPassword">Password</label> -->
 		               		<input type="password" id="regPassword" class="form-control" required="required" placeholder="Password" 
-		                           pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$.{4,25}" 
+		                           pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,25}$"
 		                    title="You must enter a minimum of 8-25 characters and must contain at least one number, one uppercase, and one lowercase letter. No special characters.">
 		             	</div>
 		           	</div>
@@ -101,7 +101,7 @@
 	                </div>
 		       	   
 		       	   
-		           <input class="btn btn-primary btn-block" type="submit" value="Register" name="Submit">
+		           <input class="btn btn-primary btn-block" type="submit" value="Register" name="submit">
 		</form>
 					
    	</div>

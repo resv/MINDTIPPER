@@ -12,11 +12,11 @@ import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
-import MINDTIPPER.DAO.UserInfoDAO;
-import MINDTIPPER.Interfaces.UserInfoDAOi;
+import MINDTIPPER.spring.dao.DecisionInfoDAO;
+import MINDTIPPER.spring.interfaces.DecisionInfoDAOi;
  
 @Configuration
-@ComponentScan(basePackages="net.codejava.spring")
+@ComponentScan(basePackages="MINDTIPPER.spring")
 @EnableWebMvc
 public class MvcConfiguration extends WebMvcConfigurerAdapter{
  
@@ -45,7 +45,7 @@ public class MvcConfiguration extends WebMvcConfigurerAdapter{
     }
     
     @Bean
-    public UserInfoDAOi getUserInfoDAOi() {
-        return new UserInfoDAO(getDataSource());
+    public DecisionInfoDAOi getDecisionInfoDAOi() {
+        return new DecisionInfoDAO(getDataSource());
     }
 }

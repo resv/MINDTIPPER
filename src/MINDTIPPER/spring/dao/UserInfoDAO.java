@@ -1,4 +1,4 @@
-package MINDTIPPER.DAO;
+package MINDTIPPER.spring.dao;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -9,8 +9,8 @@ import org.springframework.dao.DataAccessException;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.ResultSetExtractor;
 
-import MINDTIPPER.Interfaces.UserInfoDAOi;
-import MINDTIPPER.Models.UserInfo;
+import MINDTIPPER.spring.interfaces.UserInfoDAOi;
+import MINDTIPPER.spring.models.UserInfo;
 
 public class UserInfoDAO implements UserInfoDAOi{
 

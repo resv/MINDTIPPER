@@ -1,4 +1,4 @@
-package MINDTIPPER.Models;
+package MINDTIPPER.spring.models;
 
 public class UserInfo {
 

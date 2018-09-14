@@ -1,8 +1,8 @@
-package MINDTIPPER.Interfaces;
+package MINDTIPPER.spring.interfaces;
 
 import java.sql.SQLException;
 
-import MINDTIPPER.Models.UserInfo;
+import MINDTIPPER.spring.models.UserInfo;
 
 public interface UserInfoDAOi {
 
