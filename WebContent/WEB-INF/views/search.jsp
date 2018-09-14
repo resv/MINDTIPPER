@@ -44,7 +44,7 @@
 <section class="js-scroll-trigger animated wow fadeIn" style="padding: 0rem 0rem 8rem; height: auto">
   <div class="card-body">
     <div class="table-responsive col-md-12 col-lg-10 mx-auto">
-      <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+      <table class="table table-bordered" id="dataTable">
         <thead>
           <tr style="cursor: pointer">
             <th>Stars<span style="float: right"><i class="fa fa-sort"></i></span></th>

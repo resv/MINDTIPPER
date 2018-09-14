@@ -23,5 +23,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.ajdt.core.ASPECTJRT_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Program Files/SQL/sqldeveloper/ords/examples/plugins/lib/ojdbc8-12.2.0.1.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

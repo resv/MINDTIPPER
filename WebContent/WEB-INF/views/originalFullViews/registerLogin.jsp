@@ -88,7 +88,7 @@
 			<div class="form-group">
 		        <div class="form-label-group">
 		           	<!-- <label for="regUsername">Username</label> -->
-		           	<input type="text" id="regUsername" class="form-control" required="required" placeholder="Username" minlength="4" maxlength="25" 
+		           	<input type="text" id="regUsername" class="form-control" required="required" placeholder="Username" 
 		           	pattern="[A-Za-z0-9_]{4,25}"
 		            title="Minimum of 4-25 characters. Only letters (either case), numbers, and the underscore.">
 		            <small class="form-text text-muted">Minimum of 4-25 characters. Only letters (either case), numbers, and the underscore.</small>
@@ -124,8 +124,8 @@
 		           	<div class="col-md-6">
 		             	<div class="form-label-group">
 		                 	<!-- <label for="regPassword">Password</label> -->
-		               		<input type="password" id="regPassword" class="form-control" required="required" placeholder="Password" minlength="8" maxlength="25" 
-		                           pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" 
+		               		<input type="password" id="regPassword" class="form-control" required="required" placeholder="Password"
+		                           pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$.{4,25}" 
 		                    title="You must enter a minimum of 8-25 characters and must contain at least one number, one uppercase, and one lowercase letter. No special characters.">
 		             	</div>
 		           	</div>

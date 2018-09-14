@@ -9,15 +9,29 @@ import org.springframework.web.servlet.ModelAndView;
 
 
 
+
+
 @Controller
 public class HomeController {
 
-	
+
 //	@RequestMapping("/")
 //	public ModelAndView welcome() {
 //		ModelAndView mav = new ModelAndView("welcome");
 //		return mav;
 //	}
+	
+
+////--------------GETUSERBYEMAIL---------------//	
+//	@RequestMapping(value = "/user", method = RequestMethod.GET)
+//	public ModelAndView user(HttpServletRequest request) {
+//		String email = Integer.parseInt(request.getParameter("email"));
+//	    model.addObject("contact", newContact);
+//	    model.setViewName("ContactForm");
+//	    return model;
+//	}
+	
+
 	
 	
 //------------NAVBAR CONTROLLERS---------------//	
@@ -85,15 +99,15 @@ public class HomeController {
 			return mav;
 		}	
 		
-//------------USER PAGE--------------//	
+////------------USER PAGE--------------//	
 
-	//USER PAGE
+	//USER PAGE REDIRECT
 		@RequestMapping("/user")
 		public ModelAndView user() {
 			ModelAndView mav = new ModelAndView("user");
 			return mav;
-		}			
-	
+		}				
+		
 //------------SEARCH PAGE--------------//	
 
 	//SEARCH PAGE

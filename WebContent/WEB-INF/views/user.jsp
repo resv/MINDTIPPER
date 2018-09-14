@@ -21,18 +21,18 @@
 <!----------------------------CONTENT---------------------------->
 
 <!-- WELCOME JUMBOTRON -->
+
 <section class="js-scroll-trigger" style="padding: 7rem 0rem 0rem; height: auto;">
   <div class="container">
     <div class="row">
       <div class="col-md-10 col-lg-8 mx-auto text-center">
 
-        <h2 class="text-black mb-5 animated wow fadeIn">Welcome USERNAME!</h2>
+        <h2 class="text-black mb-5 animated wow fadeIn">Welcome ${user.username}!</h2>
 
       </div>
     </div>
   </div>
 </section>
-
 
 <!-- TITLE AND SETTINGS BAR -->
 <div class="col-md-6 col-lg-3 mx-auto js-scroll-trigger text-center mb-5 animated wow fadeIn">
@@ -60,7 +60,7 @@
 <section class="js-scroll-trigger animated wow fadeIn" style="padding: 0rem 0rem 8rem; height: auto">
   <div class="card-body">
     <div class="table-responsive col-md-12 col-lg-10 mx-auto">
-      <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+      <table class="table table-bordered" id="dataTable">
         <thead>
           <tr style="cursor: pointer">
             <th>Stars<span style="float: right"><i class="fa fa-sort"></i></span></th>
