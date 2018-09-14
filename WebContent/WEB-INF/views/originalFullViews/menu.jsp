@@ -97,7 +97,7 @@
            <div class="col-md-4 mb-3 mb-md-0">
                <a href="GO TO NEW DECISION PAGEE OR SINGUP OR LOGIN IF SESSION SAYS SO" style="color:black; text-decoration: none;">
                    <div class="card py-4 h-100 animated wow zoomIn">
-                       <div class="card-body text-center">
+                       <div class="card-body text-center ">
                        <h4 class="text-uppercase m-0"><i class="fa fa-play fa-lg" style="color:yellowgreen"></i> <br><br> Tutorial</h4>
                        <hr class="my-4">
                            <div class="medium text-black-100">
