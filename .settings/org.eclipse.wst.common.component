@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="MINDTIPPER-0.0.1-SNAPSHOT">
-        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+    <wb-module deploy-name="MT">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
-        <property name="java-output-path" value="/MINDTIPPER/build/classes"/>
-        <property name="context-root" value="MINDTIPPER"/>
+        <property name="context-root" value="MT"/>
+        <property name="java-output-path" value="/MT/build/classes"/>
     </wb-module>
 </project-modules>
