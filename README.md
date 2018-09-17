@@ -1,7 +1,7 @@
 9/16/18 restart project again but was able to keep repo  here.
 
 # Deleted and made a brand new Case Study repo in attempt to keep this project seperate from Java Training (exercises).
-# README REVISION 1.1 (UNDER CONSTRUCTION)
+# README REVISION 1.1 (UNDER CONSTRUCTION, this current readme is a quick draft and will format later)
 
 Platform PerScholas Bronx, New York
 2018-08-PL-JD02
