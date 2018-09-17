@@ -1,26 +1,22 @@
-<%-- <%@ page language="java" contentType="text/html; charset=ISO-8859-1" 
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1" 
     pageEncoding="ISO-8859-1"%>
     
     <!-- TAGLIB FOR RESOURCES -->
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %> --%>
-  <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-   "http://www.w3.org/TR/html4/loose.dtd">
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-   
     
-<!-- <!DOCTYPE html> -->
+    
+<!DOCTYPE html>
 <html>
 
 <head>
 <!----------------------------HEADER---------------------------->
-	<%@include file="/WEB-INF/views/static/header.jsp"%>
+	<%@include file="/WEB-INF/view/static/header.jsp"%>
 	<title>Search - MIND TIPPER</title>
 </head>
 	
 <body>
 <!----------------------------NAVBAR---------------------------->
-	<%@include file="/WEB-INF/views/static/navbar.jsp"%>
+	<%@include file="/WEB-INF/view/static/navbar.jsp"%>
 	
 <!----------------------------CONTENT---------------------------->
 
@@ -57,65 +53,32 @@
             <th>Date Created<span style="float: right"><i class="fa fa-sort"></i></span></th>
             <th>Win Percentage<span style="float: right"><i class="fa fa-sort"></i></span></th>
             <th>Winner<span style="float: right"><i class="fa fa-sort"></i></span></th>
+            <th>User ID#<span style="float: right"><i class="fa fa-sort"></i></span></th>
             <th>Username<span style="float: right"><i class="fa fa-sort"></i></span></th>
             <th>Level<span style="float: right"><i class="fa fa-sort"></i></span></th>
             <th>Template / Share</th>
           </tr>
         </thead>
-        
-       <!-- JDBC TEMPLATE VERSION SAVED FOR LATER ATTEMPT --> 
-       <%--  <div align="center">
-            <h1>Contact List</h1>
-            <h3><a href="">New Contact</a></h3>
-            <table border="1">
-                <th>No</th>
-                <th>Name</th>
-                <th>Email</th>
-                <th>Address</th>
-                <th>Telephone</th>
-                <th>Action</th>
-                 
-                 
-                <c:forEach var="DecisionInfo" items="${dList}" >
-                <tr>
-                    
-                    <td>${DecisionInfo.decision_id}</td>
-                    <td>${DecisionInfo.user_id}</td>
-                    <td>${DecisionInfo.date_created}</td>
-                    <td>${DecisionInfo.winner}</td>
-                    <td>${DecisionInfo.win_percent}</td>
-                    <td>${DecisionInfo.complete}</td>
-                    <td>${DecisionInfo.privacy}</td>
-                    <td>${DecisionInfo.star}</td>
-                    <td>
-                        <a href="">Edit</a>
-                        &nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="">Delete</a>
-                    </td>
-                            
-                </tr>
-                </c:forEach>             
-            </table>
-        </div>     --%>
-       <form action="search" method="POST">                          
+                        
 		<tbody>
-		 <%-- <c:forEach items="${allList}" var="d"> --%>
+		<c:forEach var="tempDecisions" items="${decisions}">
           <tr>
-            <td></td>
-            <td></td>
-            <td class="text-center">${d.decision_title} <br> Summer VS Winter</td>
-            <td>${dInfo}</td>
-            <td>68</td>
-            <td>Summer</td>
-            <td>iAMaUSER</td>
-            <td>1</td>
+            <td> ${tempDecisions.star}</td>
+            <td> ${tempDecisions.decision_id}</td>
+            <td class="text-center">DECISION TITLE HERE <br> DECISIONCHOICEA HERE VS DECISIONCHOICEB HERE </td>
+            <td> ${tempDecisions.date_created}</td>
+            <td> ${tempDecisions.win_percent}</td>
+            <td> ${tempDecisions.winner}</td>
+            <td> ${tempDecisions.user_id}</td>
+            <td>USERNAME HERE</td>
+            <td>USER LVL HERE</td>
             <td>  <button type="button" class="btn btn-danger btn-sm m-0 waves-effect"><i class="fa fa-paste"></i></button>
                     <button type="button" class="btn btn-primary btn-sm m-0 waves-effect"><i class="fa fa-share-alt-square fa-lg"></i></button>
             </td>
           </tr>
-       <%-- </c:forEach> --%>
+          </c:forEach>
         </tbody>
-       </form>
+       
       </table>
     </div>
   </div>
@@ -127,6 +90,6 @@
 	
 	
 <!----------------------------FOOTER---------------------------->
-	<%@include file="/WEB-INF/views/static/footer.jsp"%>
+	<%@include file="/WEB-INF/view/static/footer.jsp"%>
 </body>
 </html>

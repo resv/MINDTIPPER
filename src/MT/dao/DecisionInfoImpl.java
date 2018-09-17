@@ -8,31 +8,28 @@ import org.hibernate.query.Query;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import MT.entity.UserInfo;
+import MT.entity.DecisionInfo;
 
-
-@Repository//must be applied to all DAOimpli
-public class UserInfoDAOImpl implements UserInfoDAO {
-
-	//need to inject the session factory
+@Repository// MUST BE APPLIED TO ALL DAOIMPL
+public class DecisionInfoImpl implements DecisionInfoDAO {
+	
 	@Autowired
 	private SessionFactory sessionFactory;
-	
-	@Override
-	public List<UserInfo> getUser() {
 		
-		//get the current hibernate session
+	@Override
+	public List<DecisionInfo> getDecisions() {
+		
+		//GET THE CURRENT HIBERNATE SESSION
 		Session currentSession = sessionFactory.getCurrentSession();
 		
 		//QUERY INTERFACE OF TYPE<> name of QUERY,            SQL QUERY,       ENTITY
-		Query<UserInfo> theQuery = currentSession.createQuery("From UserInfo", UserInfo.class);
+		Query<DecisionInfo> theQuery = currentSession.createQuery("From DecisionInfo", DecisionInfo.class);
 		
 		//execute query and get result list PUT IT IN A LIST VARIABLE
-		List<UserInfo> user = theQuery.getResultList();
+		List<DecisionInfo> decisions = theQuery.getResultList();
 		
 		//return the results, RETURN LIST
-		return user;
-		
+		return decisions;
 	}
 
 }

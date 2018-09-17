@@ -6,7 +6,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+
+import MT.entity.DecisionInfo;
 import MT.entity.UserInfo;
+import MT.service.DecisionInfoService;
 import MT.service.UserInfoService;
 
 @Controller
@@ -29,5 +32,20 @@ public class HomeController {
 		return "user";
 	}
 	
+	
+	@Autowired
+	private DecisionInfoService decisioninfoservice;
+	
+	@GetMapping("/search")
+	public String returnDecisions(Model theModel) {
+		
+		//GET DECISIONS FROM SERVICE
+		List<DecisionInfo> theDecisions = decisioninfoservice.getDecisions();
+		
+		//ADD DECISIONS TO MODEL
+		theModel.addAttribute("decisions", theDecisions);
+		
+		return "search";
+	}
 	
 }

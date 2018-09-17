@@ -38,6 +38,8 @@ public class DecisionInfo {
 	@Column(name="star")
 	private int star;
 	
+	
+	
 	//DEFAULT CONSTRUCTOR
 	public DecisionInfo() {
 		super();

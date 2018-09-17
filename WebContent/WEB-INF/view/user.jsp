@@ -30,10 +30,8 @@
 		<td> ${tempUser.password}</td>
 		<td> ${tempUser.lvl}</td>
 	</tr>
-
-
-
 </c:forEach>
+
 <!-- WELCOME JUMBOTRON -->
 <section class="js-scroll-trigger" style="padding: 7rem 0rem 0rem; height: auto;">
   <div class="container">
