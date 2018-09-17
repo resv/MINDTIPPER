@@ -6,10 +6,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-
-import MT.dao.UserInfoDAO;
 import MT.entity.UserInfo;
 import MT.service.UserInfoService;
 
@@ -17,23 +13,21 @@ import MT.service.UserInfoService;
 public class HomeController {
 
 	
-	//inject UserInfo service
+	//INJECT UserInfo Service
 	@Autowired
 	private UserInfoService userinfoservice;
 	
 	@GetMapping("/user")
 	public String returnUser(Model theModel) {
 		
-		//get users from service
+		//GET USERS FROM SERVICE
 		List<UserInfo> theUser = userinfoservice.getUser();
 		
-		//add users to the model
+		//ADD USERS TO MODEL
 		theModel.addAttribute("user", theUser);
 		
 		return "user";
 	}
-	
-	
 	
 	
 }

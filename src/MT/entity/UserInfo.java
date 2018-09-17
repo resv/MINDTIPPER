@@ -11,8 +11,7 @@ import javax.persistence.Table;
 @Table(name= "USERINFO")  // table name in DB
 public class UserInfo {
 
-	//VARIABLES
-		
+		//VARIABLES
 		@Id
 		@GeneratedValue(strategy=GenerationType.IDENTITY)
 		@Column(name="user_id")
@@ -30,16 +29,18 @@ public class UserInfo {
 		@Column(name="lvl")
 		private int lvl;
 
-		
+		//DEFAULT CONSTRUCTORS
 		public UserInfo() {
 		}
 
+		//TOSTRING
 		@Override
 		public String toString() {
 			return "UserInfo [user_id=" + user_id + ", username=" + username + ", email=" + email + ", password="
 					+ password + ", lvl=" + lvl + "]";
 		}
 
+		//GETTERS AND SETTERS
 		public int getUser_id() {
 			return user_id;
 		}
