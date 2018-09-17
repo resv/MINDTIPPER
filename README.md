@@ -1,3 +1,5 @@
+9/16/18 restart project again but was able to keep repo  here.
+
 # Deleted and made a brand new Case Study repo in attempt to keep this project seperate from Java Training (exercises).
 # README REVISION 1.1 (UNDER CONSTRUCTION)
 
