@@ -19,9 +19,7 @@ public class UserInfoDAOImpl implements UserInfoDAO {
 	@Autowired
 	private SessionFactory sessionFactory;
 	
-	
 	@Override
-	@Transactional
 	public List<UserInfo> getUser() {
 		
 		//get the current hibernate session

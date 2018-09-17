@@ -10,13 +10,13 @@
 
 <head>
 <!----------------------------HEADER---------------------------->
-	<%-- <%@include file="/WEB-INF/views/static/header.jsp"%> --%>
+	 <%@include file="/WEB-INF/view/static/header.jsp"%> 
 	<title>USERNAME GOES HERE (userpage) - MIND TIPPER</title>
 </head>
 	
 <body>
 <!----------------------------NAVBAR---------------------------->
-	<%-- <%@include file="/WEB-INF/views/static/navbar.jsp"%> --%>
+	 <%@include file="/WEB-INF/view/static/navbar.jsp"%>
 	
 <!----------------------------CONTENT---------------------------->
 
@@ -137,6 +137,6 @@
 	
 	
 <!----------------------------FOOTER---------------------------->
-	<%-- <%@include file="/WEB-INF/views/static/footer.jsp"%> --%>
+	<%@include file="/WEB-INF/view/static/footer.jsp"%>
 </body>
 </html>
