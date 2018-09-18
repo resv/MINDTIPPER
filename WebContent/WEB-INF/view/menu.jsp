@@ -10,13 +10,13 @@
 
 <head>
 <!----------------------------HEADER---------------------------->
-	<%@include file="/WEB-INF/views/static/header.jsp"%>
+	<%@include file="/WEB-INF/view/static/header.jsp"%>
 	<title>MENU - MIND TIPPER</title>
 </head>
 	
 <body>
 <!----------------------------NAVBAR---------------------------->
-	<%@include file="/WEB-INF/views/static/navbar.jsp"%>
+	<%@include file="/WEB-INF/view/static/navbar.jsp"%>
 	
 <!----------------------------CONTENT---------------------------->
 
@@ -80,7 +80,7 @@
       </div>
 
       <div class="col-md-4 mb-3 mb-md-0">
-          <a href="GO TO NEW DECISION PAGEE OR SINGUP OR LOGIN IF SESSION SAYS SO" style="color:black; text-decoration: none;">
+          <a href="<c:url value="/newDecision" />" style="color:black; text-decoration: none;">
               <div class="card py-4 h-100 animated wow zoomIn">
                   <div class="card-body text-center">
                   <h4 class="text-uppercase m-0 animated wow pulse infinite delay-1s"><i class="fa fa-plus fa-lg" style="color:blue"></i> <br><br> New Decision</h4>
@@ -103,6 +103,6 @@
 	
 	
 <!----------------------------FOOTER---------------------------->
-	<%@include file="/WEB-INF/views/static/footer.jsp"%>
+	<%@include file="/WEB-INF/view/static/footer.jsp"%>
 </body>
 </html>

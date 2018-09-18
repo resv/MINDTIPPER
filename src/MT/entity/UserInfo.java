@@ -13,7 +13,7 @@ public class UserInfo {
 
 		//VARIABLES
 		@Id
-	    @GeneratedValue(strategy = GenerationType.IDENTITY)
+		@GeneratedValue(strategy=GenerationType.IDENTITY)
 		@Column(name="user_id")
 		private int user_id;
 		
@@ -30,7 +30,6 @@ public class UserInfo {
 		@Column(name="lvl")
 		private int lvl = 0;
 
-	
 
 		//DEFAULT CONSTRUCTORS
 		public UserInfo() {

@@ -10,13 +10,13 @@
 
 <head>
 <!----------------------------HEADER---------------------------->
-	<%@include file="/WEB-INF/views/static/header.jsp"%>
+	<%@include file="/WEB-INF/view/static/header.jsp"%>
 	<title>Terms of Use - MIND TIPPER</title>
 </head>
 	
 <body oncontextmenu="return false;" class="noselect">
 <!----------------------------NAVBAR---------------------------->
-	<%@include file="/WEB-INF/views/static/navbar.jsp"%>
+	<%@include file="/WEB-INF/view/static/navbar.jsp"%>
 	
 <!----------------------------CONTENT---------------------------->
 
@@ -449,6 +449,6 @@
 <!-- END OF TERMS CONTAINER -->	
 	
 <!----------------------------FOOTER---------------------------->
-	<%@include file="/WEB-INF/views/static/footer.jsp"%>
+	<%@include file="/WEB-INF/view/static/footer.jsp"%>
 </body>
 </html>

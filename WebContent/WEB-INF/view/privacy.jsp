@@ -10,13 +10,13 @@
 
 <head>
 <!----------------------------HEADER---------------------------->
-	<%@include file="/WEB-INF/views/static/header.jsp"%>
+	<%@include file="/WEB-INF/view/static/header.jsp"%>
 	<title>Privacy Policy - MIND TIPPER</title>
 </head>
 	
 <body oncontextmenu="return false;" class="noselect">
 <!----------------------------NAVBAR---------------------------->
-	<%@include file="/WEB-INF/views/static/navbar.jsp"%>
+	<%@include file="/WEB-INF/view/static/navbar.jsp"%>
 	
 <!----------------------------CONTENT---------------------------->
 
@@ -522,6 +522,6 @@ to make public) ; marketing leads and search results and links, including paid l
 	
 	
 <!----------------------------FOOTER---------------------------->
-	<%@include file="/WEB-INF/views/static/footer.jsp"%>
+	<%@include file="/WEB-INF/view/static/footer.jsp"%>
 </body>
 </html>
