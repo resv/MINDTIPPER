@@ -1,0 +1,19 @@
+Customer Info,,,,Decision History,,
+,,,,,,
+Column Name,Data Type,Data Size,,Column Name,Data Type,Data Size
+ID (PK),int,5,,DESC_ID(FK),int,
+EMAIL,varchar2,25,,TITLE,varchar2,50
+PASSWORD,varchar2,25,,DATE_CREATED,date,
+PRIVACY,int,5,,PERCENT,int,
+,,,,DECISION,int,
+Decision Info,,,,AUTHOR,varchar2,25
+,,,,,,
+Column Name,Data Type,Data Size,,Choice Info,,
+ID (FK),,,,,,
+DESC_ID(PK),int,,,Column Name,Data Type,Data Size
+TITLE,varchar2,50,,DESC_ID(FK),int,
+DATE_CREATED,date,,,CHOICE1 _ID,int,
+DATE_MODIFIED,date,,,CHOICE2_ID,int,
+PERCENT,int,,,DETAIL1 (Description),varchar2,50
+DECISION,int,,,DETAIL2 (Description),varchar2,50
+COMPLETE,varchar2,15,,SELECTION,int,

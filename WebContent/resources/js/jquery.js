@@ -1,3 +1,5 @@
+// Credit to jquery.com.
+
 (function($) {
     "use strict"; // Start of use strict
   

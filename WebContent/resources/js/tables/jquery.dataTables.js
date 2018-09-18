@@ -1,3 +1,4 @@
+//CREDIT TO https://mdbootstrap.com/
 
 (function( factory ) {
 	"use strict";

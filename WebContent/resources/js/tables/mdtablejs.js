@@ -1,3 +1,5 @@
+//CREDIT TO https://mdbootstrap.com/
+
 var $TABLE = $('#table');
 var $BTN = $('#export-btn');
 var $EXPORT = $('#export');

@@ -1,3 +1,5 @@
+// CREDIT TO GETBOOSTRAP.com
+
 $(function() {
 
   $("#contactForm input,#contactForm textarea").jqBootstrapValidation({

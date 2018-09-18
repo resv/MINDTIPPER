@@ -1,3 +1,6 @@
+//CREDIT TO https://mdbootstrap.com/
+
+
 
 (function( factory ){
 	if ( typeof define === 'function' && define.amd ) {

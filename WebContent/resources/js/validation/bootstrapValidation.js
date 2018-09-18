@@ -1,3 +1,4 @@
+// CREDIT TO GETBOOTSTRAP.COM
 
 (function( $ ){
 
