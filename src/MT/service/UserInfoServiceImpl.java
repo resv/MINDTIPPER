@@ -10,7 +10,7 @@ import MT.dao.UserInfoDAO;
 import MT.entity.UserInfo;
 
 @Service
-public class UserInfoImpl implements UserInfoService {
+public class UserInfoServiceImpl implements UserInfoService {
 
 	
 	//need to inject UserInfoDAO
@@ -21,6 +21,13 @@ public class UserInfoImpl implements UserInfoService {
 	@Transactional
 	public List<UserInfo> getUser() {
 		return userinfoDAO.getUser();
+	}
+
+	@Override
+	@Transactional
+	public void saveUserInfo(UserInfo theUser) {
+		userinfoDAO.saveUserInfo(theUser);
+		
 	}
 
 }

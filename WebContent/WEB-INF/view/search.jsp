@@ -47,15 +47,13 @@
       <table class="table table-bordered" id="dataTable">
         <thead>
           <tr style="cursor: pointer">
+           	<th>Decision ID<span style="float: right"><i class="fa fa-sort"></i></span></th>
             <th>Stars<span style="float: right"><i class="fa fa-sort"></i></span></th>
-            <th>Decision ID<span style="float: right"><i class="fa fa-sort"></i></span></th>
             <th>Decisions<span style="float: right"><i class="fa fa-sort"></i></span></th>
             <th>Date Created<span style="float: right"><i class="fa fa-sort"></i></span></th>
             <th>Win Percentage<span style="float: right"><i class="fa fa-sort"></i></span></th>
             <th>Winner<span style="float: right"><i class="fa fa-sort"></i></span></th>
-            <th>User ID#<span style="float: right"><i class="fa fa-sort"></i></span></th>
-            <th>Username<span style="float: right"><i class="fa fa-sort"></i></span></th>
-            <th>Level<span style="float: right"><i class="fa fa-sort"></i></span></th>
+            <th>User Info<span style="float: right"><i class="fa fa-sort"></i></span></th>
             <th>Template / Share</th>
           </tr>
         </thead>
@@ -63,15 +61,13 @@
 		<tbody>
 		<c:forEach var="tempDecisions" items="${decisions}">
           <tr>
-            <td> ${tempDecisions.star}</td>
-            <td> ${tempDecisions.decision_id}</td>
+            <td>#${tempDecisions.decision_id}</td>
+            <td>${tempDecisions.star}</td>
             <td class="text-center">DECISION TITLE HERE <br> DECISIONCHOICEA HERE VS DECISIONCHOICEB HERE </td>
-            <td> ${tempDecisions.date_created}</td>
-            <td> ${tempDecisions.win_percent}</td>
-            <td> ${tempDecisions.winner}</td>
-            <td> ${tempDecisions.user_id}</td>
-            <td>USERNAME HERE</td>
-            <td>USER LVL HERE</td>
+            <td>${tempDecisions.date_created}</td>
+            <td>${tempDecisions.win_percent}%</td>
+            <td>${tempDecisions.winner}</td>
+            <td>#${tempDecisions.user_id} (USERNAME) (USERLVL)</td>
             <td>  <button type="button" class="btn btn-danger btn-sm m-0 waves-effect"><i class="fa fa-paste"></i></button>
                     <button type="button" class="btn btn-primary btn-sm m-0 waves-effect"><i class="fa fa-share-alt-square fa-lg"></i></button>
             </td>

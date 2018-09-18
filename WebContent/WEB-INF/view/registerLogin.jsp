@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1" 
     pageEncoding="ISO-8859-1"%>
-    
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+
     <!-- TAGLIB FOR RESOURCES -->
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
     
@@ -10,13 +11,13 @@
 
 <head>
 <!----------------------------HEADER---------------------------->
-	<%@include file="/WEB-INF/views/static/header.jsp"%>
+	<%@include file="/WEB-INF/view/static/header.jsp"%>
 	<title>Login Register - MIND TIPPER</title>
 </head>
 	
 <body>
 <!----------------------------NAVBAR---------------------------->
-	<%@include file="/WEB-INF/views/static/navbar.jsp"%>
+	<%@include file="/WEB-INF/view/static/navbar.jsp"%>
 	
 <!----------------------------CONTENT---------------------------->
 
@@ -34,14 +35,21 @@
 		<div class="card-header text-center">Register</div>
 				<div class="card-body">
         
-		<form name="regForm" action="menu.html" onsubmit="regValidate()" method="post">
-		
+	
+		<form:form action="registerUser" modelAttribute="user" method="POST">
 			<div class="form-group">
 		        <div class="form-label-group">
 		           	<!-- <label for="regUsername">Username</label> -->
-		           	<input type="text" id="regUsername" class="form-control" required="required" placeholder="Username" 
+		           	
+		           	
+		        <form:input path="username" type="text" id="regUsername" class="form-control" required="required" placeholder="Username" 
 		           	pattern="[A-Za-z0-9_]{4,25}"
-		            title="Minimum of 4-25 characters. Only letters (either case), numbers, and the underscore.">
+		            title="Minimum of 4-25 characters. Only letters (either case), numbers, and the underscore."/>   
+		            
+		            	
+		        <!--    	<input type="text" id="regUsername" class="form-control" required="required" placeholder="Username" 
+		           	pattern="[A-Za-z0-9_]{4,25}"
+		            title="Minimum of 4-25 characters. Only letters (either case), numbers, and the underscore."> -->
 		            <small class="form-text text-muted">Minimum of 4-25 characters. Only letters (either case), numbers, and the underscore.</small>
 	            </div>
 		   	</div>
@@ -53,7 +61,7 @@
 	     	      	<div class="col-md-6">
 	              		<div class="form-label-group">
 	               			<!-- <label for="regEmail">Email Address</label> -->
-	               			<input type="email" id="regEmail" class="form-control" required="required" placeholder="Email Address">   
+	               			<form:input path="email" type="email" id="regEmail" class="form-control" required="required" placeholder="Email Address" />   
 		             	</div>
 		          	</div>
 		
@@ -75,9 +83,9 @@
 		           	<div class="col-md-6">
 		             	<div class="form-label-group">
 		                 	<!-- <label for="regPassword">Password</label> -->
-		               		<input type="password" id="regPassword" class="form-control" required="required" placeholder="Password" 
+		               		<form:input path="email" id="regPassword" class="form-control" required="required" placeholder="Password" 
 		                           pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,25}$"
-		                    title="You must enter a minimum of 8-25 characters and must contain at least one number, one uppercase, and one lowercase letter. No special characters.">
+		                    title="You must enter a minimum of 8-25 characters and must contain at least one number, one uppercase, and one lowercase letter. No special characters." />
 		             	</div>
 		           	</div>
 		
@@ -101,8 +109,8 @@
 	                </div>
 		       	   
 		       	   
-		           <input class="btn btn-primary btn-block" type="submit" value="Register" name="submit">
-		</form>
+		           <input class="btn btn-primary btn-block" type="submit" value="Register">
+		   </form:form>
 					
    	</div>
    	</div>
@@ -158,6 +166,6 @@
 </section>
 	
 <!----------------------------FOOTER---------------------------->
-	<%@include file="/WEB-INF/views/static/footer.jsp"%>
+	<%@include file="/WEB-INF/view/static/footer.jsp"%>
 </body>
 </html>

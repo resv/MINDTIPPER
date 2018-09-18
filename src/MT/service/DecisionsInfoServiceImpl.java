@@ -10,7 +10,7 @@ import MT.dao.DecisionInfoDAO;
 import MT.entity.DecisionInfo;
 
 @Service
-public class DecisionsInfoImpl implements DecisionInfoService {
+public class DecisionsInfoServiceImpl implements DecisionInfoService {
 
 	//INJECT DecisionInfoDAO
 	@Autowired

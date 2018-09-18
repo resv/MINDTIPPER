@@ -8,46 +8,29 @@ import org.hibernate.query.Query;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import MT.entity.UserInfo;
-
+import MT.entity.Title;
 
 @Repository //must be applied to all DAOimpli
-public class UserInfoDAOImpl implements UserInfoDAO {
+public class TitleDAOImpl implements TitleDAO {
 
 	//need to inject the session factory
 	@Autowired
 	private SessionFactory sessionFactory;
 	
 	@Override
-	public List<UserInfo> getUser() {
-		
+	public List<Title> getTitles() {
+
 		//get the current hibernate session
 		Session currentSession = sessionFactory.getCurrentSession();
 		
 		//QUERY INTERFACE OF TYPE<> name of QUERY,            SQL QUERY,       ENTITY
-		Query<UserInfo> theQuery = currentSession.createQuery("From UserInfo", UserInfo.class);
+		Query<Title> theQuery = currentSession.createQuery("From Title", Title.class);
 		
 		//execute query and get result list PUT IT IN A LIST VARIABLE
-		List<UserInfo> user = theQuery.getResultList();
+		List<Title> titles = theQuery.getResultList();
 		
 		//return the results, RETURN LIST
-		return user;
-		
+		return titles;
 	}
 
-	@Override
-	public void saveUserInfo(UserInfo theUser) {
-		
-		//get current hibernate session
-		Session currentSession = sessionFactory.getCurrentSession();
-		
-		//save the user
-		currentSession.save(theUser);
-		
-	}
-
-	
 }
-
-
-	

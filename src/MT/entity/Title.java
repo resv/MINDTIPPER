@@ -29,6 +29,8 @@ public class Title {
 		@Column(name="choicetitle_b")
 		private String choicetitle_b;
 
+		
+		
 		//DEFAULT CONSTRUCTORS
 		public Title() {
 		}

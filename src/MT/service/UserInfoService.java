@@ -7,5 +7,8 @@ import MT.entity.UserInfo;
 public interface UserInfoService {
 
 	public List<UserInfo> getUser();
+
+	public void saveUserInfo(UserInfo theUser);
 	
+
 }
