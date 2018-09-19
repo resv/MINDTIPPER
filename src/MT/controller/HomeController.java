@@ -2,8 +2,6 @@ package MT.controller;
 
 import java.util.List;
 
-import javax.servlet.http.HttpServletRequest;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -11,23 +9,18 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
-import MT.entity.Choice;
 import MT.entity.DecisionInfo;
-import MT.entity.Title;
 import MT.entity.UserInfo;
-import MT.service.ChoiceService;
 import MT.service.DecisionInfoService;
-import MT.service.TitleService;
 import MT.service.UserInfoService;
 
 @Controller
 public class HomeController {
 
 	
-	//INJECT UserInfo Service
+	//READS USER_INFO FROM DB TO USER PAGE(TESTING PURPOSES)
 	@Autowired
 	private UserInfoService userinfoservice;
 	
@@ -63,6 +56,31 @@ public class HomeController {
 	}
 	
 	
+	//CARRIES USER SESSION TO REG PAGE
+	@GetMapping("/registerLogin")
+	public String registerLogin(Model theModel) {
+		UserInfo theUser = new UserInfo();
+		
+		theModel.addAttribute("user", theUser);
+		
+		return "registerLogin";
+	}
+	
+	//WRITES DATA FROM REG PAGE TO DB
+	@PostMapping("/registerUser")
+	public String registerUser(@ModelAttribute("user") UserInfo theUser) {
+		
+		userinfoservice.saveUserInfo(theUser);
+		
+		return "menu";
+	}
+	
+	
+	
+	
+	
+	
+	
 //	//READS TITLE FROM DB TO SEARCH PAGE
 //	@Autowired
 //	private TitleService titleservice;
@@ -93,25 +111,7 @@ public class HomeController {
 //	}
 	
 	
-	//CARRIES USER SESSION TO REG PAGE
-	@GetMapping("/registerLogin")
-	public String registerLogin(Model theModel) {
-		UserInfo theUser = new UserInfo();
-		
-		theModel.addAttribute("user", theUser);
-		
-		return "registerLogin";
-	}
-	
-	//WRITES DATA FROM REG PAGE TO DB
-	@PostMapping("/registerUser")
-	public String registerUser(@ModelAttribute("user") UserInfo theUser) {
-		
-		userinfoservice.saveUserInfo(theUser);
-		
-		return "menu";
-	}
-	
+
 	
 	
 	
@@ -183,14 +183,14 @@ public class HomeController {
 	}	
 			
 			
-////------------USER PAGE--------------//	
-
-	//USER PAGE REDIRECT
-	@RequestMapping("/user")
-	public ModelAndView user() {
-		ModelAndView mav = new ModelAndView("user");
-		return mav;
-	}				
+//////------------USER PAGE--------------//	
+//
+//	//USER PAGE REDIRECT
+//	@RequestMapping("/user")
+//	public ModelAndView user() {
+//		ModelAndView mav = new ModelAndView("user");
+//		return mav;
+//	}				
 			
 //------------NEW DECISION PAGE--------------//	
 

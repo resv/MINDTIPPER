@@ -63,7 +63,7 @@
           <tr>
             <td>#${tempDecisions.decision_id}</td>
             <td>${tempDecisions.star}</td>
-            <td class="text-center">DECISION TITLE HERE <br> DECISIONCHOICEA HERE VS DECISIONCHOICEB HERE </td>
+            <td class="text-center">(DECISION TITLE HERE) <br> (DECISIONCHOICEA HERE) VS (DECISIONCHOICEB HERE) </td>
             <td>${tempDecisions.date_created}</td>
             <td>${tempDecisions.win_percent}%</td>
             <td>${tempDecisions.winner}</td>
