@@ -1,64 +1,226 @@
-9/16/18 restart project again but was able to keep repo  here.
-
-# Deleted and made a brand new Case Study repo in attempt to keep this project seperate from Java Training (exercises).
-# README REVISION 1.1 (UNDER CONSTRUCTION, this current readme is a quick draft and will format later)
-
-Platform PerScholas Bronx, New York
-2018-08-PL-JD02
-
 <h1 align="center">Case Study - "Mind Tipper"</h1> <br>
 <p align="center">
 <img alt="GitPoint" title="GitPoint" src="https://imgur.com/m8HCs0K.png" width="250">
 </p>
 
 ___
-## Table of Contents
-- [Summary](#Summary)
-- [Running the application](#runApp)
-    - [Extension](#extension)
-    - [Database](#database)
-- [x](#x)
+### Table of Contents
+- [Summary](#summary)
+- [Planning](#planning)
+- [Installation](#nstallation)
+    - [Prerequisites](#prerequisites)
     - [x](#x)
     - [x](#x)
-    - [x](#x)
-- [License](#license)
-- [Links](#links)
+- [Model View Controller](#model-view-controller)
+	-[MVC - Model](#mvc-model)
+    -[MVC - View](#mvc-view)
+    -[MVC - Controller](#mvc-controller)
+- [Unfinished / Problems](#unfinished-/-problems)
 <br>
 
-<br>
+###### Repository Notes
+Deleted and made a brand new Case Study repository in attempt to keep this project seperate from Java Training (exercises).
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+<!------------------------------------------------------------->
 
 # Summary
-# New Document- [Installation](#runApp)
-# New Document- [Installation](#runApp)
-# New Document- [Installation](#runApp)
-# New Document- [Installation](#runApp)
+An dynamic web application to help decision making that doesn’t rely on a random generator. A decision title is split into two columns called choices, each choice has a supporting detail set that weigh against the opposing choice’s detail set. 
 
-<br>
+		Insert pic of table with selections chosen
 
+You can make a selection of which detail wins over the other. Once all selections are complete, the number of selections made for each choice are tallied up and calculated as a the winning decision.
+
+		Insert pic of winner
+
+Users can share their decisions with others, retake or edit existing completed decisions as a starting template to start a new decision of their own. Expected user demographics are not limited to consumers but extends to businesses connecting with their customers e.g "What do you like most about our product X watch vs our competitor's Y watch?".
+
+As more unedited completed decisions are retaken by other users, more data is gathered on the value of a detail chosen by many. With this data we can analyze which details hold more value over others.
+
+
+<!------------------------------------------------------------->
+
+# Planning
+
+The case study started with a summary of the application, describing what its purpose would be. 
+Insert summary picture here
+Next came requirement analysis that would detail the necessary components the project must have, and soon after the user case which would describe what the user wants to do.
+		Insert user case picture and requirement analysis picture
+
+With the requirement analysis, I would be able to develop a wireframe to be able to visualize all the requirements as a potential product. I used balsamiq.com to develop this wireframe.(LINK WIREFRAME)
+		Insert wireframe here.
+
+Entity relationship diagram was helpful to plan out the database and make their connections across other entities. This also allowed me to plan out the data types, primary and foreign keys for the database. I’ve used Lucid Charts.com to develop this diagram. (LINK ERD)
+		Insert ERD diagram here.
+
+We testing the database by entering mock data using MOCKaroo.com. (LINK TO SCHEMA) Not all data may make complete sense but it was vital to have. Mock data allowed myself to develop and test queries, and test that JDBC was able to read and write with no conflictions later in development. (LINK DDL FOLDER HERE)
+Insert mockaroo schemas
+
+With constant database testing and modifications, it was crucial to save my DDL, so I created a “One-Shot” DDL insert file. This handle creation of my tables, inserted mock data, and generated all my private and foreign keys. (LINK DDL)
+		Insert ONESHOT DDL pic here
+
+Honorable mention to google sheets to help me picture what my database query would look like and to help make any changes needed to the actual database. (LINK TO GOOGLE SHEETS)
+
+		Insert google sheets
+
+A one man project really didn’t need the use of JIRA, so instead I used Trello which help keep track of my progress of the entire development. (LINK TRELLO HERE)
+		Insert trello pick here
+
+Many revisions of the planning process has been made, currently up to revision 5. The first revision folder starts here. (LINK REVISION FODLER)
+<!------------------------------------------------------------->
+
+# Installation
+
+Although a domain name has been secured (MindTipper.com), the application is not ready for official launch. Step by Step instructions will be provided to run this application locally on your machine for further development or testing purposes
+
+#### Prerequisites
+- **Eclipse IDE** (Photon Preferred)
+- **Oracle Driver** (provided in lib folder)
+- Misc Jar files
+  - Spring
+  - Hibernate
+  - Javax (JSP, JSTL, SERVLET, PERSISTENCE)
+  - Spring m2 Plugin
+- **Java 8** SDK / JRE
+- **SQL Developer** (Version 18)
+- **Oracle Database** (Version 18c, also 12c compatible)
+- **Apache Tomcat** v9
+
+
+
+Open up your DBMS software, we will create tables and insert mock data.
+Create a new connection, and remember your connection properties as we will insert this data into our project later.
+Open up the work sheet for the database and insert the SQL DDL, I have provided a “One Shot Insert” DDL for you to inject. This will create all tables and records, set primary and foreign keys. I’ve also provided individual SQL DDL files that you may insert one at a time in respective file number labeled order.
+SQL DDL is located at “\MT\WebContent\resources\SQL DDL”
+			Insert picture of SQL DDL FOLDER
+Clone this repository, once download is complete you may open up this project in your Eclipse IDE.
+			Insert picture of clone button.
+You need to modify the “TestDBServlet.java” file, replace User, Pass, jdbcURL, driver to match your connection in your DBMS.
+				Insert picture of testdb servlet file.
+Right click the “MT” project in your project explorer -> run as ->run on server.
+				Insert picture of run right click
+Set Tomcat to v9 and hit finish.
+				Insert picture of tom cat configuration
+
+The web application should take a few seconds to load and then run.
+I highly advise that you copy and paste the local url “http://localhost:8080/MT/” from the eclipse web explorer and open it on your local browser for the full front end user experience.
+				Insert picture of local browser with url and part of mindtipper pic
+
+
+
+<!------------------------------------------------------------->
+
+# Model View Controller
+
+Initially I attempted to create this project as Maven converted project
+
+The first attempted was using POJO JDBC and faced issues with passing and accessing data from and to the JSP.
+
+All models, DAO, and interfaces were created already and frustrating to leave behind.
+Insert dao pic of old pj
+The second attempt we came across the same issue using JDBC template method.
+
+The third and current attempt is using Hibernate which we were able to finally read from the database and send to the JSP.
+
+
+<!------------------------------------------------------------->
+
+# MVC - MODELS
+Four tables exist in our database therefore we have Entities we have created.
+Primary keys,  toString() , getters & setters were set respectively;
+
+	Insert ENTITY PIC
+
+I created our DAO (interface)
+
+	Insert DAO pic
+
+The DAOImpl will handle our SessionFactory, query the database, then save the result into an List array.
+
+	Insert DAOimpln pic
+
+A service layer was created for multiple purposes:
+Handle our business logic,
+Security layer to prevent access to DAO and SQL injection
+Future integration
+
+CONTROLLER
+The controller layer handles mapping to direct to the corresponding JSP views.
+
+		Insert controller of mapping pages
+It also handles adding model attributes to the JSP page such as inserting the queried data to populate the JSP table. As the picture is shown, everything in caps lock has not been populated due to joined entities are not present and the query is only for one Entity.
+		Insert controller of search data
+Insert jsp page of search
+
+
+
+
+
+
+<!------------------------------------------------------------->
+
+# MVC - VIEW
+
+#### API Sources
+- **CSS**
+  - [W3school](https://www.w3schools.com/)
+  - [Css-tricks](https://css-tricks.com/)
+  - [Getbootstrap](https://getbootstrap.com/)
+  - [Mdboostrap](https://mdbootstrap.com/)
+  - [Startbootstrap](https://startbootstrap.com/)
+  - [Datatables](https://datatables.net/)
+- **JS**
+  - [Jquery](https://jquery.com/)
+  - [Wow.js](https://wowjs.uk/) (*animations*)
+- **FONTS & ICONS**
+    - [Google Fonts](https://fonts.google.com/)
+    - [Font Awesome](https://fontawesome.com/)
+    - [Simple Line Icons](http://simplelineicons.com/)
+- **Images**
+  - [Pixay Bay](https://pixabay.com/) (*Royalty Free*)
+- **Validation**
+     - [HTML.com](https://html.com/)
+     - [Developer.Mozilla.org](https://developer.mozilla.org/en-US/)
+
+Some API sources used were for learning purposes only, any API libraries that were used are located in the  “\MT\WebContent\resources\” folder, labeled respectively. 
+
+The css & js folder contains the personal modified external stylings done for the JSP pages. All external sources have been credited to the respective authors/companies on each of their files.
+
+Each JSP page implements bootstrap API for styling.
+Each page scales for mobile use or smaller resolutions.
+Navigation bar and footer were custom made (scales).
+With the exception of the homepage, no template was copied, each page was heavily modified to get the current results.
+Home page was inspired by https://startbootstrap.com/ but highly modified.
+Internal and external CSS was used as the requirement for this case study.
+
+HTML and design were first created using a text editor, VScode. This allowed faster front end testing. Once the HTML was satisfactory, I’ve moved it over to a JSP file in eclipse for the final touches it needed to work with the supported JSTL tag library.
+
+“Terms of use” & “Privacy Policy” have factual information regarding this project at its current state and for future features not yet implemented. You can generate specified documentation at https://termly.io/. I could not afford the membership so I had to manual create my own HTML and CSS for this page as embedding was the only way to use these terms for non paid members and that was not an option.
+
+Their protection layer  made nearly impossible to extract the documentation in plain text. I was able to use what I learned from Platform PerScholas HTML debugging and managed to get this information. Once extraction was complete, a long process of descrambling had to be done. Credit was given to the company in the jsp page.
+
+Animation
+I implemented a very powerful tool called WOW.JS. for simple animations. Customized timers can be found in animate.css(LINK)
+
+JSP 
+ There are currently 12 JSP pages located in the view(LINK) folder.
+We have removed boilerplate code by creating a folder(LINK) to hold static header footer and nav bars JSP files that were included in each JSP file.
+
+
+<!------------------------------------------------------------->
+
+# UNFINISHED / PROBLEMS
+  
+
+Problems:
+- I’ve restarted my project a few times. Because I made my views early in the project not a lot of time was wasted for each new project attempt as the views were easily transferable.
+- My first attempt was using POJO JDBC, we ran into issues not knowing exactly what went wrong from the view->controller->DAO->DB and vice versa.
+- The same issue occurred using JDBC template but this was more due to uncertainty of configuration.
+- My latest attempt was using Hibernate which I was finally able to receive concrete a “read” from my database to my jsp. 
+-At this point we have to continue to figure out how to correctly map entities with our project layout. We will be able to complete half of the needed functionality of this project.
+- An attempt was made to try and register a new user. I came across a roadblock trying to figure out why I was getting a “cannot insert null”. I tried to modify @GeneratedValue, create OneToMany/ManyToOne,  create a sequence of auto increment, etc. 
+
+	
+      
 
 
 
