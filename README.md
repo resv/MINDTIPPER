@@ -69,7 +69,7 @@ Although a domain name has been secured (MindTipper.com), the application is not
 #### Prerequisites
 - **[Eclipse IDE](https://www.eclipse.org/downloads/download.php?file=/oomph/epp/photon/R/eclipse-inst-win64.exe)** (Photon Preferred)
 - **Oracle Driver** (provided in lib folder)
-- Misc Jar files
+- Misc Jar files (provided in lib folder)
   - Spring
   - Hibernate
   - Javax (JSP, JSTL, SERVLET, PERSISTENCE)
