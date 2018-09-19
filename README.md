@@ -19,7 +19,7 @@ ___
 Deleted and made a brand new Case Study repository in attempt to keep this project seperate from Java Training (exercises).
 
 <!----------------------------------------------------------------------------------------------------------------------------------->
-											<h1 align="center" id="summary"> Summary</h1>
+<h1 align="center" id="summary"> Summary</h1>
 An dynamic web application to help decision making that doesn’t rely on a random generator. A decision title is split into two columns called choices, each choice has a supporting detail set that weigh against the opposing choice’s detail set. 
 
 		Insert pic of table with selections chosen
@@ -34,7 +34,7 @@ As more unedited completed decisions are retaken by other users, more data is ga
 
 
 <!----------------------------------------------------------------------------------------------------------------------------------->
-                            				 <h1 align="center" id="planning"> Planning </h1>
+<h1 align="center" id="planning"> Planning </h1>
 The case study started with a summary of the application, describing what its purpose would be. 
 Insert summary picture here
 Next came requirement analysis that would detail the necessary components the project must have, and soon after the user case which would describe what the user wants to do.
@@ -61,7 +61,7 @@ A one man project really didn’t need the use of JIRA, so instead I used Trello
 
 Many revisions of the planning process has been made, currently up to revision 5. The first revision folder starts here. (LINK REVISION FODLER)
 <!----------------------------------------------------------------------------------------------------------------------------------->
-											<h1 align="center" id="installation">Installation</h1>
+<h1 align="center" id="installation">Installation</h1>
 
 
 Although a domain name has been secured (MindTipper.com), the application is not ready for official launch. Step by Step instructions will be provided to run this application locally on your machine for further development or testing purposes
@@ -102,7 +102,7 @@ I highly advise that you copy and paste the local url “http://localhost:8080/M
 
 
 <!----------------------------------------------------------------------------------------------------------------------------------->
-								 			<h1 align="center" id="mvc">MODEL VIEW CONTROLLER</h1>
+<h1 align="center" id="mvc">MODEL VIEW CONTROLLER</h1>
 
 Initially I attempted to create this project as Maven converted project
 
@@ -117,7 +117,7 @@ The third and current attempt is using Hibernate which we were able to finally r
 
 
 <!----------------------------------------------------------------------------------------------------------------------------------->
-											<h1 align="center" id="model">MVC - MODEL</h1>
+<h1 align="center" id="model">MVC - MODEL</h1>
 Four tables exist in our database therefore we have Entities we have created.
 Primary keys,  toString() , getters & setters were set respectively;
 
@@ -139,7 +139,7 @@ Future integration
 
 
 <!----------------------------------------------------------------------------------------------------------------------------------->
-											<h1 align="center" id="view">MVC - VIEW</h1>
+<h1 align="center" id="view">MVC - VIEW</h1>
 #### API Sources
 - **CSS**
   - [W3school](https://www.w3schools.com/)
@@ -188,7 +188,7 @@ We have removed boilerplate code by creating a folder(LINK) to hold static heade
 
 
 <!----------------------------------------------------------------------------------------------------------------------------------->
-									<h1 align="center" id="controller">MVC - CONTROLLER</h1>
+<h1 align="center" id="controller">MVC - CONTROLLER</h1>
                                     The controller layer handles mapping to direct to the corresponding JSP views.
 
 		Insert controller of mapping pages
@@ -199,7 +199,7 @@ Insert jsp page of search
 
 
 <!----------------------------------------------------------------------------------------------------------------------------------->
-									<h1 align="center" id="unfinished">UNFINISHED / PROBLEMS</h1>
+<h1 align="center" id="unfinished">UNFINISHED / PROBLEMS</h1>
 
 Problems:
 - I’ve restarted my project a few times. Because I made my views early in the project not a lot of time was wasted for each new project attempt as the views were easily transferable.
