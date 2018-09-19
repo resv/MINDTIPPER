@@ -136,7 +136,11 @@ Handle our business logic,
 Security layer to prevent access to DAO and SQL injection
 Future integration
 
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> 8361e91ea668231ed1c5bd8818b95df8fd4a9be4
 
 <!----------------------------------------------------------------------------------------------------------------------------------->
 											<h1 align="center" id="view">MVC - VIEW</h1>
