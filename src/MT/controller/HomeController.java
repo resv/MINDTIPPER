@@ -36,7 +36,7 @@ public class HomeController {
 		return "user";
 	}
 	
-	
+	 
 	
 	//READS DECISIONINFO FROM DB TO SEARCH PAGE
 	@Autowired
