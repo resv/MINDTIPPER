@@ -1,0 +1,163 @@
+@charset "ISO-8859-1";
+
+/* --------------------------------- */
+/* landingPage */
+
+#landing1{
+    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 0s;  
+
+    animation-duration: 2s;
+    animation-delay: 0s;  
+  }
+#landing2{
+    -webkit-animation-duration: 3s;
+    -webkit-animation-delay: 0s;
+
+    animation-duration: 3s;
+    animation-delay: 0s;
+  }
+#landing3{
+    -webkit-animation-duration: 3s;
+    -webkit-animation-delay: 0s;
+
+    animation-duration: 3s;
+    animation-delay: 0s;
+  }
+#landing4{
+    -webkit-animation-duration: 3s;
+    -webkit-animation-delay: 0s;
+
+    animation-duration: 3s;
+    animation-delay: 0s;
+  }
+#landing5{
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: 0s;
+
+    animation-duration: 1s;
+    animation-delay: 0s;
+}
+#landing6{
+    -webkit-animation-duration: 3s;
+    -webkit-animation-delay: 1s;
+
+    animation-duration: 3s;
+    animation-delay: 1s;
+    opacity: 0;
+}
+#landing7{
+    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 4s;
+
+    animation-duration: 2s;
+    animation-delay: 4s;
+    opacity: 0;
+}
+
+/* --------------------------------- */
+/* stepByStep // ICON GRID*/
+
+#stepByStep1{
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: 500ms;
+
+    animation-duration: 1s;
+    animation-delay: 500ms;
+}
+
+#stepByStep2{
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: 1000ms;
+
+    animation-duration: 1s;
+    animation-delay: 1000ms;
+}
+
+#stepByStep3{
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: 1500ms;
+
+    animation-duration: 1s;
+    animation-delay: 1500ms;
+}
+
+
+/* --------------------------------- */
+/*  FEATURES // IMAGE SHOWCASES */
+/*  NO CUSTOM CSS NEEDED */
+
+/* --------------------------------- */
+/* POSSIBLE BY... // TESTIMONIALS */
+
+#portrait1{
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-delay: 700ms;
+
+    animation-duration: 1.2s;
+    animation-delay: 700ms;
+}
+
+#portrait2{
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: 200ms;
+
+    animation-duration: 1s;
+    animation-delay: 200ms;
+}
+
+#portrait3{
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-delay: 700ms;
+
+    animation-duration: 1.2s;
+    animation-delay: 700ms;
+}
+
+/* NAME OF ORG */
+.title1{
+    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 1400ms;
+
+    animation-duration: 2s;
+    animation-delay: 1400ms;
+}
+.title2{
+    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 200ms;
+
+    animation-duration: 2s;
+    animation-delay: 200ms;
+}
+.title3{
+    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 1400ms;
+
+    animation-duration: 2s;
+    animation-delay: 1400ms;
+}
+
+/* MOTTO */
+#motto1{
+    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 1400ms;
+
+    animation-duration: 2s;
+    animation-delay: 1400ms;
+}
+#motto2{
+    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 200ms;
+
+    animation-duration: 2s;
+    animation-delay: 200ms;
+}
+#motto3{
+    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 1400ms;
+
+    animation-duration: 2s;
+    animation-delay: 1400ms;
+}
+
+/* --------------------------------- */

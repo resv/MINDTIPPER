@@ -1,0 +1,36 @@
+CREATE TABLE "Customer Info" (
+  "USER_ID" int,
+  "Username" varchar (20),
+  "EMAIL" varchar (25),
+  "PASSWORD" varchar (25)
+);
+
+CREATE TABLE "Details Info" (
+  "DETAIL_ID (PK)" int,
+  "DETAILA" varchar (50),
+  "DETAILB" varchar (50),
+  "SELECTION" varchar (2)
+);
+
+CREATE TABLE "Decision History" (
+  "DESC_ID (FK)" int,
+  "TITLE" varchar (50),
+  "DATE_CREATED" date,
+  "PERCENTAGE" int,
+  "WINNER" int,
+  "AUTHOR (Username)" varchar (25)
+);
+
+CREATE TABLE "Decision Info" (
+  "USER_ID (FK)" int,
+  "DESC_ID (PK)" int,
+  "DATE_CREATED" date,
+  "PERCENTAGE" int,
+  "WINNER" int,
+  "COMPLETE" int,
+  "TITLE" varchar (50),
+  "CHOICEA_ID" int,
+  "CHOICEB_ID" int,
+  "PUBLIC" int
+);
+
