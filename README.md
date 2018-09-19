@@ -8,22 +8,18 @@ ___
 - [Summary](#summary)
 - [Planning](#planning)
 - [Installation](#nstallation)
-    - [Prerequisites](#prerequisites)
-    - [x](#x)
-    - [x](#x)
 - [Model View Controller](#model-view-controller)
-	-[MVC - Model](#mvc-model)
-    -[MVC - View](#mvc-view)
-    -[MVC - Controller](#mvc-controller)
-- [Unfinished / Problems](#unfinished-/-problems)
+    - [Model](#model)
+    - [View](#view)
+    - [Controller](#controller)
+- [Unfinished / Problems](#unfinished)
 <br>
 
 ###### Repository Notes
 Deleted and made a brand new Case Study repository in attempt to keep this project seperate from Java Training (exercises).
 
-<!------------------------------------------------------------->
-
-# Summary
+<!----------------------------------------------------------------------------------------------------------------------------------->
+											<h1 align="center" id="summary"> Summary</h1>
 An dynamic web application to help decision making that doesn’t rely on a random generator. A decision title is split into two columns called choices, each choice has a supporting detail set that weigh against the opposing choice’s detail set. 
 
 		Insert pic of table with selections chosen
@@ -37,10 +33,8 @@ Users can share their decisions with others, retake or edit existing completed d
 As more unedited completed decisions are retaken by other users, more data is gathered on the value of a detail chosen by many. With this data we can analyze which details hold more value over others.
 
 
-<!------------------------------------------------------------->
-
-# Planning
-
+<!----------------------------------------------------------------------------------------------------------------------------------->
+                            				 <h1 align="center" id="planning"> Planning </h1>
 The case study started with a summary of the application, describing what its purpose would be. 
 Insert summary picture here
 Next came requirement analysis that would detail the necessary components the project must have, and soon after the user case which would describe what the user wants to do.
@@ -66,24 +60,24 @@ A one man project really didn’t need the use of JIRA, so instead I used Trello
 		Insert trello pick here
 
 Many revisions of the planning process has been made, currently up to revision 5. The first revision folder starts here. (LINK REVISION FODLER)
-<!------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------->
+											<h1 align="center" id="installation">Installation</h1>
 
-# Installation
 
 Although a domain name has been secured (MindTipper.com), the application is not ready for official launch. Step by Step instructions will be provided to run this application locally on your machine for further development or testing purposes
 
 #### Prerequisites
-- **Eclipse IDE** (Photon Preferred)
+- **[Eclipse IDE](https://www.eclipse.org/downloads/download.php?file=/oomph/epp/photon/R/eclipse-inst-win64.exe)** (Photon Preferred)
 - **Oracle Driver** (provided in lib folder)
 - Misc Jar files
   - Spring
   - Hibernate
   - Javax (JSP, JSTL, SERVLET, PERSISTENCE)
   - Spring m2 Plugin
-- **Java 8** SDK / JRE
-- **SQL Developer** (Version 18)
-- **Oracle Database** (Version 18c, also 12c compatible)
-- **Apache Tomcat** v9
+- **[Java 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)** SDK / JRE
+- **[SQL Developer](https://www.oracle.com/technetwork/developer-tools/sql-developer/downloads/index.html)** (Version 18)
+- **[Oracle Database](https://www.oracle.com/technetwork/database/enterprise-edition/downloads/index.html)** (Version 18c, also 12c compatible)
+- **[Apache Tomcat](https://tomcat.apache.org/download-90.cgi)** v9
 
 
 
@@ -107,9 +101,8 @@ I highly advise that you copy and paste the local url “http://localhost:8080/M
 
 
 
-<!------------------------------------------------------------->
-
-# Model View Controller
+<!----------------------------------------------------------------------------------------------------------------------------------->
+								 			<h1 align="center" id="mvc">MODEL VIEW CONTROLLER</h1>
 
 Initially I attempted to create this project as Maven converted project
 
@@ -122,9 +115,9 @@ The second attempt we came across the same issue using JDBC template method.
 The third and current attempt is using Hibernate which we were able to finally read from the database and send to the JSP.
 
 
-<!------------------------------------------------------------->
 
-# MVC - MODELS
+<!----------------------------------------------------------------------------------------------------------------------------------->
+											<h1 align="center" id="model">MVC - MODEL</h1>
 Four tables exist in our database therefore we have Entities we have created.
 Primary keys,  toString() , getters & setters were set respectively;
 
@@ -143,23 +136,10 @@ Handle our business logic,
 Security layer to prevent access to DAO and SQL injection
 Future integration
 
-CONTROLLER
-The controller layer handles mapping to direct to the corresponding JSP views.
-
-		Insert controller of mapping pages
-It also handles adding model attributes to the JSP page such as inserting the queried data to populate the JSP table. As the picture is shown, everything in caps lock has not been populated due to joined entities are not present and the query is only for one Entity.
-		Insert controller of search data
-Insert jsp page of search
 
 
-
-
-
-
-<!------------------------------------------------------------->
-
-# MVC - VIEW
-
+<!----------------------------------------------------------------------------------------------------------------------------------->
+											<h1 align="center" id="view">MVC - VIEW</h1>
 #### API Sources
 - **CSS**
   - [W3school](https://www.w3schools.com/)
@@ -206,10 +186,20 @@ JSP
 We have removed boilerplate code by creating a folder(LINK) to hold static header footer and nav bars JSP files that were included in each JSP file.
 
 
-<!------------------------------------------------------------->
 
-# UNFINISHED / PROBLEMS
-  
+<!----------------------------------------------------------------------------------------------------------------------------------->
+									<h1 align="center" id="controller">MVC - CONTROLLER</h1>
+                                    The controller layer handles mapping to direct to the corresponding JSP views.
+
+		Insert controller of mapping pages
+It also handles adding model attributes to the JSP page such as inserting the queried data to populate the JSP table. As the picture is shown, everything in caps lock has not been populated due to joined entities are not present and the query is only for one Entity.
+		Insert controller of search data
+Insert jsp page of search
+
+
+
+<!----------------------------------------------------------------------------------------------------------------------------------->
+									<h1 align="center" id="unfinished">UNFINISHED / PROBLEMS</h1>
 
 Problems:
 - I’ve restarted my project a few times. Because I made my views early in the project not a lot of time was wasted for each new project attempt as the views were easily transferable.
@@ -218,12 +208,3 @@ Problems:
 - My latest attempt was using Hibernate which I was finally able to receive concrete a “read” from my database to my jsp. 
 -At this point we have to continue to figure out how to correctly map entities with our project layout. We will be able to complete half of the needed functionality of this project.
 - An attempt was made to try and register a new user. I came across a roadblock trying to figure out why I was getting a “cannot insert null”. I tried to modify @GeneratedValue, create OneToMany/ManyToOne,  create a sequence of auto increment, etc. 
-
-	
-      
-
-
-
-
-
-
