@@ -69,7 +69,7 @@ Although a domain name has been secured (MindTipper.com), the application is not
 #### Prerequisites
 - **[Eclipse IDE](https://www.eclipse.org/downloads/download.php?file=/oomph/epp/photon/R/eclipse-inst-win64.exe)** (Photon Preferred)
 - **Oracle Driver** (provided in lib folder)
-- Misc Jar files (provided in lib folder)
+- Misc Jar files
   - Spring
   - Hibernate
   - Javax (JSP, JSTL, SERVLET, PERSISTENCE)
@@ -136,11 +136,7 @@ Handle our business logic,
 Security layer to prevent access to DAO and SQL injection
 Future integration
 
-<<<<<<< HEAD
- 
-=======
 
->>>>>>> 8361e91ea668231ed1c5bd8818b95df8fd4a9be4
 
 <!----------------------------------------------------------------------------------------------------------------------------------->
 											<h1 align="center" id="view">MVC - VIEW</h1>
@@ -212,3 +208,12 @@ Problems:
 - My latest attempt was using Hibernate which I was finally able to receive concrete a “read” from my database to my jsp. 
 -At this point we have to continue to figure out how to correctly map entities with our project layout. We will be able to complete half of the needed functionality of this project.
 - An attempt was made to try and register a new user. I came across a roadblock trying to figure out why I was getting a “cannot insert null”. I tried to modify @GeneratedValue, create OneToMany/ManyToOne,  create a sequence of auto increment, etc. 
+
+	
+      
+
+
+
+
+
+
