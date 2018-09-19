@@ -51,6 +51,7 @@
 		   <props>
 		      <prop key="hibernate.dialect">org.hibernate.dialect.Oracle12cDialect</prop>
 		      <prop key="hibernate.show_sql">true</prop>
+		      <prop key="hibernate.id.new_generator_mappings">false</prop>
 		   </props>
 		</property>
    </bean>	  

@@ -7,10 +7,11 @@ import org.hibernate.SessionFactory;
 import org.hibernate.query.Query;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
 
 import MT.entity.UserInfo;
 
-
+@Transactional
 @Repository //must be applied to all DAOimpli
 public class UserInfoDAOImpl implements UserInfoDAO {
 
@@ -34,7 +35,7 @@ public class UserInfoDAOImpl implements UserInfoDAO {
 		return user;
 		
 	}
-
+	
 	@Override
 	public void saveUserInfo(UserInfo theUser) {
 		

@@ -108,7 +108,8 @@ public class HomeController {
 	public String registerUser(@ModelAttribute("user") UserInfo theUser) {
 		
 		userinfoservice.saveUserInfo(theUser);
-		return "search";
+		
+		return "menu";
 	}
 	
 	
@@ -182,7 +183,7 @@ public class HomeController {
 	}	
 			
 			
-//------------USER PAGE--------------//	
+////------------USER PAGE--------------//	
 
 	//USER PAGE REDIRECT
 	@RequestMapping("/user")

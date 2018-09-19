@@ -35,6 +35,27 @@ public class UserInfo {
 		public UserInfo() {
 		}
 
+
+		public UserInfo(String username, String email, String password, int lvl) {
+			super();
+			this.username = username;
+			this.email = email;
+			this.password = password;
+			this.lvl = lvl;
+		}
+		
+		
+		public UserInfo(int user_id, String username, String email, String password, int lvl) {
+			super();
+			this.user_id = user_id;
+			this.username = username;
+			this.email = email;
+			this.password = password;
+			this.lvl = lvl;
+		}
+
+
+
 		//TOSTRING
 		@Override
 		public String toString() {
