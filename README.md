@@ -268,11 +268,7 @@ I implemented a very powerful tool called [WOW.JS](https://wowjs.uk/). for simpl
 
 <!-------------------------------------------------------------------------------------------------------------------------->
 <h1 align="center" id="controller">MVC - CONTROLLER</h1>
-<img align="right" src="https://imgur.com/Qdmv4Fk.png" width="300" height="400">
-
-<br>
-<br>
-<br>
+<img align="right" src="https://imgur.com/Qdmv4Fk.png" width="300" height="350">
 <br>
 
 1. The [controller](https://github.com/resv/MINDTIPPER/blob/master/src/MT/controller/HomeController.java) layer handles mapping to the corresponding [JSP views](https://github.com/resv/MINDTIPPER/tree/master/WebContent/WEB-INF/view) and for navigational usability, I have created simple view controllers.
@@ -281,12 +277,11 @@ I implemented a very powerful tool called [WOW.JS](https://wowjs.uk/). for simpl
 
 2. At the moment I only have two controllers that have any real functionality which is registering the user(creates a new user in the database). The other is search controller to display results for other decisions in the database. This search controller requires a joined entity to complete the desired functionality which I could not resolve in time.
 
-<br>
-
 *Picture shown below represents data queried from the database. Text wrapped in parenthesis are data place holders that would populate correctly with joined entities.*
 
 <img src="https://imgur.com/WyxdjwA.png" width="900" height="500">
 
+<br>
 
 3. Our DAO and DAOImpl contains the necessary methods for this operation. We also have a service layer for future expansion and flexibility. The service layer would allow us to add additional business logic later. Another use for the service layer would be to seperate the DAO and DAOImpl from the user for additional layer of protection against any attacks.
 
