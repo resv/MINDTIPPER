@@ -35,24 +35,12 @@ As more unedited completed decisions are retaken by other users, more data is ga
 <h1 align="center" id="planning"> Planning </h1>
 
 
-1. The case study started with a [summary](https://github.com/resv/MINDTIPPER/blob/master/PLANNING/REVISION%202/REVISION%203/REVISION%204/REVISION%205/WireFrame%20-%20CaseStudySummary%20-%20ReqAnalysis/CASE_STUDY_SUMMARY.pdf) of the application, describing what its purpose would be.
+1. The case study started with [Planning](https://github.com/resv/MINDTIPPER/tree/master/PLANNING) with many revisions, up to [revision #5](https://github.com/resv/MINDTIPPER/tree/master/PLANNING/REVISION%202/REVISION%203/REVISION%204/REVISION%205).
 
 | [Summary](https://github.com/resv/MINDTIPPER/blob/master/PLANNING/REVISION%202/REVISION%203/REVISION%204/REVISION%205/WireFrame%20-%20CaseStudySummary%20-%20ReqAnalysis/CASE_STUDY_SUMMARY.pdf) | [Req Analysis](https://github.com/resv/MINDTIPPER/blob/master/PLANNING/REVISION%202/REVISION%203/REVISION%204/REVISION%205/WireFrame%20-%20CaseStudySummary%20-%20ReqAnalysis/REQ_ANALYSIS_USERCASE.pdf) | [User Case](https://github.com/resv/MINDTIPPER/blob/master/PLANNING/REVISION%202/REVISION%203/REVISION%204/REVISION%205/WireFrame%20-%20CaseStudySummary%20-%20ReqAnalysis/REQ_ANALYSIS_USERCASE.pdf) | [WireFrame](https://github.com/resv/MINDTIPPER/blob/master/PLANNING/REVISION%202/REVISION%203/REVISION%204/REVISION%205/WireFrame%20-%20CaseStudySummary%20-%20ReqAnalysis/wireframePDF.pdf) | [Entity Relation Diagram](https://github.com/resv/MINDTIPPER/blob/master/PLANNING/REVISION%202/REVISION%203/REVISION%204/REVISION%205/ERD_MODIFIED%20REV%205.pdf) | [Mock Database View](https://github.com/resv/MINDTIPPER/blob/master/PLANNING/REVISION%202/REVISION%203/REVISION%204/REVISION%205/MOCK%20UP%20OF%20ICANTPICK%20DATABASE%20REV%205.pdf) |
 |---|---|---|---|---|---|
 | <img align="center" src="https://imgur.com/f58EEvA.png" width="150" height="200"> | <img align="center" src="https://imgur.com/SLUG94e.png" width="150" height="200"> | <img align="center" src="https://imgur.com/DxKWj8c.png" width="150" height="200"> | <img align="center" src="https://imgur.com/Bz29r4w.png" width="150" height="200"> | <img align="center" src="https://imgur.com/egKUVn1.png" width="150" height="200"> | <img align="center" src="https://imgur.com/b8KDNbe.png" width="150" height="200"> |
 
-
-
-Insert summary picture here
-Next came requirement analysis that would detail the necessary components the project must have, and soon after the user case which would describe what the user wants to do.
-<img src="https://imgur.com/ihUy5yx.png"height="400">
-		
-
-With the requirement analysis, I would be able to develop a wireframe to be able to visualize all the requirements as a potential product. I used balsamiq.com to develop this wireframe.(LINK WIREFRAME)
-		Insert wireframe here.
-
-Entity relationship diagram was helpful to plan out the database and make their connections across other entities. This also allowed me to plan out the data types, primary and foreign keys for the database. I’ve used Lucid Charts.com to develop this diagram. (LINK ERD)
-		Insert ERD diagram here.
 
 We testing the database by entering mock data using MOCKaroo.com. (LINK TO SCHEMA) Not all data may make complete sense but it was vital to have. Mock data allowed myself to develop and test queries, and test that JDBC was able to read and write with no conflictions later in development. (LINK DDL FOLDER HERE)
 Insert mockaroo schemas
@@ -60,14 +48,9 @@ Insert mockaroo schemas
 With constant database testing and modifications, it was crucial to save my DDL, so I created a “One-Shot” DDL insert file. This handle creation of my tables, inserted mock data, and generated all my private and foreign keys. (LINK DDL)
 		Insert ONESHOT DDL pic here
 
-Honorable mention to google sheets to help me picture what my database query would look like and to help make any changes needed to the actual database. (LINK TO GOOGLE SHEETS)
-
-		Insert google sheets
-
 A one man project really didn’t need the use of JIRA, so instead I used Trello which help keep track of my progress of the entire development. (LINK TRELLO HERE)
 		Insert trello pick here
 
-Many revisions of the planning process has been made, currently up to revision 5. The first revision folder starts here. (LINK REVISION FODLER)
 <!----------------------------------------------------------------------------------------------------------------------------------->
 <h1 align="center" id="installation">Installation</h1>
 
