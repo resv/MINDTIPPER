@@ -46,7 +46,7 @@ As more unedited completed decisions are retaken by other users, more data is ga
 <img align="right" src="https://imgur.com/1P7FTMh.png" width="350" height="200">
 <img align="right" src="https://imgur.com/9kL2A5j.png" width="600" height="350">
 <br>
-We testing the database by entering mock data using [Mockaroo](https://mockaroo.com/schemas/127284) [Mockaroo](https://mockaroo.com/schemas/127284). 
+We testing the database by entering mock data using [Mockaroo](https://mockaroo.com).
 <br><br>
 Not all data may make complete sense but it was vital to have, mock data allowed to develop and test queries.
 
@@ -63,6 +63,12 @@ It was unecessary to use JIRA for a one man project, so I instead used [Trello](
 <!----------------------------------------------------------------------------------------------------------------------------------->
 <h1 align="center" id="installation">Installation</h1>
 
+
+<br>
+<img align="right" src="https://imgur.com/6SgZv7U.png" width="300" height="600">
+<img align="right" src="https://imgur.com/1P7FTMh.png" width="350" height="200">
+<img align="right" src=" https://imgur.com/41husxC.png" width="600" height="350">
+<br>
 
 Although a domain name has been secured (MindTipper.com), the application is not ready for official launch. Step by Step instructions will be provided to run this application locally on your machine for further development or testing purposes
 
@@ -81,15 +87,20 @@ Although a domain name has been secured (MindTipper.com), the application is not
 
 
 
-Open up your DBMS software, we will create tables and insert mock data.
-Create a new connection, and remember your connection properties as we will insert this data into our project later.
-Open up the work sheet for the database and insert the SQL DDL, I have provided a “One Shot Insert” DDL for you to inject. This will create all tables and records, set primary and foreign keys. I’ve also provided individual SQL DDL files that you may insert one at a time in respective file number labeled order.
+1. Open up your DBMS software, we will create tables and insert mock data.
+
+2. Create a new connection, and remember your connection properties as we will insert this data into our project later.
+
+3. Open up the work sheet for the database and insert the SQL DDL, I have provided a “[One Shot](https://github.com/resv/MINDTIPPER/blob/master/PLANNING/REVISION%202/REVISION%203/REVISION%204/REVISION%205/DDL%20SQL%20INSERTS%20REV%205/DDL%20ONE%20SHOT%20INSERTS.txt)” DDL for you to inject. This will create all tables and records, set primary and foreign keys. I’ve also provided [individual SQL DDL files](https://github.com/resv/MINDTIPPER/tree/master/PLANNING/REVISION%202/REVISION%203/REVISION%204/REVISION%205/DDL%20SQL%20INSERTS%20REV%205) that you may insert one at a time in respective file number labeled order.
 SQL DDL is located at “\MT\WebContent\resources\SQL DDL”
-			Insert picture of SQL DDL FOLDER
-Clone this repository, once download is complete you may open up this project in your Eclipse IDE.
-			Insert picture of clone button.
-You need to modify the “TestDBServlet.java” file, replace User, Pass, jdbcURL, driver to match your connection in your DBMS.
+			
+4. Clone this repository, once download is complete you may open up this project in your Eclipse IDE.
+
+5. You need to modify the “TestDBServlet.java” file, replace User, Pass, jdbcURL, driver to match your connection in your DBMS.
 				Insert picture of testdb servlet file.
+               
+                
+                
 Right click the “MT” project in your project explorer -> run as ->run on server.
 				Insert picture of run right click
 Set Tomcat to v9 and hit finish.
