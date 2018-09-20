@@ -4,6 +4,7 @@
 </p>
 
 # 
+<img align="right" src="BeneficialPlumpJackal-size_restricted.gif" width="550" height="320" />
 
 ### Table of Contents
 - [Summary](#summary)
@@ -16,8 +17,6 @@
 - [Unfinished / Problems](#unfinished)
 ###### Repository Notes
 Remade a Case Study repository in attempt to keep this project seperate from Java Training (exercises).
-<br>
-<img align="right" src="BeneficialPlumpJackal-size_restricted.gif" width="550" height="350" />
 ___
 <br><br><br>
 <!------------------------------------------------------------------------------------------------------------------------->
