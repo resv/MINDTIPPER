@@ -57,7 +57,7 @@ There is also [individual files](https://github.com/resv/MINDTIPPER/tree/master/
 <br><br><br><br>
 
 It was unecessary to use JIRA for a one man project, so I instead used [Trello](https://trello.com/b/cFsNYBow/mindtipper) which help keep track of my progress of the entire development. 
-<br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br>
 
 
 <!----------------------------------------------------------------------------------------------------------------------------------->
