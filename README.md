@@ -3,7 +3,10 @@
 <img alt="GitPoint" title="GitPoint" src="https://imgur.com/m8HCs0K.png" width="250">
 </p>
 
-___
+# 
+
+<iframe  src='https://gfycat.com/ifr/BeneficialPlumpJackal' frameborder='0' scrolling='no' width='450' height='350'  align="right"></iframe>
+
 ### Table of Contents
 - [Summary](#summary)
 - [Planning](#planning)
@@ -14,7 +17,7 @@ ___
     - [Controller](#controller)
 - [Unfinished / Problems](#unfinished)
 ###### Repository Notes
-Deleted and made a brand new Case Study repository in attempt to keep this project seperate from Java Training (exercises).
+Remade a Case Study repository in attempt to keep this project seperate from Java Training (exercises).
 ___
 <br><br><br>
 <!------------------------------------------------------------------------------------------------------------------------->
@@ -213,11 +216,3 @@ Problems:
 
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-	
-      
-
-
-
-
-
-
