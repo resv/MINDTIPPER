@@ -41,11 +41,25 @@ As more unedited completed decisions are retaken by other users, more data is ga
 |---|---|---|---|---|---|
 | <img align="center" src="https://imgur.com/f58EEvA.png" width="150" height="200"> | <img align="center" src="https://imgur.com/SLUG94e.png" width="150" height="200"> | <img align="center" src="https://imgur.com/DxKWj8c.png" width="150" height="200"> | <img align="center" src="https://imgur.com/Bz29r4w.png" width="150" height="200"> | <img align="center" src="https://imgur.com/egKUVn1.png" width="150" height="200"> | <img align="center" src="https://imgur.com/b8KDNbe.png" width="150" height="200"> |
 
-<br><br><br><br><br><br>
-We testing the database by entering mock data using [Mockaroo](https://mockaroo.com/schemas/127284). Not all data may make complete sense but it was vital to have<br>
+<br>
+<img align="right" src="https://imgur.com/LspzRDJ.png" width="600" height="350">
+<br><br><br>
+We testing the database by entering mock data using [Mockaroo](https://mockaroo.com/schemas/127284). Not all data may make complete sense but it was vital to have.<br>
 
-Mock data allowed to develop and test queries. With constant database testing and modifications, it was crucial to save my DDL, so I created a “One-Shot” DDL insert file. This handle creation of my tables, inserted mock data, and generated all my private and foreign keys. (LINK DDL)
-		Insert ONESHOT DDL pic here
+Mock data allowed to develop and test queries. With constant database testing and modifications.
+<br><br><br><br>
+
+
+With constant modifications and testing being done for my database, it was crucial to drop and recreate my datatables, so I created a “[One-Shot](https://github.com/resv/MINDTIPPER/blob/master/PLANNING/REVISION%202/REVISION%203/REVISION%204/REVISION%205/DDL%20SQL%20INSERTS%20REV%205/DDL%20ONE%20SHOT%20INSERTS.txt)” DDL insert file. This handle creation of my tables, inserted mock data, and generated all my private and foreign keys. 
+There is also [individual files](https://github.com/resv/MINDTIPPER/tree/master/PLANNING/REVISION%202/REVISION%203/REVISION%204/REVISION%205/DDL%20SQL%20INSERTS%20REV%205) for each table and keys, you an insert them in numerical order.
+
+<img align="right" src="https://imgur.com/1P7FTMh.png" width="350" height="200">
+
+
+
+
+
+
 
 A one man project really didn’t need the use of JIRA, so instead I used Trello which help keep track of my progress of the entire development. (LINK TRELLO HERE)
 		Insert trello pick here
