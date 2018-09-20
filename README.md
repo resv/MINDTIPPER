@@ -76,14 +76,14 @@ Not all data may make complete sense but it was vital to have, **mock data allow
 <br>
 
 With constant modifications and testing being done for my database, it was crucial to **drop and recreate my datatables quickly**, so I created a “[One-Shot](https://github.com/resv/MINDTIPPER/blob/master/PLANNING/REVISION%202/REVISION%203/REVISION%204/REVISION%205/DDL%20SQL%20INSERTS%20REV%205/DDL%20ONE%20SHOT%20INSERTS.txt)” DDL insert file. This handle **creation** of my **tables**, inserted **mock data**, and generated all my **private** and **foreign keys**. 
-There is also [individual files](https://github.com/resv/MINDTIPPER/tree/master/PLANNING/REVISION%202/REVISION%203/REVISION%204/REVISION%205/DDL%20SQL%20INSERTS%20REV%205) for each table and keys, you can insert them in numerical order.
+There is also [individual files](https://github.com/resv/MINDTIPPER/tree/master/PLANNING/REVISION%202/REVISION%203/REVISION%204/REVISION%205/DDL%20SQL%20INSERTS%20REV%205) for each table and keys, you can insert them in numerical order in the event of issues.
 
 <br>
 <br>
 <br>
 <br>
 
-It was **unecessary to use JIRA** for a one man project, so I instead used **[Trello](https://trello.com/b/cFsNYBow/mindtipper)** which help **keep track of my progress** of the entire development. 
+It was **unnecessary to use JIRA** for a one person project, so I instead used **[Trello](https://trello.com/b/cFsNYBow/mindtipper)** which help **keep track of my progress** during development. 
 
 <br>
 <br>
@@ -124,11 +124,11 @@ Although a domain name has been secured (MindTipper.com), the **application is n
 
 2. Create a new connection, and remember your connection properties as you will insert this data into the project later.
 
-3. Open up the work sheet for the database and insert the SQL DDL, I have provided a “[One Shot](https://github.com/resv/MINDTIPPER/blob/master/PLANNING/REVISION%202/REVISION%203/REVISION%204/REVISION%205/DDL%20SQL%20INSERTS%20REV%205/DDL%20ONE%20SHOT%20INSERTS.txt)” DDL for you to inject. This will create all tables and records, set primary and foreign keys. I’ve also provided [individual SQL DDL files](https://github.com/resv/MINDTIPPER/tree/master/PLANNING/REVISION%202/REVISION%203/REVISION%204/REVISION%205/DDL%20SQL%20INSERTS%20REV%205) that you may insert one at a time in numerical order.
+3. Open up the work sheet for the database and insert the SQL DDL, I have provided a “[One Shot](https://github.com/resv/MINDTIPPER/blob/master/PLANNING/REVISION%202/REVISION%203/REVISION%204/REVISION%205/DDL%20SQL%20INSERTS%20REV%205/DDL%20ONE%20SHOT%20INSERTS.txt)” DDL for you to inject. This will create all tables and records, set primary and foreign keys. I’ve also provided [individual SQL DDL files](https://github.com/resv/MINDTIPPER/tree/master/PLANNING/REVISION%202/REVISION%203/REVISION%204/REVISION%205/DDL%20SQL%20INSERTS%20REV%205) that you may insert one at a time in numerical order in the event of issues.
 			
 4. Clone this repository, once download is complete you may open up this project in your Eclipse IDE.
 
-5. You need to modify the “spring-mvc-crud-demo-servlet.xml” file, replace "User", "Pass", "jdbcURL", driver to match your connection in your DBMS.               
+5. You need to modify the “[spring-mvc-crud-demo-servlet.xml](https://github.com/resv/MINDTIPPER/blob/master/WebContent/WEB-INF/spring-mvc-crud-demo-servlet.xml)” file, replace "User", "Pass", "jdbcURL", driver to match your connection in your DBMS.               
                 
 <img align="center" src="https://imgur.com/vFv5IoH.png" width="900" height="150">
                 
@@ -185,14 +185,15 @@ I created our DAO (interface)
 
 	Insert DAO pic
 
-The DAOImpl will handle our SessionFactory, query the database, then save the result into an List array.
+The DAOImpl will handle our SessionFactory which will automatically open and close our connections, query the database, then save the result into an List array.
 
 	Insert DAOimpln pic
 
-A service layer was created for multiple purposes:
-Handle our business logic,
-Security layer to prevent access to DAO and SQL injection
-Future integration
+3. Our DAOs and DAOImpls contains the necessary methods for its purpose. I also have a service layer for future expansion and flexibility. **The service layer would allow us to add additional business logic later**. Another use for the service layer would be to seperate the DAO and DAOImpl from the user for additional layer of **protection against any attacks**.
+
+|[Controller](https://github.com/resv/MINDTIPPER/blob/master/src/MT/controller/HomeController.java)|[UserInfo Entity](https://github.com/resv/MINDTIPPER/blob/master/src/MT/entity/UserInfo.java)|[UserInfoDAO](https://github.com/resv/MINDTIPPER/blob/master/src/MT/dao/UserInfoDAO.java)|[UserInfoDAOImpl](https://github.com/resv/MINDTIPPER/blob/master/src/MT/dao/UserInfoDAOImpl.java)|[UserInfoService](https://github.com/resv/MINDTIPPER/blob/master/src/MT/service/UserInfoService.java)|[UserInfoServiceImpl](https://github.com/resv/MINDTIPPER/blob/master/src/MT/service/UserInfoServiceImpl.java)|
+|---|---|---|---|---|---|
+|<img src="https://imgur.com/PSho8Cx.png" width="150" height="200">|<img src="https://imgur.com/KcWjQrs.png" width="150" height="200">|<img src="https://imgur.com/sAqvEUT.png" width="150" height="200">|<img src="https://imgur.com/FFWXAEb.png" width="150" height="200">|<img src="https://imgur.com/d4O6s57.png" width="150" height="200">|<img src="https://imgur.com/mgA3VpD.png" width="150" height="200">|
 
 <br>
 <br>
