@@ -15,6 +15,7 @@
     - [View](#view)
     - [Controller](#controller)
 - [Unfinished / Problems](#unfinished)
+- [Summation](#summation)
 ###### Repository Notes
 Remade a Case Study repository in attempt to keep this project seperate from Java Training (exercises).
 ___
@@ -277,13 +278,22 @@ I implemented a very powerful tool called [WOW.JS](https://wowjs.uk/) for **simp
 <!------------------------------------------------------------------------------------------------------------------------->
 <h1 align="center" id="unfinished">UNFINISHED / PROBLEMS</h1>
 
-Problems:
-- I’ve restarted my project a few times. Because I made my views early in the project not a lot of time was wasted for each new project attempt as the views were easily transferable.
-- My first attempt was using POJO JDBC, we ran into issues for setup as I could not find any solid path to setup the environment.
-- The same issue occurred using JDBC template.
-- My latest attempt was using Hibernate which I was finally able to receive concrete a “read” from my database to my jsp. 
--At this point I have to continue to figure out how to correctly map entities with other entities. 
+**Environment Problems**:
+- I’ve **restarted my project** a few times. Because I made my views early in the project **not a lot of time was wasted** for each new project attempt as the views were easily transferable.
+	- My first attempt was using POJO JDBC, we ran into issues for setup as I could not find any solid path to setup the environment.
+	- The same issue occurred using JDBC template.
+	- My latest attempt was using Hibernate which I was finally able to receive concrete a “read” from my database to my jsp. 
 
+**Unfinished: joined Entity Problems**
+- I could not properly **join entities** together in hibernate. e.g. **OneToMany** and **ManyToOne**. 
+- **Logging in** should **return user** to their **personal** account page with their **data**.
+- **Search results** should **populate** complete **data from all tables** not just one.
+- **Template decisions** should **populate** complete **data from all tables** not just one.
+- **Submitting a new decision** should **write data** to **all tables** in the DB.
+- **New decisions form has input text bugs**
+- Register is done but I need to implement logging in.
+- **Contact form** for support has validation but does **not send emails**.
+- **Junit Testing NOT DONE.**
 <br>
 <br>
 <br>
@@ -291,7 +301,7 @@ Problems:
 <br>
 
 <!------------------------------------------------------------------------------------------------------------------------->
-<h1 align="center" id="unfinished">Summation</h1>
+<h1 align="center" id="summation">Summation</h1>
 I've gained so much knowledge within these past 3 months. Considering I did not have any prior formal training/education on Java, I was certain I would fail or fall terribly behind within the first month but making it to the last month in itself was a personal accomplishment. Realistically, I knew I wasn't going to be able to receive a high score or even receive a passing score but I no longer was concerned about my case study grade during the last few days of developing this case study.
 
 <br>
