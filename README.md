@@ -32,7 +32,7 @@ As more unedited completed decisions are retaken by other users, more data is ga
 <br><br><br><br><br><br><br><br><br><br>
 
 <!----------------------------------------------------------------------------------------------------------------------------------->
-<h1 align="center" id="planning"> Planning </h1>
+<h1 align="center" id="planning">Planning</h1>
 
 
 1. The case study started with [Planning](https://github.com/resv/MINDTIPPER/tree/master/PLANNING) with many revisions, up to [revision #5](https://github.com/resv/MINDTIPPER/tree/master/PLANNING/REVISION%202/REVISION%203/REVISION%204/REVISION%205).
@@ -145,6 +145,7 @@ Future integration
 <!---------------------------------------------------------------------------------------------------------------------------->
 <h1 align="center" id="view">MVC - VIEW</h1>
 
+<img align="right" src="https://imgur.com/gMqPYkN.png" width="600" height="400">
 #### API Sources
 - **CSS**
   - [W3school](https://www.w3schools.com/)
