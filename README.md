@@ -63,10 +63,10 @@ As more unedited completed decisions are retaken by other users, more data is ga
 <br>
 <br>
 
-We testing the database by entering mock data using [Mockaroo](https://mockaroo.com).
+We testing the database by entering **mock data** using [Mockaroo](https://mockaroo.com).
 <br>
 
-Not all data may make complete sense but it was vital to have, mock data allowed to develop and test queries.
+Not all data may make complete sense but it was vital to have, **mock data allowed to develop and test queries**.
 
 <br>
 <br>
@@ -75,7 +75,7 @@ Not all data may make complete sense but it was vital to have, mock data allowed
 <br>
 <br>
 
-With constant modifications and testing being done for my database, it was crucial to drop and recreate my datatables quickly, so I created a “[One-Shot](https://github.com/resv/MINDTIPPER/blob/master/PLANNING/REVISION%202/REVISION%203/REVISION%204/REVISION%205/DDL%20SQL%20INSERTS%20REV%205/DDL%20ONE%20SHOT%20INSERTS.txt)” DDL insert file. This handle creation of my tables, inserted mock data, and generated all my private and foreign keys. 
+With constant modifications and testing being done for my database, it was crucial to **drop and recreate my datatables quickly**, so I created a “[One-Shot](https://github.com/resv/MINDTIPPER/blob/master/PLANNING/REVISION%202/REVISION%203/REVISION%204/REVISION%205/DDL%20SQL%20INSERTS%20REV%205/DDL%20ONE%20SHOT%20INSERTS.txt)” DDL insert file. This handle **creation** of my **tables**, inserted **mock data**, and generated all my **private** and **foreign keys**. 
 There is also [individual files](https://github.com/resv/MINDTIPPER/tree/master/PLANNING/REVISION%202/REVISION%203/REVISION%204/REVISION%205/DDL%20SQL%20INSERTS%20REV%205) for each table and keys, you can insert them in numerical order.
 
 <br>
@@ -83,7 +83,7 @@ There is also [individual files](https://github.com/resv/MINDTIPPER/tree/master/
 <br>
 <br>
 
-It was unecessary to use JIRA for a one man project, so I instead used [Trello](https://trello.com/b/cFsNYBow/mindtipper) which help keep track of my progress of the entire development. 
+It was **unecessary to use JIRA** for a one man project, so I instead used **[Trello](https://trello.com/b/cFsNYBow/mindtipper)** which help **keep track of my progress** of the entire development. 
 
 <br>
 <br>
@@ -103,7 +103,7 @@ It was unecessary to use JIRA for a one man project, so I instead used [Trello](
 <!---------------------------------------------------------------------------------------------------------------------------->
 <h1 align="center" id="installation">Installation</h1>
 
-Although a domain name has been secured (MindTipper.com), the application is not ready for official launch. Step by Step instructions will be provided to run this application locally on your machine for further development or testing purposes
+Although a domain name has been secured (MindTipper.com), the **application is not ready for official launch**. Step by Step instructions will be provided to run this application locally on your machine for further development or testing purposes
 
 <img align="right" src="https://imgur.com/6SgZv7U.png" width="300" height="600">
 
@@ -135,7 +135,7 @@ Although a domain name has been secured (MindTipper.com), the application is not
 6. Right click the “MT” project in your project explorer -> run as ->run on server, Set Tomcat to v9 and hit finish.
 
 7. The web application should take a few seconds to load and run.
-I highly advise that you copy and paste the local url “http://localhost:8080/MT/” from the eclipse web explorer and open it on your local browser for the full front end user experience.
+I highly advise that you copy and paste the local url “**http://localhost:8080/MT/**” from the eclipse web explorer and open it on your local browser for the full front end user experience.
 
 <img align="center" src="https://imgur.com/hI50UqX.png" width="900" height="80">
 
@@ -231,29 +231,29 @@ Future integration
      - [HTML.com](https://html.com/)
      - [Developer.Mozilla.org](https://developer.mozilla.org/en-US/)
 
-1. Some API sources used were for learning purposes only, any API libraries that were used are located in the [resources](https://github.com/resv/MINDTIPPER/tree/master/WebContent/resources) folder, labeled respectively. 
+1. Some API sources used were for **learning purposes** only, any API libraries that were used are located in the [resources](https://github.com/resv/MINDTIPPER/tree/master/WebContent/resources) folder, labeled respectively. 
 
-2. We have removed boilerplate code by creating a [static JSP folder](https://github.com/resv/MINDTIPPER/tree/master/WebContent/WEB-INF/view/static) to hold header footer and nav bars JSP files that were included in each JSP file.
+2. We have **removed boilerplate code** by creating a [static JSP folder](https://github.com/resv/MINDTIPPER/tree/master/WebContent/WEB-INF/view/static) to hold header footer and nav bars JSP files that were included in each JSP file.
 
 <img src="https://imgur.com/F8MdTJz.png" width="900" height="50">
 
 
-3. The [css & js](https://github.com/resv/MINDTIPPER/tree/master/WebContent/resources) folder contains the personal external stylings done for the JSP pages but all other external css sources have been credited to the respective authors/companies on each of their files.
+3. The [CSS & JS](https://github.com/resv/MINDTIPPER/tree/master/WebContent/resources) folder contains the **personal external stylings** done for the JSP pages but all **other external CSS sources** have been **credited** to the respective authors/companies on each of their files.
 
-4. [All views](https://github.com/resv/MINDTIPPER/tree/master/WebContent/WEB-INF/view) implements bootstrap for styling and is responsive for mobile or smaller resolutions.
-   - [Nav bar](https://github.com/resv/MINDTIPPER/blob/master/WebContent/WEB-INF/view/static/navbar.jsp) and [footer](https://github.com/resv/MINDTIPPER/blob/master/WebContent/WEB-INF/view/static/footer.jsp) were custom made and responsive.
-   - [Home](https://github.com/resv/MINDTIPPER/blob/master/WebContent/WEB-INF/view/home.jsp) page was inspired by [Startbootstrap](https://startbootstrap.com/) but highly modified.
-   - Internal and external CSS was used as the requirement for this case study.
-   - JSTL tag library was used to reference external links.
+4. [All views](https://github.com/resv/MINDTIPPER/tree/master/WebContent/WEB-INF/view) **implements bootstrap for styling** and is **responsive** for mobile or smaller resolutions.
+   - [Nav bar](https://github.com/resv/MINDTIPPER/blob/master/WebContent/WEB-INF/view/static/navbar.jsp) and [footer](https://github.com/resv/MINDTIPPER/blob/master/WebContent/WEB-INF/view/static/footer.jsp) were **custom made and responsive**.
+   - [Home](https://github.com/resv/MINDTIPPER/blob/master/WebContent/WEB-INF/view/home.jsp) page was **inspired by [Startbootstrap](https://startbootstrap.com/)** but highly modified.
+   - **Internal and external CSS** was used as the **requirement** for this case study.
+   - **JSTL tag** library was used to reference external links.
 
-5. “[Terms of use](https://github.com/resv/MINDTIPPER/blob/master/WebContent/WEB-INF/view/terms.jsp)” & “[Privacy Policy](https://github.com/resv/MINDTIPPER/blob/master/WebContent/WEB-INF/view/privacy.jsp)” actually has factual information regarding this project at its current state and for future features not yet implemented. You can generate specified documentation at [Termly](https://termly.io/). I could not afford the membership so I had to manual create my own HTML and CSS for this page as embedding was the only way to use these terms for non paid members and that was not an option. Credit was given to the company in the jsp page.
+5. “[Terms of use](https://github.com/resv/MINDTIPPER/blob/master/WebContent/WEB-INF/view/terms.jsp)” & “[Privacy Policy](https://github.com/resv/MINDTIPPER/blob/master/WebContent/WEB-INF/view/privacy.jsp)” has **factual information** regarding this project at its current state and for future features not yet implemented. You can generate specified documentation at [Termly](https://termly.io/). I could not afford the membership so I had to manual create my own HTML and CSS for this page as embedding was the only way to use these terms for non paid members and that was not an option. *Credit was given to the company in the jsp page*.
 
 <br>
 
 <img align="right" src="https://imgur.com/OLYDxd2.png" width="650" height="200">
 
 ##### Animation
-I implemented a very powerful tool called [WOW.JS](https://wowjs.uk/). for simple animations. Customized timers can be found in [animate.css](https://github.com/resv/MINDTIPPER/blob/master/WebContent/resources/css/animate.css).
+I implemented a very powerful tool called [WOW.JS](https://wowjs.uk/). for **simple animations**. Customized timers can be found in [animate.css](https://github.com/resv/MINDTIPPER/blob/master/WebContent/resources/css/animate.css).
 
 <br>
 <br>
@@ -271,19 +271,19 @@ I implemented a very powerful tool called [WOW.JS](https://wowjs.uk/). for simpl
 <img align="right" src="https://imgur.com/Qdmv4Fk.png" width="300" height="350">
 <br>
 
-1. The [controller](https://github.com/resv/MINDTIPPER/blob/master/src/MT/controller/HomeController.java) layer handles mapping to the corresponding [JSP views](https://github.com/resv/MINDTIPPER/tree/master/WebContent/WEB-INF/view) and for navigational usability, I have created simple view controllers.
+1. The [controller](https://github.com/resv/MINDTIPPER/blob/master/src/MT/controller/HomeController.java) layer handles mapping to the corresponding [JSP views](https://github.com/resv/MINDTIPPER/tree/master/WebContent/WEB-INF/view) and for **navigational usability**, I have created simple view controllers.
 
 <br>
 
-2. At the moment I only have two controllers that have any real functionality which is registering the user(creates a new user in the database). The other is search controller to display results for other decisions in the database. This search controller requires a joined entity to complete the desired functionality which I could not resolve in time.
+2. At the moment I only have two controllers that have any real functionality which is **registering the user** (creates a new user in the database). The other is **search decisions** controller to display results for other decisions in the database. *This search controller requires a joined entity to complete the desired functionality which I could not resolve in time*.
 
-*Picture shown below represents data queried from the database. Text wrapped in parenthesis are data place holders that would populate correctly with joined entities.*
+*Image shown below represents data queried from the database. **Text wrapped in parenthesis** are data place holders that would populate correctly with joined entities.*
 
 <img src="https://imgur.com/WyxdjwA.png" width="900" height="500">
 
 <br>
 
-3. Our DAO and DAOImpl contains the necessary methods for this operation. We also have a service layer for future expansion and flexibility. The service layer would allow us to add additional business logic later. Another use for the service layer would be to seperate the DAO and DAOImpl from the user for additional layer of protection against any attacks.
+3. Our DAO and DAOImpl contains the necessary methods for this operation. We also have a service layer for future expansion and flexibility. **The service layer would allow us to add additional business logic later**. Another use for the service layer would be to seperate the DAO and DAOImpl from the user for additional layer of **protection against any attacks**.
 
 |[Controller](https://github.com/resv/MINDTIPPER/blob/master/src/MT/controller/HomeController.java)|[UserInfo Entity](https://github.com/resv/MINDTIPPER/blob/master/src/MT/entity/UserInfo.java)|[UserInfoDAO](https://github.com/resv/MINDTIPPER/blob/master/src/MT/dao/UserInfoDAO.java)|[UserInfoDAOImpl](https://github.com/resv/MINDTIPPER/blob/master/src/MT/dao/UserInfoDAOImpl.java)|[UserInfoService](https://github.com/resv/MINDTIPPER/blob/master/src/MT/service/UserInfoService.java)|[UserInfoServiceImpl](https://github.com/resv/MINDTIPPER/blob/master/src/MT/service/UserInfoServiceImpl.java)|
 |---|---|---|---|---|---|
