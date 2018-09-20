@@ -264,7 +264,7 @@ I implemented a very powerful tool called [WOW.JS](https://wowjs.uk/) for **simp
 
 2. At the moment I only have two controllers that have any real functionality which is **registering the user** (creates a new user in the database). The other is **search decisions** controller to display results for other decisions in the database. *This search controller requires a joined entity to complete the desired functionality which I could not resolve in time*.
 
-*Image shown below represents data queried from the database. **Text wrapped in parenthesis** are data place holders that would populate correctly with joined entities.*
+*Image shown below represents data queried from "DecisionInfo". **Text wrapped in parenthesis** are data place holders that would populate correctly if the "Title" entity was joined with "DecisionInfo".
 
 <img src="https://imgur.com/WyxdjwA.png" width="900" height="500">
 
@@ -292,12 +292,12 @@ Problems:
 
 <!------------------------------------------------------------------------------------------------------------------------->
 <h1 align="center" id="unfinished">Summation</h1>
-I've gained so much knowledge within these past 3 months. Considering I did not have any formal training/education on Java, I was certain I would fail or fall terribly behind within the first month but making it to the last month in itself was a personal accomplishment. Realistically, I knew I wasn't going to be able to receive a high score or even receive a passing score but I no longer was concerned about my case study grade on the final week of the program during developing this case study.
+I've gained so much knowledge within these past 3 months. Considering I did not have any prior formal training/education on Java, I was certain I would fail or fall terribly behind within the first month but making it to the last month in itself was a personal accomplishment. Realistically, I knew I wasn't going to be able to receive a high score or even receive a passing score but I no longer was concerned about my case study grade during the last few days of developing this case study.
 
 <br>
 <br>
 
-Toward the end of the program, I was more focused on being able to learn, understand and implement real world enterprise MVC skills. I certainly am disappointed at myself and am sure I've disappointed others for not being able to deliver a final working product. I am aware of my weaknesses and where I need improvement. I will continue to practice MVC so that one day I will feel competent enough to secure a professional occupation as a "Java Developer".
+I've realized, I was more focused on being able to learn, understand and implement real world enterprise MVC skills. Of course I am disappointed at myself and disappointed others for not being able to deliver a working product. I will use this failure as a reflection of my weaknesses and where I need improvement. I will continue to practice MVC so that one day I will feel competent enough to secure a professional position as a "Java Developer".
 
 I'd like to thank [Platform PerScholas](https://www.platformbyps.org/) for the opportunity to learn Java Developement.
 - Special thanks to :
