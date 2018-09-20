@@ -41,18 +41,22 @@ As more unedited completed decisions are retaken by other users, more data is ga
 |---|---|---|---|---|---|
 | <img align="center" src="https://imgur.com/f58EEvA.png" width="150" height="200"> | <img align="center" src="https://imgur.com/SLUG94e.png" width="150" height="200"> | <img align="center" src="https://imgur.com/DxKWj8c.png" width="150" height="200"> | <img align="center" src="https://imgur.com/Bz29r4w.png" width="150" height="200"> | <img align="center" src="https://imgur.com/egKUVn1.png" width="150" height="200"> | <img align="center" src="https://imgur.com/b8KDNbe.png" width="150" height="200"> |
 
+<br><br><br><br><br><br>
+We testing the database by entering mock data using [Mockaroo](https://mockaroo.com/schemas/127284). Not all data may make complete sense but it was vital to have<br>
 
-We testing the database by entering mock data using [Mockaroo](https://mockaroo.com/). (LINK TO SCHEMA) Not all data may make complete sense but it was vital to have and custom code was written to make mockaroo generate data compatible with our data types in the database
-<img align="center" src="https://imgur.com/LspzRDJ.png" width="600" height="350">
-
-. Mock data allowed myself to develop and test queries, and test that JDBC was able to read and write with no conflictions later in development. (LINK DDL FOLDER HERE)
-Insert mockaroo schemas
-
-With constant database testing and modifications, it was crucial to save my DDL, so I created a “One-Shot” DDL insert file. This handle creation of my tables, inserted mock data, and generated all my private and foreign keys. (LINK DDL)
+Mock data allowed to develop and test queries. With constant database testing and modifications, it was crucial to save my DDL, so I created a “One-Shot” DDL insert file. This handle creation of my tables, inserted mock data, and generated all my private and foreign keys. (LINK DDL)
 		Insert ONESHOT DDL pic here
 
 A one man project really didn’t need the use of JIRA, so instead I used Trello which help keep track of my progress of the entire development. (LINK TRELLO HERE)
 		Insert trello pick here
+
+
+
+
+
+<img align="right" src="https://imgur.com/LspzRDJ.png" width="600" height="350">
+<br><br><br><br><br><br>
+
 
 <!----------------------------------------------------------------------------------------------------------------------------------->
 <h1 align="center" id="installation">Installation</h1>
