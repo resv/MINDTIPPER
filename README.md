@@ -179,7 +179,7 @@ The **third and current attempt** is using **Hibernate** which we were able to f
 In our [MT.entity](https://github.com/resv/MINDTIPPER/tree/master/src/MT/entity) package, four entities/models exist, these directly correlate to my AWS database tables.
 
 
-A standard pattern of mapping primary keys, columns  toString() , getters & setters were set respectively;
+1. A standard pattern of mapping primary keys, columns  toString() , getters & setters were set respectively;
 
 |[Entity Package](https://github.com/resv/MINDTIPPER/tree/master/src/MT/entity)|[UserInfo Entity](https://github.com/resv/MINDTIPPER/blob/master/src/MT/entity/UserInfo.java)|[DecisionInfo Entity](https://github.com/resv/MINDTIPPER/blob/master/src/MT/entity/DecisionInfo.java)|[Title Entity](https://github.com/resv/MINDTIPPER/blob/master/src/MT/entity/Title.java)|[Choice Entity](https://github.com/resv/MINDTIPPER/blob/master/src/MT/entity/Choice.java)|
 |---|---|---|---|---|
@@ -187,10 +187,9 @@ A standard pattern of mapping primary keys, columns  toString() , getters & sett
 
 <br>
 
-Specifically, the **DAOImpl will initialize the SessionFactory** which will **automatically open** and **close** our **connections**, query the database, then save the result into an List array. Image shown below:
-<img src="https://imgur.com/g9LV1IL.png" width="600" height="500">
+2. Specifically, the **DAOImpl will initialize the SessionFactory** which will **automatically open** and **close** our **connections**, query the database, then save the result into an List array. Image shown below:
+<img src="https://imgur.com/g9LV1IL.png" width="800" height="500">
 	
-
 3. Our DAOs and DAOImpls contains the necessary methods for its purpose. I also have a [service package](https://github.com/resv/MINDTIPPER/tree/master/src/MT/service), a layer for future expansion and flexibility. **The service layer would allow us to add additional business logic later**. Another use for the service layer would be to seperate the DAO and DAOImpl from the user for additional layer of **protection against any attacks**.
 
 |[Controller](https://github.com/resv/MINDTIPPER/blob/master/src/MT/controller/HomeController.java)|[UserInfo Entity](https://github.com/resv/MINDTIPPER/blob/master/src/MT/entity/UserInfo.java)|[UserInfoDAO](https://github.com/resv/MINDTIPPER/blob/master/src/MT/dao/UserInfoDAO.java)|[UserInfoDAOImpl](https://github.com/resv/MINDTIPPER/blob/master/src/MT/dao/UserInfoDAOImpl.java)|[UserInfoService](https://github.com/resv/MINDTIPPER/blob/master/src/MT/service/UserInfoService.java)|[UserInfoServiceImpl](https://github.com/resv/MINDTIPPER/blob/master/src/MT/service/UserInfoServiceImpl.java)|
