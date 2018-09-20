@@ -43,9 +43,7 @@ As more unedited completed decisions are retaken by other users, more data is ga
 
 <br>
 <img align="right" src="https://imgur.com/LspzRDJ.png" width="600" height="350">
-<br><br><br><br>
 <img align="right" src="https://imgur.com/1P7FTMh.png" width="350" height="200">
-<br>
 We testing the database by entering mock data using [Mockaroo](https://mockaroo.com/schemas/127284). Not all data may make complete sense but it was vital to have. <br>
 
 Mock data allowed to develop and test queries. With constant database testing and modifications.
