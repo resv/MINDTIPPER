@@ -153,25 +153,24 @@ I highly advise that you copy and paste the local url “**http://localhost:8080
 <!--------------------------------------------------------------------------------------------------------------------------->
 <h1 align="center" id="mvc">MODEL VIEW CONTROLLER</h1>
 
-Initially I attempted to create this project as Maven converted project
+###### PAST ATTEMPTS
+There were **[three different attempts](https://github.com/resv/MINDTIPPER/tree/master/Prior%20project%20attempts)** starting this project.
 
-The first attempted was using POJO JDBC and faced issues with passing and accessing data from and to the JSP.
+1. Initially I attempted to create this project as **Maven converted project** using **JDBC** but faces numerous **environment issues** that could not be resolved.
+	- A **standard JDBC** pattern of Models, DAOs, DAOIs were created.
+	- Each DAO was manually tested in a "[MainTestRunner](https://github.com/resv/MINDTIPPER/blob/master/Prior%20project%20attempts/Attempt1/ICANTPICK/src/ICANTPICK/MainEntryPoint/testRUNNER2.java)".
+	- You can view the entire project attempt **[here](https://github.com/resv/MINDTIPPER/tree/master/Prior%20project%20attempts/Attempt1/ICANTPICK)**.
 
-All models, DAO, and interfaces were created already and frustrating to leave behind.
-Insert dao pic of old pj
-The second attempt we came across the same issue using JDBC template method.
-
-The third and current attempt is using Hibernate which we were able to finally read from the database and send to the JSP.
+|[(OLD) UserInfo Model](https://github.com/resv/MINDTIPPER/blob/master/Prior%20project%20attempts/Attempt1/ICANTPICK/src/ICANTPICK/Models/UserInfo.java)|[(OLD) UserInfoDAO](https://github.com/resv/MINDTIPPER/blob/master/Prior%20project%20attempts/Attempt1/ICANTPICK/src/ICANTPICK/DAO/UserInfoDAO.java)| [(OLD) UserInfoDAOI](https://github.com/resv/MINDTIPPER/blob/master/Prior%20project%20attempts/Attempt1/ICANTPICK/src/ICANTPICK/Interfaces/UserInfoDAOi.java)|[(OLD) Test Runner](https://github.com/resv/MINDTIPPER/blob/master/Prior%20project%20attempts/Attempt1/ICANTPICK/src/ICANTPICK/MainEntryPoint/testRUNNER2.java)  |
+|---| ------------- |:-------------:| -----:|
+|<img align="center" src="https://imgur.com/1pSlKC2.png" width="150" height="200">|<img align="center" src="https://imgur.com/37xB5OS.png" width="150" height="200">| <img align="center" src="https://imgur.com/MVE9Ad7.png" width="150" height="200">|<img align="center" src="https://imgur.com/Fq27uTC.png" width="150" height="200">|
 
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+
+2. The **second attempt** we came across the same issues using **JDBC template method**, you can view the entire project attempt [here](https://github.com/resv/MINDTIPPER/tree/master/Prior%20project%20attempts/Attempt%202/MINDTIPPER).
+
+The **third and current attempt** is using **Hibernate** which we were able to finally read from the database and send to the JSP.
+
 <br>
 
 <!----------------------------------------------------------------------------------------------------------------------->
