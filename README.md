@@ -20,7 +20,7 @@ Deleted and made a brand new Case Study repository in attempt to keep this proje
 
 <!----------------------------------------------------------------------------------------------------------------------------------->
 <h1 align="center" id="summary"> Summary</h1>
-An dynamic web application to help decision making that doesn’t rely on a random generator. A decision title is split into two columns called choices, each choice has a supporting detail set that weigh against the opposing choice’s detail set.
+An dynamic web application to help decision making that **doesn’t rely on a random generator**. A decision title is split into two columns called choices, each choice has a supporting detail set that weigh against the opposing choice’s detail set. <br><br>
 <img align="right"src="https://imgur.com/4P30ZvW.png"height="320"> <br><br>
 You can make a selection of which detail wins over the other. Once all selections are complete, the number of selections made for each choice are tallied up and calculated as a the winning decision. <br><br>
 <img align="right" src="https://imgur.com/OLtgI65.png"height="400">
