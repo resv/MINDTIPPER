@@ -68,7 +68,7 @@ Although a domain name has been secured (MindTipper.com), the application is not
 
 #### Prerequisites
 - **[Eclipse IDE](https://www.eclipse.org/downloads/download.php?file=/oomph/epp/photon/R/eclipse-inst-win64.exe)** (Photon Preferred)
-- **Oracle Driver** (provided in lib folder)
+- **Oracle Driver** (ojdbc8-12.2.0.1.jar provided in [lib](https://github.com/resv/MINDTIPPER/tree/master/WebContent/WEB-INF/lib) folder)
 - Misc Jar files
   - Spring
   - Hibernate
@@ -140,6 +140,7 @@ Future integration
 
 <!----------------------------------------------------------------------------------------------------------------------------------->
 <h1 align="center" id="view">MVC - VIEW</h1>
+
 #### API Sources
 - **CSS**
   - [W3school](https://www.w3schools.com/)
@@ -189,9 +190,9 @@ We have removed boilerplate code by creating a folder(LINK) to hold static heade
 
 <!----------------------------------------------------------------------------------------------------------------------------------->
 <h1 align="center" id="controller">MVC - CONTROLLER</h1>
-                                    The controller layer handles mapping to direct to the corresponding JSP views.
-
-		Insert controller of mapping pages
+                                    The controller layer handles mapping to the corresponding JSP views. For site navigational puposes, I have created simple view controllers.
+				insert pic of list of view controllers
+		At the moment we only have two controllers that have any real functionality which is registering the user(creates a new record in the database). The other is search controller to display results for other decisions in the database. This search controller requires a joined entity which I could not resolve in time.
 It also handles adding model attributes to the JSP page such as inserting the queried data to populate the JSP table. As the picture is shown, everything in caps lock has not been populated due to joined entities are not present and the query is only for one Entity.
 		Insert controller of search data
 Insert jsp page of search
@@ -203,11 +204,10 @@ Insert jsp page of search
 
 Problems:
 - I’ve restarted my project a few times. Because I made my views early in the project not a lot of time was wasted for each new project attempt as the views were easily transferable.
-- My first attempt was using POJO JDBC, we ran into issues not knowing exactly what went wrong from the view->controller->DAO->DB and vice versa.
-- The same issue occurred using JDBC template but this was more due to uncertainty of configuration.
+- My first attempt was using POJO JDBC, we ran into issues for setup as I could not find any solid path to setup the environment.
+- The same issue occurred using JDBC template.
 - My latest attempt was using Hibernate which I was finally able to receive concrete a “read” from my database to my jsp. 
--At this point we have to continue to figure out how to correctly map entities with our project layout. We will be able to complete half of the needed functionality of this project.
-- An attempt was made to try and register a new user. I came across a roadblock trying to figure out why I was getting a “cannot insert null”. I tried to modify @GeneratedValue, create OneToMany/ManyToOne,  create a sequence of auto increment, etc. 
+-At this point I have to continue to figure out how to correctly map entities with other entities. 
 
 	
       
