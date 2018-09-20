@@ -176,17 +176,15 @@ The third and current attempt is using Hibernate which we were able to finally r
 
 <!----------------------------------------------------------------------------------------------------------------------->
 <h1 align="center" id="model">MVC - MODEL</h1>
-<img align="right" src="https://imgur.com/T9eFOjH.png" width="200" height="150">
-
 
 In our [MT.entity](https://github.com/resv/MINDTIPPER/tree/master/src/MT/entity) package, four entities/models exist, these directly correlate to my database tables.
 
 
 A standard pattern of mapping primary keys, columns  toString() , getters & setters were set respectively;
 
-|[UserInfo Entity](https://github.com/resv/MINDTIPPER/blob/master/src/MT/entity/UserInfo.java)|[DecisionInfo Entity](https://github.com/resv/MINDTIPPER/blob/master/src/MT/entity/DecisionInfo.java)|[Title Entity](https://github.com/resv/MINDTIPPER/blob/master/src/MT/entity/Title.java)|[Choice Entity](https://github.com/resv/MINDTIPPER/blob/master/src/MT/entity/Choice.java)|
-|---|---|---|---|
-|<img src="https://imgur.com/zgOu7iC.png" width="150" height="200">|<img src="https://imgur.com/xfDDK8M.png" width="150" height="200">|<img src="https://imgur.com/I6zoJKy.png" width="150" height="200">|<img src="https://imgur.com/lliPErT.png" width="150" height="200">|    
+|[Entity Package](https://github.com/resv/MINDTIPPER/tree/master/src/MT/entity)|[UserInfo Entity](https://github.com/resv/MINDTIPPER/blob/master/src/MT/entity/UserInfo.java)|[DecisionInfo Entity](https://github.com/resv/MINDTIPPER/blob/master/src/MT/entity/DecisionInfo.java)|[Title Entity](https://github.com/resv/MINDTIPPER/blob/master/src/MT/entity/Title.java)|[Choice Entity](https://github.com/resv/MINDTIPPER/blob/master/src/MT/entity/Choice.java)|
+|---|---|---|---|---|
+|<img src="https://imgur.com/T9eFOjH.png" width="150" height="200">|<img src="https://imgur.com/zgOu7iC.png" width="150" height="200">|<img src="https://imgur.com/xfDDK8M.png" width="150" height="200">|<img src="https://imgur.com/I6zoJKy.png" width="150" height="200">|<img src="https://imgur.com/lliPErT.png" width="150" height="200">|    
     
 I created our DAO (interface)
 
