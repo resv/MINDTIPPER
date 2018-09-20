@@ -21,12 +21,10 @@ Deleted and made a brand new Case Study repository in attempt to keep this proje
 <!----------------------------------------------------------------------------------------------------------------------------------->
 <h1 align="center" id="summary"> Summary</h1>
 An dynamic web application to help decision making that doesn’t rely on a random generator. A decision title is split into two columns called choices, each choice has a supporting detail set that weigh against the opposing choice’s detail set. 
-
-		Insert pic of table with selections chosen
-
+<img align="right" src="https://imgur.com/3YzlS9c.png"height="180">
 You can make a selection of which detail wins over the other. Once all selections are complete, the number of selections made for each choice are tallied up and calculated as a the winning decision.
 
-		Insert pic of winner
+		
 
 Users can share their decisions with others, retake or edit existing completed decisions as a starting template to start a new decision of their own. Expected user demographics are not limited to consumers but extends to businesses connecting with their customers e.g "What do you like most about our product X watch vs our competitor's Y watch?".
 
@@ -191,8 +189,12 @@ We have removed boilerplate code by creating a folder(LINK) to hold static heade
 <!----------------------------------------------------------------------------------------------------------------------------------->
 <h1 align="center" id="controller">MVC - CONTROLLER</h1>
                                     The controller layer handles mapping to the corresponding JSP views. For site navigational puposes, I have created simple view controllers.
+                                    
 				insert pic of list of view controllers
-		At the moment we only have two controllers that have any real functionality which is registering the user(creates a new record in the database). The other is search controller to display results for other decisions in the database. This search controller requires a joined entity which I could not resolve in time.
+                
+		At the moment we only have two controllers that have any real functionality which is registering the user(creates a new record in the database). The other is search controller to display results for other decisions in the database. This search controller requires a joined entity to complete the desired functionality which I could not resolve in time.
+        
+        
 It also handles adding model attributes to the JSP page such as inserting the queried data to populate the JSP table. As the picture is shown, everything in caps lock has not been populated due to joined entities are not present and the query is only for one Entity.
 		Insert controller of search data
 Insert jsp page of search
