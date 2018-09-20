@@ -25,7 +25,7 @@ ___
 <h1 align="center" id="summary"> Summary</h1>
 An dynamic web application to help decision making that doesn’t rely on a random generator. A decision title is split into two columns called choices, each choice has a supporting detail set that weigh against the opposing choice’s detail set. <br><br>
 <img align="right"src="https://imgur.com/4P30ZvW.png"height="320"> <br><br><br><br>
-You can make a selection of which detail wins over the other. Once all selections are complete, the number of selections made for each choice are tallied up and calculated as a the winning decision. <br><br>
+You can make a selection of which detail wins over the other. Once all selections are complete, the number of selections made for each choice are tallied up and calculated as the winning decision. <br><br>
 <img align="right" src="https://imgur.com/OLtgI65.png"height="400">
 		
 <br>
@@ -50,7 +50,7 @@ As more unedited completed decisions are retaken by other users, more data is ga
 <!----------------------------------------------------------------------------------------------------------------------------------->
 <h1 align="center" id="planning">Planning</h1>
 
-1. The case study started with [Planning](https://github.com/resv/MINDTIPPER/tree/master/PLANNING) with many revisions, up to [revision #5](https://github.com/resv/MINDTIPPER/tree/master/PLANNING/REVISION%202/REVISION%203/REVISION%204/REVISION%205).
+The case study started with [Planning](https://github.com/resv/MINDTIPPER/tree/master/PLANNING), many revisions were made and I am currently on [revision #5](https://github.com/resv/MINDTIPPER/tree/master/PLANNING/REVISION%202/REVISION%203/REVISION%204/REVISION%205).
 
 | [Summary](https://github.com/resv/MINDTIPPER/blob/master/PLANNING/REVISION%202/REVISION%203/REVISION%204/REVISION%205/WireFrame%20-%20CaseStudySummary%20-%20ReqAnalysis/CASE_STUDY_SUMMARY.pdf) | [Req Analysis](https://github.com/resv/MINDTIPPER/blob/master/PLANNING/REVISION%202/REVISION%203/REVISION%204/REVISION%205/WireFrame%20-%20CaseStudySummary%20-%20ReqAnalysis/REQ_ANALYSIS_USERCASE.pdf) | [User Case](https://github.com/resv/MINDTIPPER/blob/master/PLANNING/REVISION%202/REVISION%203/REVISION%204/REVISION%205/WireFrame%20-%20CaseStudySummary%20-%20ReqAnalysis/REQ_ANALYSIS_USERCASE.pdf) | [WireFrame](https://github.com/resv/MINDTIPPER/blob/master/PLANNING/REVISION%202/REVISION%203/REVISION%204/REVISION%205/WireFrame%20-%20CaseStudySummary%20-%20ReqAnalysis/wireframePDF.pdf) | [Entity Relation Diagram](https://github.com/resv/MINDTIPPER/blob/master/PLANNING/REVISION%202/REVISION%203/REVISION%204/REVISION%205/ERD_MODIFIED%20REV%205.pdf) | [Mock Database View](https://github.com/resv/MINDTIPPER/blob/master/PLANNING/REVISION%202/REVISION%203/REVISION%204/REVISION%205/MOCK%20UP%20OF%20ICANTPICK%20DATABASE%20REV%205.pdf) |
 |---|---|---|---|---|---|
@@ -64,7 +64,7 @@ As more unedited completed decisions are retaken by other users, more data is ga
 <br>
 <br>
 
-We testing the database by entering **mock data** using [Mockaroo](https://mockaroo.com).
+I started testing the database by entering **mock data** using [Mockaroo](https://mockaroo.com).
 <br>
 
 Not all data may make complete sense but it was vital to have, **mock data allowed to develop and test queries**.
@@ -76,8 +76,8 @@ Not all data may make complete sense but it was vital to have, **mock data allow
 <br>
 <br>
 
-With constant modifications and testing being done for my database, it was crucial to **drop and recreate my datatables quickly**, so I created a “[One-Shot](https://github.com/resv/MINDTIPPER/blob/master/PLANNING/REVISION%202/REVISION%203/REVISION%204/REVISION%205/DDL%20SQL%20INSERTS%20REV%205/DDL%20ONE%20SHOT%20INSERTS.txt)” DDL insert file. This handle **creation** of my **tables**, inserted **mock data**, and generated all my **private** and **foreign keys**. 
-There is also [individual files](https://github.com/resv/MINDTIPPER/tree/master/PLANNING/REVISION%202/REVISION%203/REVISION%204/REVISION%205/DDL%20SQL%20INSERTS%20REV%205) for each table and keys, you can insert them in numerical order in the event of issues.
+With constant modifications and testing being done for my database, it was crucial to **drop and recreate my datatables quickly**, so I created a “[One-Shot](https://github.com/resv/MINDTIPPER/blob/master/PLANNING/REVISION%202/REVISION%203/REVISION%204/REVISION%205/DDL%20SQL%20INSERTS%20REV%205/DDL%20ONE%20SHOT%20INSERTS.txt)” DDL insert file. This handled the **creation** of my **tables**, inserts for **mock data**, and generated all my **private** and **foreign keys**. 
+There are also [individual files](https://github.com/resv/MINDTIPPER/tree/master/PLANNING/REVISION%202/REVISION%203/REVISION%204/REVISION%205/DDL%20SQL%20INSERTS%20REV%205) for each table and keys, you can insert them in numerical order in the event of issues.
 
 <br>
 <br>
@@ -94,21 +94,18 @@ It was **unnecessary to use JIRA** for a one person project, so I instead used *
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
 
 <!---------------------------------------------------------------------------------------------------------------------------->
 <h1 align="center" id="installation">Installation</h1>
 
-Although a domain name has been secured (MindTipper.com), the **application is not ready for official launch**. Step by Step instructions will be provided to run this application locally on your machine for further development or testing purposes
+Although a domain name has been secured (MindTipper.com), the **application is not ready for official launch**. Step by Step instructions has been provided to run this application locally on your machine for further development or testing purposes.
 
 <img align="right" src="https://imgur.com/6SgZv7U.png" width="300" height="600">
 
 ### Prerequisites
 - **[Eclipse IDE](https://www.eclipse.org/downloads/download.php?file=/oomph/epp/photon/R/eclipse-inst-win64.exe)** ( Photon Preferred )
-- **[Oracle Driver](https://www.oracle.com/technetwork/database/features/jdbc/jdbc-ucp-122-3110062.html)** ( ojdbc8-12.2.0.1.jar provided in [lib](https://github.com/resv/MINDTIPPER/tree/master/WebContent/WEB-INF/lib) folder )
-- Misc Jar files ( provided in [lib](https://github.com/resv/MINDTIPPER/tree/master/WebContent/WEB-INF/lib) folder )
+- **[Oracle Driver](https://www.oracle.com/technetwork/database/features/jdbc/jdbc-ucp-122-3110062.html)** ( ojdbc8-12.2.0.1.jar provided in **[lib](https://github.com/resv/MINDTIPPER/tree/master/WebContent/WEB-INF/lib)** folder )
+- Misc Jar files ( provided in **[lib](https://github.com/resv/MINDTIPPER/tree/master/WebContent/WEB-INF/lib)** folder )
   - Spring
   - Hibernate
   - Javax ( JSP, JSTL, SERVLET, PERSISTENCE )
@@ -116,24 +113,24 @@ Although a domain name has been secured (MindTipper.com), the **application is n
 - **[Java 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)** SDK / JRE
 - **[SQL Developer](https://www.oracle.com/technetwork/developer-tools/sql-developer/downloads/index.html)** ( Version 18 )
 - **[Oracle Database](https://www.oracle.com/technetwork/database/enterprise-edition/downloads/index.html)** ( Version 18c , also 12c compatible )
-- **[Apache Tomcat](https://tomcat.apache.org/download-90.cgi)** v9
+- **[Apache Tomcat](https://tomcat.apache.org/download-90.cgi)** ( Version 9 )
 
-1. Open up SQL Developer, you will create tables and insert mock data.
+1. Open up SQL Developer, preparing to create tables and insert mock data.
 
 2. Create a new connection, and remember your connection properties as you will insert this data into the project later.
 
-3. Open up the work sheet for the database and insert the SQL DDL, I have provided a “[One Shot](https://github.com/resv/MINDTIPPER/blob/master/PLANNING/REVISION%202/REVISION%203/REVISION%204/REVISION%205/DDL%20SQL%20INSERTS%20REV%205/DDL%20ONE%20SHOT%20INSERTS.txt)” DDL for you to inject. This will create all tables and records, set primary and foreign keys. I’ve also provided [individual SQL DDL files](https://github.com/resv/MINDTIPPER/tree/master/PLANNING/REVISION%202/REVISION%203/REVISION%204/REVISION%205/DDL%20SQL%20INSERTS%20REV%205) that you may insert one at a time in numerical order in the event of issues.
+3. Open up the work sheet for the database and insert the SQL DDL, I have provided a “[One Shot](https://github.com/resv/MINDTIPPER/blob/master/PLANNING/REVISION%202/REVISION%203/REVISION%204/REVISION%205/DDL%20SQL%20INSERTS%20REV%205/DDL%20ONE%20SHOT%20INSERTS.txt)” DDL file for you to run. This will create all tables and records, set primary and foreign keys. I’ve also provided [individual SQL DDL files](https://github.com/resv/MINDTIPPER/tree/master/PLANNING/REVISION%202/REVISION%203/REVISION%204/REVISION%205/DDL%20SQL%20INSERTS%20REV%205) that you may insert one at a time in numerical order in the event of issues.
 			
-4. Clone this repository, once download is complete you may open up this project in your Eclipse IDE.
+4. Clone this repository, once download is complete, you may open up this project in your Eclipse IDE.
 
-5. You need to modify the “[spring-mvc-crud-demo-servlet.xml](https://github.com/resv/MINDTIPPER/blob/master/WebContent/WEB-INF/spring-mvc-crud-demo-servlet.xml)” file, replace "User", "Pass", "jdbcURL", driver to match your connection in your DBMS.               
+5. You need to modify the “[spring-mvc-crud-demo-servlet.xml](https://github.com/resv/MINDTIPPER/blob/master/WebContent/WEB-INF/spring-mvc-crud-demo-servlet.xml)” file, replace "User", "Pass", "jdbcURL", driver to match your connection in your DBMS. *(currently assigned to my AWS database)*               
                 
 <img align="center" src="https://imgur.com/vFv5IoH.png" width="900" height="150">
                 
-6. Right click the “MT” project in your project explorer -> run as ->run on server, Set Tomcat to v9 and hit finish.
+6. Right click the “MT” project in your project explorer -> run as ->run on server, Set Tomcat to version 9 and hit finish.
 
 7. The web application should take a few seconds to load and run.
-I highly advise that you copy and paste the local url “**http://localhost:8080/MT/**” from the eclipse web explorer and open it on your local browser for the full front end user experience.
+I highly advise that you copy and paste the url “**http://localhost:8080/MT/**” from your eclipse web explorer and open it on your local browser for the full front end user experience.
 
 <img align="center" src="https://imgur.com/hI50UqX.png" width="900" height="80">
 
@@ -196,8 +193,6 @@ In our [MT.entity](https://github.com/resv/MINDTIPPER/tree/master/src/MT/entity)
 |---|---|---|---|---|---|
 |<img src="https://imgur.com/PSho8Cx.png" width="150" height="200">|<img src="https://imgur.com/KcWjQrs.png" width="150" height="200">|<img src="https://imgur.com/sAqvEUT.png" width="150" height="200">|<img src="https://imgur.com/FFWXAEb.png" width="150" height="200">|<img src="https://imgur.com/d4O6s57.png" width="150" height="200">|<img src="https://imgur.com/mgA3VpD.png" width="150" height="200">|
 
-<br>
-<br>
 <br>
 <br>
 <br>
