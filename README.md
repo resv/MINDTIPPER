@@ -165,6 +165,13 @@ The **third and current attempt** is using **Hibernate** which we were able to f
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 <!----------------------------------------------------------------------------------------------------------------------->
 <h1 align="center" id="model">MVC - MODEL</h1>
