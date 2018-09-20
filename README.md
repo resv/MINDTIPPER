@@ -62,6 +62,7 @@ As more unedited completed decisions are retaken by other users, more data is ga
 <img align="right" src="https://imgur.com/9kL2A5j.png" width="600" height="350">
 <br>
 <br>
+<br>
 
 We testing the database by entering **mock data** using [Mockaroo](https://mockaroo.com).
 <br>
@@ -83,11 +84,8 @@ There is also [individual files](https://github.com/resv/MINDTIPPER/tree/master/
 <br>
 <br>
 
-It was **unnecessary to use JIRA** for a one person project, so I instead used **[Trello](https://trello.com/b/cFsNYBow/mindtipper)** which help **keep track of my progress** during development. 
+It was **unnecessary to use JIRA** for a one person project, so I instead used **[Trello](https://trello.com/b/cFsNYBow/mindtipper)** which help **[keep track of my progress](https://trello.com/b/cFsNYBow/mindtipper)** during development. 
 
-<br>
-<br>
-<br>
 <br>
 <br>
 <br>
