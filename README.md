@@ -7,7 +7,7 @@ ___
 ### Table of Contents
 - [Summary](#summary)
 - [Planning](#planning)
-- [Installation](#nstallation)
+- [Installation](#installation)
 - [Model View Controller](#model-view-controller)
     - [Model](#model)
     - [View](#view)
@@ -46,7 +46,7 @@ As more unedited completed decisions are retaken by other users, more data is ga
 <img align="right" src="https://imgur.com/1P7FTMh.png" width="350" height="200">
 <img align="right" src="https://imgur.com/9kL2A5j.png" width="600" height="350">
 <br>
-We testing the database by entering mock data using [Mockaroo](https://mockaroo.com/schemas/127284). 
+We testing the database by entering mock data using [Mockaroo](https://mockaroo.com/schemas/127284) [Mockaroo](https://mockaroo.com/schemas/127284). 
 <br><br>
 Not all data may make complete sense but it was vital to have, mock data allowed to develop and test queries.
 
@@ -67,16 +67,16 @@ It was unecessary to use JIRA for a one man project, so I instead used [Trello](
 Although a domain name has been secured (MindTipper.com), the application is not ready for official launch. Step by Step instructions will be provided to run this application locally on your machine for further development or testing purposes
 
 #### Prerequisites
-- **[Eclipse IDE](https://www.eclipse.org/downloads/download.php?file=/oomph/epp/photon/R/eclipse-inst-win64.exe)** (Photon Preferred)
-- **Oracle Driver** (ojdbc8-12.2.0.1.jar provided in [lib](https://github.com/resv/MINDTIPPER/tree/master/WebContent/WEB-INF/lib) folder)
-- Misc Jar files
+- **[Eclipse IDE](https://www.eclipse.org/downloads/download.php?file=/oomph/epp/photon/R/eclipse-inst-win64.exe)** ( Photon Preferred )
+- **[Oracle Driver](https://www.oracle.com/technetwork/database/features/jdbc/jdbc-ucp-122-3110062.html)** ( ojdbc8-12.2.0.1.jar provided in [lib](https://github.com/resv/MINDTIPPER/tree/master/WebContent/WEB-INF/lib) folder )
+- Misc Jar files ( provided in [lib](https://github.com/resv/MINDTIPPER/tree/master/WebContent/WEB-INF/lib) folder )
   - Spring
   - Hibernate
-  - Javax (JSP, JSTL, SERVLET, PERSISTENCE)
+  - Javax ( JSP, JSTL, SERVLET, PERSISTENCE )
   - Spring m2 Plugin
 - **[Java 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)** SDK / JRE
-- **[SQL Developer](https://www.oracle.com/technetwork/developer-tools/sql-developer/downloads/index.html)** (Version 18)
-- **[Oracle Database](https://www.oracle.com/technetwork/database/enterprise-edition/downloads/index.html)** (Version 18c, also 12c compatible)
+- **[SQL Developer](https://www.oracle.com/technetwork/developer-tools/sql-developer/downloads/index.html)** ( Version 18 )
+- **[Oracle Database](https://www.oracle.com/technetwork/database/enterprise-edition/downloads/index.html)** ( Version 18c , also 12c compatible )
 - **[Apache Tomcat](https://tomcat.apache.org/download-90.cgi)** v9
 
 
