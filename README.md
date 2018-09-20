@@ -4,7 +4,7 @@
 </p>
 
 # 
-<img align="right" src="BeneficialPlumpJackal-size_restricted.gif" width="550" height="320" />
+<img align="right" src="BeneficialPlumpJackal-size_restricted.gif" width="600" height="360" />
 
 ### Table of Contents
 - [Summary](#summary)
