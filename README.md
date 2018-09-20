@@ -13,11 +13,10 @@ ___
     - [View](#view)
     - [Controller](#controller)
 - [Unfinished / Problems](#unfinished)
-<br>
-
 ###### Repository Notes
 Deleted and made a brand new Case Study repository in attempt to keep this project seperate from Java Training (exercises).
-<br><br><br><br><br><br><br><br><br><br>
+___
+<br><br><br>
 <!------------------------------------------------------------------------------------------------------------------------->
 <h1 align="center" id="summary"> Summary</h1>
 An dynamic web application to help decision making that doesn’t rely on a random generator. A decision title is split into two columns called choices, each choice has a supporting detail set that weigh against the opposing choice’s detail set. <br><br>
@@ -57,9 +56,8 @@ There is also [individual files](https://github.com/resv/MINDTIPPER/tree/master/
 <br><br><br><br>
 
 It was unecessary to use JIRA for a one man project, so I instead used [Trello](https://trello.com/b/cFsNYBow/mindtipper) which help keep track of my progress of the entire development. 
-<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-<br><br><br><br><br><br><br><br><br><br>
 <!---------------------------------------------------------------------------------------------------------------------------->
 <h1 align="center" id="installation">Installation</h1>
 
@@ -182,7 +180,7 @@ Future integration
 
 5. “Terms of use” & “Privacy Policy” actually has factual information regarding this project at its current state and for future features not yet implemented. You can generate specified documentation at [Termly](https://termly.io/). I could not afford the membership so I had to manual create my own HTML and CSS for this page as embedding was the only way to use these terms for non paid members and that was not an option. Credit was given to the company in the jsp page.
 <br>
-##### *Animation*
+##### Animation
 I implemented a very powerful tool called [WOW.JS](https://wowjs.uk/). for simple animations. Customized timers can be found in [animate.css](https://github.com/resv/MINDTIPPER/blob/master/WebContent/resources/css/animate.css).
 
 
@@ -212,6 +210,9 @@ Problems:
 - My latest attempt was using Hibernate which I was finally able to receive concrete a “read” from my database to my jsp. 
 -At this point I have to continue to figure out how to correctly map entities with other entities. 
 
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 	
       
 
