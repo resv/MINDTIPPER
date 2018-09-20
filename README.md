@@ -138,15 +138,6 @@ I highly advise that you copy and paste the local url “**http://localhost:8080
 <img align="center" src="https://imgur.com/hI50UqX.png" width="900" height="80">
 
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
 <!--------------------------------------------------------------------------------------------------------------------------->
 <h1 align="center" id="mvc">MODEL VIEW CONTROLLER</h1>
@@ -170,11 +161,15 @@ There were **[three different attempts](https://github.com/resv/MINDTIPPER/tree/
 The **third and current attempt** is using **Hibernate** which we were able to finally read from the database and send to the JSP.
 
 <br>
+<br>
+<br>
+<br>
+<br>
 
 <!----------------------------------------------------------------------------------------------------------------------->
 <h1 align="center" id="model">MVC - MODEL</h1>
 
-In our [MT.entity](https://github.com/resv/MINDTIPPER/tree/master/src/MT/entity) package, four entities/models exist, these directly correlate to my database tables.
+In our [MT.entity](https://github.com/resv/MINDTIPPER/tree/master/src/MT/entity) package, four entities/models exist, these directly correlate to my AWS database tables.
 
 
 A standard pattern of mapping primary keys, columns  toString() , getters & setters were set respectively;
@@ -195,11 +190,6 @@ Specifically, the **DAOImpl will initialize the SessionFactory** which will **au
 |---|---|---|---|---|---|
 |<img src="https://imgur.com/PSho8Cx.png" width="150" height="200">|<img src="https://imgur.com/KcWjQrs.png" width="150" height="200">|<img src="https://imgur.com/sAqvEUT.png" width="150" height="200">|<img src="https://imgur.com/FFWXAEb.png" width="150" height="200">|<img src="https://imgur.com/d4O6s57.png" width="150" height="200">|<img src="https://imgur.com/mgA3VpD.png" width="150" height="200">|
 
-<br>
-<br>
-<br>
-<br>
-<br>
 <br>
 <br>
 <br>
@@ -254,13 +244,8 @@ Specifically, the **DAOImpl will initialize the SessionFactory** which will **au
 <img align="right" src="https://imgur.com/OLYDxd2.png" width="650" height="200">
 
 ##### Animation
-I implemented a very powerful tool called [WOW.JS](https://wowjs.uk/). for **simple animations**. Customized timers can be found in [animate.css](https://github.com/resv/MINDTIPPER/blob/master/WebContent/resources/css/animate.css).
+I implemented a very powerful tool called [WOW.JS](https://wowjs.uk/) for **simple animations**. Customized timers can be found in [animate.css](https://github.com/resv/MINDTIPPER/blob/master/WebContent/resources/css/animate.css).
 
-<br>
-<br>
-<br>
-<br>
-<br>
 <br>
 <br>
 <br>
@@ -287,11 +272,6 @@ I implemented a very powerful tool called [WOW.JS](https://wowjs.uk/). for **sim
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
 <!------------------------------------------------------------------------------------------------------------------------->
 <h1 align="center" id="unfinished">UNFINISHED / PROBLEMS</h1>
@@ -303,6 +283,8 @@ Problems:
 - My latest attempt was using Hibernate which I was finally able to receive concrete a “read” from my database to my jsp. 
 -At this point I have to continue to figure out how to correctly map entities with other entities. 
 
-
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br>
+<br>
+<br>
+<br>
+<br>
