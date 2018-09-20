@@ -4,8 +4,7 @@
 </p>
 
 # 
-![](BeneficialPlumpJackal-size_restricted.gif)
-<iframe  src='https://gfycat.com/ifr/BeneficialPlumpJackal' frameborder='0' scrolling='no' width='450' height='350'  align="right"></iframe>
+<img src="BeneficialPlumpJackal-size_restricted.gif" width="450" height="350" />
 
 ### Table of Contents
 - [Summary](#summary)
