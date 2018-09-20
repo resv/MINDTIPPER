@@ -186,6 +186,7 @@ Future integration
 5. “Terms of use” & “Privacy Policy” actually has factual information regarding this project at its current state and for future features not yet implemented. You can generate specified documentation at [Termly](https://termly.io/). I could not afford the membership so I had to manual create my own HTML and CSS for this page as embedding was the only way to use these terms for non paid members and that was not an option. Credit was given to the company in the jsp page.
 <br><br><br>
 <img align="right" src="https://imgur.com/OLYDxd2.png" width="650" height="200">
+
 ##### Animation
 I implemented a very powerful tool called [WOW.JS](https://wowjs.uk/). for simple animations. Customized timers can be found in [animate.css](https://github.com/resv/MINDTIPPER/blob/master/WebContent/resources/css/animate.css).
 
