@@ -18,16 +18,17 @@ public class ChoiceDAOImpl implements ChoiceDAO {
 	
 	@Override
 	public List<Choice> getChoice() {
-		//get the current hibernate session
+		
+		//GET THE CURRENT HIBERNATE SESSION
 		Session currentSession = sessionFactory.getCurrentSession();
 		
-		//QUERY INTERFACE OF TYPE<> name of QUERY,            SQL QUERY,       ENTITY
+		//QUERY OF TYPE<> //QUERY NAME//                   //SQL QUERY//    //ENTITY//
 		Query<Choice> theQuery = currentSession.createQuery("From Choice", Choice.class);
 		
-		//execute query and get result list PUT IT IN A LIST VARIABLE
+		//EXCECUTE QUERY AND GET RESULT LIST, PUT IT IN A LIST
 		List<Choice> choices = theQuery.getResultList();
 		
-		//return the results, RETURN LIST
+		//RETURN LIST
 		return choices;
 	}
 

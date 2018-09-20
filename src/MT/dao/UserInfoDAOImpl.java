@@ -22,32 +22,28 @@ public class UserInfoDAOImpl implements UserInfoDAO {
 	@Override
 	public List<UserInfo> getUser() {
 		
-		//get the current hibernate session
+		//GET THE CURRENT HIBERNATE SESSION
 		Session currentSession = sessionFactory.getCurrentSession();
 		
-		//QUERY INTERFACE OF TYPE<> name of QUERY,            SQL QUERY,       ENTITY
+		//QUERY OF TYPE<> //QUERY NAME//                      //SQL QUERY//       //ENTITY//
 		Query<UserInfo> theQuery = currentSession.createQuery("From UserInfo", UserInfo.class);
 		
-		//execute query and get result list PUT IT IN A LIST VARIABLE
+		//EXCECUTE QUERY AND GET RESULT LIST, PUT IT IN A LIST
 		List<UserInfo> user = theQuery.getResultList();
 		
-		//return the results, RETURN LIST
+		//RETURN LIST
 		return user;
-		
 	}
 	
 	@Override
 	public void saveUserInfo(UserInfo theUser) {
 		
-		//get current hibernate session
+		//GET THE CURRENT HIBERNATE SESSION
 		Session currentSession = sessionFactory.getCurrentSession();
 		
-		//save the user
+		//SAVE THE USER SESSION
 		currentSession.save(theUser);
-		
 	}
-
-	
 }
 
 

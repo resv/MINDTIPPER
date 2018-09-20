@@ -22,13 +22,13 @@ public class DecisionInfoImpl implements DecisionInfoDAO {
 		//GET THE CURRENT HIBERNATE SESSION
 		Session currentSession = sessionFactory.getCurrentSession();
 		
-		//QUERY INTERFACE OF TYPE<> name of QUERY,            SQL QUERY,       ENTITY
+		//QUERY OF TYPE<> //QUERY NAME//                         //SQL QUERY//       //ENTITY//
 		Query<DecisionInfo> theQuery = currentSession.createQuery("From DecisionInfo", DecisionInfo.class);
 		
-		//execute query and get result list PUT IT IN A LIST VARIABLE
+		//EXCECUTE QUERY AND GET RESULT LIST, PUT IT IN A LIST
 		List<DecisionInfo> decisions = theQuery.getResultList();
 		
-		//return the results, RETURN LIST
+		//RETURN LIST
 		return decisions;
 	}
 

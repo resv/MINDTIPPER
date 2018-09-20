@@ -185,16 +185,14 @@ A standard pattern of mapping primary keys, columns  toString() , getters & sett
 |[Entity Package](https://github.com/resv/MINDTIPPER/tree/master/src/MT/entity)|[UserInfo Entity](https://github.com/resv/MINDTIPPER/blob/master/src/MT/entity/UserInfo.java)|[DecisionInfo Entity](https://github.com/resv/MINDTIPPER/blob/master/src/MT/entity/DecisionInfo.java)|[Title Entity](https://github.com/resv/MINDTIPPER/blob/master/src/MT/entity/Title.java)|[Choice Entity](https://github.com/resv/MINDTIPPER/blob/master/src/MT/entity/Choice.java)|
 |---|---|---|---|---|
 |<img src="https://imgur.com/T9eFOjH.png" width="150" height="200">|<img src="https://imgur.com/zgOu7iC.png" width="150" height="200">|<img src="https://imgur.com/xfDDK8M.png" width="150" height="200">|<img src="https://imgur.com/I6zoJKy.png" width="150" height="200">|<img src="https://imgur.com/lliPErT.png" width="150" height="200">|    
-    
-I created our DAO (interface)
 
-	Insert DAO pic
+<br>
 
-The DAOImpl will handle our SessionFactory which will automatically open and close our connections, query the database, then save the result into an List array.
+Specifically, the **DAOImpl will initialize the SessionFactory** which will **automatically open** and **close** our **connections**, query the database, then save the result into an List array. Image shown below:
+<img src="https://imgur.com/g9LV1IL.png" width="600" height="500">
+	
 
-	Insert DAOimpln pic
-
-3. Our DAOs and DAOImpls contains the necessary methods for its purpose. I also have a service layer for future expansion and flexibility. **The service layer would allow us to add additional business logic later**. Another use for the service layer would be to seperate the DAO and DAOImpl from the user for additional layer of **protection against any attacks**.
+3. Our DAOs and DAOImpls contains the necessary methods for its purpose. I also have a [service package](https://github.com/resv/MINDTIPPER/tree/master/src/MT/service), a layer for future expansion and flexibility. **The service layer would allow us to add additional business logic later**. Another use for the service layer would be to seperate the DAO and DAOImpl from the user for additional layer of **protection against any attacks**.
 
 |[Controller](https://github.com/resv/MINDTIPPER/blob/master/src/MT/controller/HomeController.java)|[UserInfo Entity](https://github.com/resv/MINDTIPPER/blob/master/src/MT/entity/UserInfo.java)|[UserInfoDAO](https://github.com/resv/MINDTIPPER/blob/master/src/MT/dao/UserInfoDAO.java)|[UserInfoDAOImpl](https://github.com/resv/MINDTIPPER/blob/master/src/MT/dao/UserInfoDAOImpl.java)|[UserInfoService](https://github.com/resv/MINDTIPPER/blob/master/src/MT/service/UserInfoService.java)|[UserInfoServiceImpl](https://github.com/resv/MINDTIPPER/blob/master/src/MT/service/UserInfoServiceImpl.java)|
 |---|---|---|---|---|---|

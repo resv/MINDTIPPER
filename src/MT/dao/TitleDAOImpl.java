@@ -20,16 +20,16 @@ public class TitleDAOImpl implements TitleDAO {
 	@Override
 	public List<Title> getTitles() {
 
-		//get the current hibernate session
+		//GET THE CURRENT HIBERNATE SESSION
 		Session currentSession = sessionFactory.getCurrentSession();
 		
-		//QUERY INTERFACE OF TYPE<> name of QUERY,            SQL QUERY,       ENTITY
+		//QUERY OF TYPE<> //QUERY NAME//                  //SQL QUERY//   //ENTITY//
 		Query<Title> theQuery = currentSession.createQuery("From Title", Title.class);
 		
-		//execute query and get result list PUT IT IN A LIST VARIABLE
+		//EXCECUTE QUERY AND GET RESULT LIST, PUT IT IN A LIST
 		List<Title> titles = theQuery.getResultList();
 		
-		//return the results, RETURN LIST
+		//RETURN LIST
 		return titles;
 	}
 
