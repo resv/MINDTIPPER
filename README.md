@@ -35,9 +35,9 @@ As more unedited completed decisions are retaken by other users, more data is ga
 <h1 align="center" id="planning"> Planning </h1>
 
 
-The case study started with a [summary](https://github.com/resv/MINDTIPPER/blob/master/PLANNING/REVISION%202/REVISION%203/REVISION%204/REVISION%205/WireFrame%20-%20CaseStudySummary%20-%20ReqAnalysis/CASE_STUDY_SUMMARY.pdf) of the application, describing what its purpose would be.
+1. The case study started with a [summary](https://github.com/resv/MINDTIPPER/blob/master/PLANNING/REVISION%202/REVISION%203/REVISION%204/REVISION%205/WireFrame%20-%20CaseStudySummary%20-%20ReqAnalysis/CASE_STUDY_SUMMARY.pdf) of the application, describing what its purpose would be.
 
-<img src="https://imgur.com/ihUy5yx.png"height="400">
+<img align="center" src="https://imgur.com/ihUy5yx.png" width="400">
 
 Insert summary picture here
 Next came requirement analysis that would detail the necessary components the project must have, and soon after the user case which would describe what the user wants to do.
