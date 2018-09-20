@@ -146,6 +146,7 @@ Future integration
 <h1 align="center" id="view">MVC - VIEW</h1>
 
 <img align="right" src="https://imgur.com/gMqPYkN.png" width="600" height="400">
+
 #### API Sources
 - **CSS**
   - [W3school](https://www.w3schools.com/)
@@ -167,16 +168,15 @@ Future integration
      - [HTML.com](https://html.com/)
      - [Developer.Mozilla.org](https://developer.mozilla.org/en-US/)
 
-Some API sources used were for learning purposes only, any API libraries that were used are located in the  “\MT\WebContent\resources\” folder, labeled respectively. 
+1. Some API sources used were for learning purposes only, any API libraries that were used are located in the [resources](https://github.com/resv/MINDTIPPER/tree/master/WebContent/resources) folder, labeled respectively. 
 
-The css & js folder contains the personal modified external stylings done for the JSP pages. All external sources have been credited to the respective authors/companies on each of their files.
+2. The css & js folder contains the personal modified external stylings done for the JSP pages. All external sources have been credited to the respective authors/companies on each of their files.
 
-Each JSP page implements bootstrap API for styling.
-Each page scales for mobile use or smaller resolutions.
-Navigation bar and footer were custom made (scales).
+3. Each JSP page implements bootstrap API for styling and is responsive for mobile or smaller resolutions.
+   - Navigation bar and footer were custom made and also responsive.
 With the exception of the homepage, no template was copied, each page was heavily modified to get the current results.
-Home page was inspired by https://startbootstrap.com/ but highly modified.
-Internal and external CSS was used as the requirement for this case study.
+   - Home page was inspired by [Startbootstrap](https://startbootstrap.com/) but highly modified.
+   - Internal and external CSS was used as the requirement for this case study.
 
 HTML and design were first created using a text editor, VScode. This allowed faster front end testing. Once the HTML was satisfactory, I’ve moved it over to a JSP file in eclipse for the final touches it needed to work with the supported JSTL tag library.
 
