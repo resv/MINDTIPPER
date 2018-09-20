@@ -66,12 +66,9 @@ It was unecessary to use JIRA for a one man project, so I instead used [Trello](
 
 Although a domain name has been secured (MindTipper.com), the application is not ready for official launch. Step by Step instructions will be provided to run this application locally on your machine for further development or testing purposes
 
-<br>
 <img align="right" src="https://imgur.com/6SgZv7U.png" width="300" height="600">
-<img align="right" src=" https://imgur.com/41husxC.png" width="600" height="350">
-<br>
 
-#### Prerequisites
+### Prerequisites
 - **[Eclipse IDE](https://www.eclipse.org/downloads/download.php?file=/oomph/epp/photon/R/eclipse-inst-win64.exe)** ( Photon Preferred )
 - **[Oracle Driver](https://www.oracle.com/technetwork/database/features/jdbc/jdbc-ucp-122-3110062.html)** ( ojdbc8-12.2.0.1.jar provided in [lib](https://github.com/resv/MINDTIPPER/tree/master/WebContent/WEB-INF/lib) folder )
 - Misc Jar files ( provided in [lib](https://github.com/resv/MINDTIPPER/tree/master/WebContent/WEB-INF/lib) folder )
@@ -99,6 +96,7 @@ SQL DDL is located at “\MT\WebContent\resources\SQL DDL”
 				Insert picture of testdb servlet file.
                
                 
+<img align="right" src=" https://imgur.com/41husxC.png" width="600" height="350">
                 
 Right click the “MT” project in your project explorer -> run as ->run on server.
 				Insert picture of run right click
