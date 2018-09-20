@@ -1,10 +1,10 @@
 <h1 align="center">Case Study - "Mind Tipper"</h1> <br>
 <p align="center">
-<img alt="GitPoint" title="GitPoint" src="https://imgur.com/m8HCs0K.png" width="250">
+<img title="GitPoint" src="https://imgur.com/m8HCs0K.png" width="250">
 </p>
 
 # 
-<img src="BeneficialPlumpJackal-size_restricted.gif" width="450" height="350" />
+<img align="right" src="BeneficialPlumpJackal-size_restricted.gif" width="450" height="350" />
 
 ### Table of Contents
 - [Summary](#summary)
