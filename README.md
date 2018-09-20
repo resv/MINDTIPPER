@@ -96,16 +96,14 @@ SQL DDL is located at “\MT\WebContent\resources\SQL DDL”
 				Insert picture of testdb servlet file.
                
                 
-<img align="right" src=" https://imgur.com/41husxC.png" width="600" height="350">
+<img align="center" src="https://imgur.com/41husxC.png" width="600" height="350">
                 
-Right click the “MT” project in your project explorer -> run as ->run on server.
-				Insert picture of run right click
-Set Tomcat to v9 and hit finish.
-				Insert picture of tom cat configuration
+6. Right click the “MT” project in your project explorer -> run as ->run on server, Set Tomcat to v9 and hit finish.
 
-The web application should take a few seconds to load and then run.
+7. The web application should take a few seconds to load and then run.
 I highly advise that you copy and paste the local url “http://localhost:8080/MT/” from the eclipse web explorer and open it on your local browser for the full front end user experience.
-				Insert picture of local browser with url and part of mindtipper pic
+
+<img align="center" src="https://imgur.com/W2X1efb.png" width="300" height="200">
 
 
 
