@@ -176,11 +176,18 @@ The third and current attempt is using Hibernate which we were able to finally r
 
 <!----------------------------------------------------------------------------------------------------------------------->
 <h1 align="center" id="model">MVC - MODEL</h1>
-Four tables exist in our database therefore we have Entities we have created.
-Primary keys,  toString() , getters & setters were set respectively;
+<img align="right" src="https://imgur.com/T9eFOjH.png" width="200" height="150">
 
-	Insert ENTITY PIC
 
+In our [MT.entity](https://github.com/resv/MINDTIPPER/tree/master/src/MT/entity) package, four entities/models exist, these directly correlate to my database tables.
+
+
+A standard pattern of mapping primary keys, columns  toString() , getters & setters were set respectively;
+
+|[UserInfo Entity](https://github.com/resv/MINDTIPPER/blob/master/src/MT/entity/UserInfo.java)|[DecisionInfo Entity](https://github.com/resv/MINDTIPPER/blob/master/src/MT/entity/DecisionInfo.java)|[Title Entity](https://github.com/resv/MINDTIPPER/blob/master/src/MT/entity/Title.java)|[Choice Entity](https://github.com/resv/MINDTIPPER/blob/master/src/MT/entity/Choice.java)|
+|---|---|---|---|
+|<img src="https://imgur.com/zgOu7iC.png" width="150" height="200">|<img src="https://imgur.com/xfDDK8M.png" width="150" height="200">|<img src="https://imgur.com/I6zoJKy.png" width="150" height="200">|<img src="https://imgur.com/lliPErT.png" width="150" height="200">|    
+    
 I created our DAO (interface)
 
 	Insert DAO pic
@@ -281,14 +288,6 @@ I implemented a very powerful tool called [WOW.JS](https://wowjs.uk/). for **sim
 *Image shown below represents data queried from the database. **Text wrapped in parenthesis** are data place holders that would populate correctly with joined entities.*
 
 <img src="https://imgur.com/WyxdjwA.png" width="900" height="500">
-
-<br>
-
-3. Our DAO and DAOImpl contains the necessary methods for this operation. We also have a service layer for future expansion and flexibility. **The service layer would allow us to add additional business logic later**. Another use for the service layer would be to seperate the DAO and DAOImpl from the user for additional layer of **protection against any attacks**.
-
-|[Controller](https://github.com/resv/MINDTIPPER/blob/master/src/MT/controller/HomeController.java)|[UserInfo Entity](https://github.com/resv/MINDTIPPER/blob/master/src/MT/entity/UserInfo.java)|[UserInfoDAO](https://github.com/resv/MINDTIPPER/blob/master/src/MT/dao/UserInfoDAO.java)|[UserInfoDAOImpl](https://github.com/resv/MINDTIPPER/blob/master/src/MT/dao/UserInfoDAOImpl.java)|[UserInfoService](https://github.com/resv/MINDTIPPER/blob/master/src/MT/service/UserInfoService.java)|[UserInfoServiceImpl](https://github.com/resv/MINDTIPPER/blob/master/src/MT/service/UserInfoServiceImpl.java)|
-|---|---|---|---|---|---|
-|<img src="https://imgur.com/PSho8Cx.png" width="150" height="200">|<img src="https://imgur.com/KcWjQrs.png" width="150" height="200">|<img src="https://imgur.com/sAqvEUT.png" width="150" height="200">|<img src="https://imgur.com/FFWXAEb.png" width="150" height="200">|<img src="https://imgur.com/d4O6s57.png" width="150" height="200">|<img src="https://imgur.com/mgA3VpD.png" width="150" height="200">|
 
 <br>
 <br>
