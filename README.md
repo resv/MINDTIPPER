@@ -64,13 +64,12 @@ It was unecessary to use JIRA for a one man project, so I instead used [Trello](
 <h1 align="center" id="installation">Installation</h1>
 
 
+Although a domain name has been secured (MindTipper.com), the application is not ready for official launch. Step by Step instructions will be provided to run this application locally on your machine for further development or testing purposes
+
 <br>
 <img align="right" src="https://imgur.com/6SgZv7U.png" width="300" height="600">
-<img align="right" src="https://imgur.com/1P7FTMh.png" width="350" height="200">
 <img align="right" src=" https://imgur.com/41husxC.png" width="600" height="350">
 <br>
-
-Although a domain name has been secured (MindTipper.com), the application is not ready for official launch. Step by Step instructions will be provided to run this application locally on your machine for further development or testing purposes
 
 #### Prerequisites
 - **[Eclipse IDE](https://www.eclipse.org/downloads/download.php?file=/oomph/epp/photon/R/eclipse-inst-win64.exe)** ( Photon Preferred )
