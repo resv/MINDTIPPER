@@ -17,7 +17,7 @@ ___
 
 ###### Repository Notes
 Deleted and made a brand new Case Study repository in attempt to keep this project seperate from Java Training (exercises).
-
+<br><br>
 <!----------------------------------------------------------------------------------------------------------------------------------->
 <h1 align="center" id="summary"> Summary</h1>
 An dynamic web application to help decision making that doesn’t rely on a random generator. A decision title is split into two columns called choices, each choice has a supporting detail set that weigh against the opposing choice’s detail set. <br><br>
@@ -29,7 +29,7 @@ You can make a selection of which detail wins over the other. Once all selection
 Users can share their decisions with others, retake or edit existing completed decisions as a starting template to start a new decision of their own. Expected user demographics are not limited to consumers but extends to businesses connecting with their customers e.g "What do you like most about our product X watch vs our competitor's Y watch?".
 <br><br><br><br>
 As more unedited completed decisions are retaken by other users, more data is gathered on the value of a detail chosen by many. With this data we can analyze which details hold more value over others.
-<br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
 
 <!----------------------------------------------------------------------------------------------------------------------------------->
 <h1 align="center" id="planning"> Planning </h1>
@@ -57,10 +57,10 @@ There is also [individual files](https://github.com/resv/MINDTIPPER/tree/master/
 <br><br><br><br>
 
 It was unecessary to use JIRA for a one man project, so I instead used [Trello](https://trello.com/b/cFsNYBow/mindtipper) which help keep track of my progress of the entire development. 
-<br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
 
 
-<!----------------------------------------------------------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------------------------------------------------->
 <h1 align="center" id="installation">Installation</h1>
 
 
@@ -101,10 +101,11 @@ Although a domain name has been secured (MindTipper.com), the application is not
 I highly advise that you copy and paste the local url “http://localhost:8080/MT/” from the eclipse web explorer and open it on your local browser for the full front end user experience.
 
 <img align="center" src="https://imgur.com/hI50UqX.png" width="900" height="80">
+<br><br><br><br><br><br><br><br><br><br>
 
 
 
-<!----------------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------------------------------------------------------------->
 <h1 align="center" id="mvc">MODEL VIEW CONTROLLER</h1>
 
 Initially I attempted to create this project as Maven converted project
@@ -118,8 +119,8 @@ The second attempt we came across the same issue using JDBC template method.
 The third and current attempt is using Hibernate which we were able to finally read from the database and send to the JSP.
 
 
-
-<!----------------------------------------------------------------------------------------------------------------------------------->
+<br><br><br><br><br><br><br><br><br><br>
+<!----------------------------------------------------------------------------------------------------------------------->
 <h1 align="center" id="model">MVC - MODEL</h1>
 Four tables exist in our database therefore we have Entities we have created.
 Primary keys,  toString() , getters & setters were set respectively;
@@ -140,8 +141,8 @@ Security layer to prevent access to DAO and SQL injection
 Future integration
 
 
-
-<!----------------------------------------------------------------------------------------------------------------------------------->
+<br><br><br><br><br><br><br><br><br><br>
+<!---------------------------------------------------------------------------------------------------------------------------->
 <h1 align="center" id="view">MVC - VIEW</h1>
 
 #### API Sources
@@ -190,8 +191,8 @@ JSP
 We have removed boilerplate code by creating a folder(LINK) to hold static header footer and nav bars JSP files that were included in each JSP file.
 
 
-
-<!----------------------------------------------------------------------------------------------------------------------------------->
+<br><br><br><br><br><br><br><br><br><br>
+<!-------------------------------------------------------------------------------------------------------------------------->
 <h1 align="center" id="controller">MVC - CONTROLLER</h1>
                                     The controller layer handles mapping to the corresponding JSP views. For site navigational puposes, I have created simple view controllers.
                                     
@@ -205,8 +206,8 @@ It also handles adding model attributes to the JSP page such as inserting the qu
 Insert jsp page of search
 
 
-
-<!----------------------------------------------------------------------------------------------------------------------------------->
+<br><br><br><br><br><br><br><br><br><br>
+<!------------------------------------------------------------------------------------------------------------------------->
 <h1 align="center" id="unfinished">UNFINISHED / PROBLEMS</h1>
 
 Problems:
