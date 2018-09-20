@@ -46,7 +46,7 @@ As more unedited completed decisions are retaken by other users, more data is ga
 <img align="right" src="https://imgur.com/LspzRDJ.png" width="600" height="350">
 <img align="right" src="https://imgur.com/1P7FTMh.png" width="350" height="200">
 <img align="right" src="https://imgur.com/9kL2A5j.png" width="600" height="350">
-<br>
+<br><br><br>
 We testing the database by entering mock data using [Mockaroo](https://mockaroo.com).
 <br><br>
 Not all data may make complete sense but it was vital to have, mock data allowed to develop and test queries.
@@ -91,13 +91,13 @@ Although a domain name has been secured (MindTipper.com), the application is not
 			
 4. Clone this repository, once download is complete you may open up this project in your Eclipse IDE.
 
-5. You need to modify the “spring-mvc-crud-demo-servlet.xml” file, replace User, Pass, jdbcURL, driver to match your connection in your DBMS.               
+5. You need to modify the “spring-mvc-crud-demo-servlet.xml” file, replace "User", "Pass", "jdbcURL", driver to match your connection in your DBMS.               
                 
 <img align="center" src="https://imgur.com/vFv5IoH.png" width="900" height="150">
                 
 6. Right click the “MT” project in your project explorer -> run as ->run on server, Set Tomcat to v9 and hit finish.
 
-7. The web application should take a few seconds to load and then run.
+7. The web application should take a few seconds to load and run.
 I highly advise that you copy and paste the local url “http://localhost:8080/MT/” from the eclipse web explorer and open it on your local browser for the full front end user experience.
 
 <img align="center" src="https://imgur.com/hI50UqX.png" width="900" height="80">
@@ -172,6 +172,9 @@ Future integration
 
 2. We have removed boilerplate code by creating a [static JSP folder](https://github.com/resv/MINDTIPPER/tree/master/WebContent/WEB-INF/view/static) to hold header footer and nav bars JSP files that were included in each JSP file.
 
+<img src="https://imgur.com/F8MdTJz.png" width="900" height="50">
+
+
 3. The css & js folder contains the personal external stylings done for the JSP pages but all other external css sources have been credited to the respective authors/companies on each of their files.
 
 4. Each JSP page implements bootstrap for styling and is responsive for mobile or smaller resolutions.
@@ -181,10 +184,10 @@ Future integration
    - JSTL tag library was used to reference external links.
 
 5. “Terms of use” & “Privacy Policy” actually has factual information regarding this project at its current state and for future features not yet implemented. You can generate specified documentation at [Termly](https://termly.io/). I could not afford the membership so I had to manual create my own HTML and CSS for this page as embedding was the only way to use these terms for non paid members and that was not an option. Credit was given to the company in the jsp page.
-<br>
+<br><br><br>
+<img align="right" src="https://imgur.com/OLYDxd2.png" width="650" height="200">
 ##### Animation
 I implemented a very powerful tool called [WOW.JS](https://wowjs.uk/). for simple animations. Customized timers can be found in [animate.css](https://github.com/resv/MINDTIPPER/blob/master/WebContent/resources/css/animate.css).
-
 
 <br><br><br><br><br><br><br><br><br><br>
 <!-------------------------------------------------------------------------------------------------------------------------->
