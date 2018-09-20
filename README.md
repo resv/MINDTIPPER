@@ -256,7 +256,7 @@ I implemented a very powerful tool called [WOW.JS](https://wowjs.uk/) for **simp
 
 <!-------------------------------------------------------------------------------------------------------------------------->
 <h1 align="center" id="controller">MVC - CONTROLLER</h1>
-<img align="right" src="https://imgur.com/Qdmv4Fk.png" width="300" height="350">
+<img align="right" src="https://imgur.com/jnTbInt.png" width="300" height="350">
 <br>
 
 1. The [controller](https://github.com/resv/MINDTIPPER/blob/master/src/MT/controller/HomeController.java) layer handles mapping to the corresponding [JSP views](https://github.com/resv/MINDTIPPER/tree/master/WebContent/WEB-INF/view) and for **navigational usability**, I have created simple view controllers.
@@ -288,15 +288,15 @@ I implemented a very powerful tool called [WOW.JS](https://wowjs.uk/) for **simp
 
 **Unfinished: joined Entity Problems**
 - I could not properly **join entities** together in hibernate. e.g. **OneToMany** and **ManyToOne**. 
-- **Logging in** should **return user** to their **personal** account page with their **data**.
+- Create **Logging in** function and should **return user** to their **personal** account page with their **data**.
 - **Search results** should **populate** complete **data from all tables** not just one.
-- **Template decisions** should **populate** complete **data from all tables** not just one.
-- **Submitting a new decision** should **write data** to **all tables** in the DB.
-- **New decisions form has input text bugs**
-- Register is done but I need to implement logging in.
-- **Contact form** for support has validation but does **not send emails**.
+- Create **Template decisions** function and it should **populate** complete **data from all tables** not just one.
+- Create **Submitting a new decision** function should **write data** to **all tables** in the DB.
 - **Junit Testing NOT DONE.**
 
+**Bugs**
+- **New decisions form has input text bugs**
+- **Contact form** for support has validation but does **not send emails**.
 <br>
 <br>
 <br>
