@@ -284,6 +284,8 @@ I implemented a very powerful tool called [WOW.JS](https://wowjs.uk/) for **simp
 	- The same issue occurred using JDBC template.
 	- My latest attempt was using Hibernate which I was finally able to receive concrete a “read” from my database to my jsp. 
 
+<img align="right" src="https://imgur.com/ghZokjA.png" width="350" height="200">
+
 **Unfinished: joined Entity Problems**
 - I could not properly **join entities** together in hibernate. e.g. **OneToMany** and **ManyToOne**. 
 - **Logging in** should **return user** to their **personal** account page with their **data**.
@@ -294,6 +296,7 @@ I implemented a very powerful tool called [WOW.JS](https://wowjs.uk/) for **simp
 - Register is done but I need to implement logging in.
 - **Contact form** for support has validation but does **not send emails**.
 - **Junit Testing NOT DONE.**
+
 <br>
 <br>
 <br>
