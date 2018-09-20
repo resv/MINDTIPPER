@@ -217,15 +217,4 @@ public class HomeController {
 		ModelAndView mav = new ModelAndView("templateDecision");
 		return mav;
 	}	
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 }
