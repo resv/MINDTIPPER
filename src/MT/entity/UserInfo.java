@@ -30,11 +30,9 @@ public class UserInfo {
 		@Column(name="lvl")
 		private int lvl = 0;
 
-
 		//DEFAULT CONSTRUCTORS
 		public UserInfo() {
 		}
-
 
 		public UserInfo(String username, String email, String password, int lvl) {
 			super();
@@ -44,7 +42,6 @@ public class UserInfo {
 			this.lvl = lvl;
 		}
 		
-		
 		public UserInfo(int user_id, String username, String email, String password, int lvl) {
 			super();
 			this.user_id = user_id;
@@ -53,8 +50,6 @@ public class UserInfo {
 			this.password = password;
 			this.lvl = lvl;
 		}
-
-
 
 		//TOSTRING
 		@Override

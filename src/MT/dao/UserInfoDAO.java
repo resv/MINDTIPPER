@@ -9,8 +9,5 @@ public interface UserInfoDAO {
 	public List<UserInfo> getUser();
 
 	public void saveUserInfo(UserInfo theUser);
-	
-	
 
-	
 }

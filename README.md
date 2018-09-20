@@ -147,7 +147,7 @@ Future integration
 
 <img align="right" src="https://imgur.com/gMqPYkN.png" width="600" height="400">
 
-#### API Sources
+#### [API Sources](https://github.com/resv/MINDTIPPER/tree/master/WebContent/resources/API)
 - **CSS**
   - [W3school](https://www.w3schools.com/)
   - [Css-tricks](https://css-tricks.com/)
@@ -175,9 +175,9 @@ Future integration
 <img src="https://imgur.com/F8MdTJz.png" width="900" height="50">
 
 
-3. The css & js folder contains the personal external stylings done for the JSP pages but all other external css sources have been credited to the respective authors/companies on each of their files.
+3. The [css & js](https://github.com/resv/MINDTIPPER/tree/master/WebContent/resources) folder contains the personal external stylings done for the JSP pages but all other external css sources have been credited to the respective authors/companies on each of their files.
 
-4. Each JSP page implements bootstrap for styling and is responsive for mobile or smaller resolutions.
+4. [All views](https://github.com/resv/MINDTIPPER/tree/master/WebContent/WEB-INF/view) implements bootstrap for styling and is responsive for mobile or smaller resolutions.
    - [Nav bar](https://github.com/resv/MINDTIPPER/blob/master/WebContent/WEB-INF/view/static/navbar.jsp) and [footer](https://github.com/resv/MINDTIPPER/blob/master/WebContent/WEB-INF/view/static/footer.jsp) were custom made and responsive.
    - [Home](https://github.com/resv/MINDTIPPER/blob/master/WebContent/WEB-INF/view/home.jsp) page was inspired by [Startbootstrap](https://startbootstrap.com/) but highly modified.
    - Internal and external CSS was used as the requirement for this case study.
@@ -193,18 +193,21 @@ I implemented a very powerful tool called [WOW.JS](https://wowjs.uk/). for simpl
 <br><br><br><br><br><br><br><br><br><br>
 <!-------------------------------------------------------------------------------------------------------------------------->
 <h1 align="center" id="controller">MVC - CONTROLLER</h1>
-                                    The controller layer handles mapping to the corresponding JSP views. For site navigational puposes, I have created simple view controllers.
-                                    
-				insert pic of list of view controllers
+<img align="right" src="https://imgur.com/Qdmv4Fk.png" width="300" height="400">
+ 
+1. The [controller](https://github.com/resv/MINDTIPPER/blob/master/src/MT/controller/HomeController.java) layer handles mapping to the corresponding [JSP views](https://github.com/resv/MINDTIPPER/tree/master/WebContent/WEB-INF/view) and for navigational usability, I have created simple view controllers.                                
                 
-		At the moment we only have two controllers that have any real functionality which is registering the user(creates a new record in the database). The other is search controller to display results for other decisions in the database. This search controller requires a joined entity to complete the desired functionality which I could not resolve in time.
-        
-        
-It also handles adding model attributes to the JSP page such as inserting the queried data to populate the JSP table. As the picture is shown, everything in caps lock has not been populated due to joined entities are not present and the query is only for one Entity.
-		Insert controller of search data
-Insert jsp page of search
+2. At the moment I only have two controllers that have any real functionality which is registering the user(creates a new user in the database). The other is search controller to display results for other decisions in the database. This search controller requires a joined entity to complete the desired functionality which I could not resolve in time.
+        <br><br><br><br><br><br><br><br><br><br>
+*Picture shown below represents data queried from the database. Text wrapped in parenthesis are data place holders that would populate correctly with joined entities.*
 
+<img src="https://imgur.com/WyxdjwA.png" width="900" height="500">
 
+ 3. Our DAO and DAOImpl contains the necessary methods for this operation. We also have a service layer for future expansion and flexibility. The service layer would allow us to add additional business logic later. Another use for the service layer would be to seperate the DAO and DAOImpl from the user for additional layer of protection against any attacks.
+
+|[Controller](https://github.com/resv/MINDTIPPER/blob/master/src/MT/controller/HomeController.java)|[UserInfo Entity](https://github.com/resv/MINDTIPPER/blob/master/src/MT/entity/UserInfo.java)|[UserInfoDAO](https://github.com/resv/MINDTIPPER/blob/master/src/MT/dao/UserInfoDAO.java)|[UserInfoDAOImpl](https://github.com/resv/MINDTIPPER/blob/master/src/MT/dao/UserInfoDAOImpl.java)|[UserInfoService](https://github.com/resv/MINDTIPPER/blob/master/src/MT/service/UserInfoService.java)|[UserInfoServiceImpl](https://github.com/resv/MINDTIPPER/blob/master/src/MT/service/UserInfoServiceImpl.java)|
+|---|---|---|---|---|---|
+|<img src="https://imgur.com/PSho8Cx.png" width="150" height="200">|<img src="https://imgur.com/KcWjQrs.png" width="150" height="200">|<img src="https://imgur.com/sAqvEUT.png" width="150" height="200">|<img src="https://imgur.com/FFWXAEb.png" width="150" height="200">|<img src="https://imgur.com/d4O6s57.png" width="150" height="200">|<img src="https://imgur.com/mgA3VpD.png" width="150" height="200">|
 <br><br><br><br><br><br><br><br><br><br>
 <!------------------------------------------------------------------------------------------------------------------------->
 <h1 align="center" id="unfinished">UNFINISHED / PROBLEMS</h1>

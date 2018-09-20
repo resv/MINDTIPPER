@@ -19,7 +19,6 @@ import MT.service.UserInfoService;
 @Controller
 public class HomeController {
 
-	
 	//READS USER_INFO FROM DB TO USER PAGE(TESTING PURPOSES)
 	@Autowired
 	private UserInfoService userinfoservice;
@@ -35,8 +34,6 @@ public class HomeController {
 		
 		return "user";
 	}
-	
-	 
 	
 	//READS DECISIONINFO FROM DB TO SEARCH PAGE
 	@Autowired
@@ -54,7 +51,6 @@ public class HomeController {
 		
 		return "search";
 	}
-	
 	
 	//CARRIES USER SESSION TO REG PAGE
 	@GetMapping("/registerLogin")
@@ -139,7 +135,6 @@ public class HomeController {
 			ModelAndView mav = new ModelAndView("registerLogin");
 			return mav;
 		}
-			
 			
 //------------FOOTER CONTROLLERS--------------//		
 	//FOOTER - CONTACT US BUTTON
