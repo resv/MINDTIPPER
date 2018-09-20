@@ -130,7 +130,7 @@ Although a domain name has been secured (MindTipper.com), the **application is n
 6. Right click the “MT” project in your project explorer -> run as ->run on server, Set Tomcat to version 9 and hit finish.
 
 7. The web application should take a few seconds to load and run.
-I highly advise that you copy and paste the url “**http://localhost:8080/MT/**” from your eclipse web explorer and open it on your local browser for the full front end user experience.
+I highly advise that you copy and paste the url “**[http://localhost:8080/MT/](http://localhost:8080/MT/)**” from your eclipse web explorer and open it on your local browser for the full front end user experience.
 
 <img align="center" src="https://imgur.com/hI50UqX.png" width="900" height="80">
 
@@ -142,7 +142,7 @@ I highly advise that you copy and paste the url “**http://localhost:8080/MT/**
 ###### PAST ATTEMPTS
 There were **[three different attempts](https://github.com/resv/MINDTIPPER/tree/master/Prior%20project%20attempts)** starting this project.
 
-1. Initially I attempted to create this project as **Maven converted project** using **JDBC** but faces numerous **environment issues** that could not be resolved.
+1. Initially I attempted to create this project as **Maven converted project** using **JDBC** but faced numerous **environment issues** that could not be resolved.
 	- A **standard JDBC** pattern of Models, DAOs, DAOIs were created.
 	- Each DAO was manually tested in a "[MainTestRunner](https://github.com/resv/MINDTIPPER/blob/master/Prior%20project%20attempts/Attempt1/ICANTPICK/src/ICANTPICK/MainEntryPoint/testRUNNER2.java)".
 	- You can view the entire project attempt **[here](https://github.com/resv/MINDTIPPER/tree/master/Prior%20project%20attempts/Attempt1/ICANTPICK)**.
@@ -153,9 +153,9 @@ There were **[three different attempts](https://github.com/resv/MINDTIPPER/tree/
 
 <br>
 
-2. The **second attempt** we came across the same issues using **JDBC template method**, you can view the entire project attempt [here](https://github.com/resv/MINDTIPPER/tree/master/Prior%20project%20attempts/Attempt%202/MINDTIPPER).
+2. The **second attempt** we came across the **same issues** using **JDBC template method**, you can view the entire project attempt [here](https://github.com/resv/MINDTIPPER/tree/master/Prior%20project%20attempts/Attempt%202/MINDTIPPER).
 
-The **third and current attempt** is using **Hibernate** which we were able to finally read from the database and send to the JSP.
+3. The **third and current attempt** is using **Hibernate** which we were able to finally **read and write** data from the database to the JSP.
 
 <br>
 <br>
@@ -173,10 +173,10 @@ The **third and current attempt** is using **Hibernate** which we were able to f
 <!----------------------------------------------------------------------------------------------------------------------->
 <h1 align="center" id="model">MVC - MODEL</h1>
 
-In our [MT.entity](https://github.com/resv/MINDTIPPER/tree/master/src/MT/entity) package, four entities/models exist, these directly correlate to my AWS database tables.
+In our [MT.entity](https://github.com/resv/MINDTIPPER/tree/master/src/MT/entity) package, four entities/models exist, these directly correlate to my AWS Oracle database tables.
 
 
-1. A standard pattern of mapping primary keys, columns  toString() , getters & setters were set respectively;
+1. A standard pattern of mapping primary keys, columns, toString(), getters & setters.
 
 |[Entity Package](https://github.com/resv/MINDTIPPER/tree/master/src/MT/entity)|[UserInfo Entity](https://github.com/resv/MINDTIPPER/blob/master/src/MT/entity/UserInfo.java)|[DecisionInfo Entity](https://github.com/resv/MINDTIPPER/blob/master/src/MT/entity/DecisionInfo.java)|[Title Entity](https://github.com/resv/MINDTIPPER/blob/master/src/MT/entity/Title.java)|[Choice Entity](https://github.com/resv/MINDTIPPER/blob/master/src/MT/entity/Choice.java)|
 |---|---|---|---|---|
@@ -185,9 +185,9 @@ In our [MT.entity](https://github.com/resv/MINDTIPPER/tree/master/src/MT/entity)
 <br>
 
 2. Specifically, the **DAOImpl will initialize the SessionFactory** which will **automatically open** and **close** our **connections**, query the database, then save the result into an List array. Image shown below:
-<img src="https://imgur.com/g9LV1IL.png" width="800" height="500">
+<img src="https://imgur.com/g9LV1IL.png" width="800" height="600">
 	
-3. Our DAOs and DAOImpls contains the necessary methods for its purpose. I also have a [service package](https://github.com/resv/MINDTIPPER/tree/master/src/MT/service), a layer for future expansion and flexibility. **The service layer would allow us to add additional business logic later**. Another use for the service layer would be to seperate the DAO and DAOImpl from the user for additional layer of **protection against any attacks**.
+3. Our DAOs and DAOImpls contains the necessary methods for its purpose. I also have a [service package](https://github.com/resv/MINDTIPPER/tree/master/src/MT/service), a layer for future expansion and flexibility. **The service layer would allow us to add additional business logic later**. Another use for the service layer would be to seperate the DAO and DAOImpl from the user for an additional layer of **protection against any attacks**.
 
 |[Controller](https://github.com/resv/MINDTIPPER/blob/master/src/MT/controller/HomeController.java)|[UserInfo Entity](https://github.com/resv/MINDTIPPER/blob/master/src/MT/entity/UserInfo.java)|[UserInfoDAO](https://github.com/resv/MINDTIPPER/blob/master/src/MT/dao/UserInfoDAO.java)|[UserInfoDAOImpl](https://github.com/resv/MINDTIPPER/blob/master/src/MT/dao/UserInfoDAOImpl.java)|[UserInfoService](https://github.com/resv/MINDTIPPER/blob/master/src/MT/service/UserInfoService.java)|[UserInfoServiceImpl](https://github.com/resv/MINDTIPPER/blob/master/src/MT/service/UserInfoServiceImpl.java)|
 |---|---|---|---|---|---|
@@ -225,7 +225,7 @@ In our [MT.entity](https://github.com/resv/MINDTIPPER/tree/master/src/MT/entity)
 
 1. Some API sources used were for **learning purposes** only, any API libraries that were used are located in the [resources](https://github.com/resv/MINDTIPPER/tree/master/WebContent/resources) folder, labeled respectively. 
 
-2. We have **removed boilerplate code** by creating a [static JSP folder](https://github.com/resv/MINDTIPPER/tree/master/WebContent/WEB-INF/view/static) to hold header footer and nav bars JSP files that were included in each JSP file.
+2. We have **removed boilerplate code** by creating a [static JSP folder](https://github.com/resv/MINDTIPPER/tree/master/WebContent/WEB-INF/view/static) to hold header, footer, and navbar JSP files that each view utilizes.
 
 <img src="https://imgur.com/F8MdTJz.png" width="900" height="50">
 
