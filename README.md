@@ -25,9 +25,9 @@ An dynamic web application to help decision making that doesn’t rely on a rand
 You can make a selection of which detail wins over the other. Once all selections are complete, the number of selections made for each choice are tallied up and calculated as a the winning decision. <br><br>
 <img align="right" src="https://imgur.com/OLtgI65.png"height="400">
 		
-<br><br><br><br><br><br><br><br><br>><br><br>><br><br>
+<br><br><br><br><br><br><br>
 Users can share their decisions with others, retake or edit existing completed decisions as a starting template to start a new decision of their own. Expected user demographics are not limited to consumers but extends to businesses connecting with their customers e.g "What do you like most about our product X watch vs our competitor's Y watch?".
-
+<br><br><br><br><br><br><br>
 As more unedited completed decisions are retaken by other users, more data is gathered on the value of a detail chosen by many. With this data we can analyze which details hold more value over others.
 
 
