@@ -77,7 +77,7 @@ Not all data may make complete sense but it was vital to have, **mock data allow
 <br>
 <br>
 
-With constant modifications and testing being done for my database, it was crucial to **drop and recreate my datatables quickly**, so I created a “[One-Shot](https://github.com/resv/MINDTIPPER/blob/master/PLANNING/REVISION%202/REVISION%203/REVISION%204/REVISION%205/DDL%20SQL%20INSERTS%20REV%205/DDL%20ONE%20SHOT%20INSERTS.txt)” DDL insert file. This handled the **creation** of my **tables**, inserts for **mock data**, and generated all my **private** and **foreign keys**. 
+With constant modifications and testing being done for my database, it was crucial to **drop and recreate my data tables quickly**, so I created a “[One-Shot](https://github.com/resv/MINDTIPPER/blob/master/PLANNING/REVISION%202/REVISION%203/REVISION%204/REVISION%205/DDL%20SQL%20INSERTS%20REV%205/DDL%20ONE%20SHOT%20INSERTS.txt)” DDL insert file. This handled the **creation** of my **tables**, inserts for **mock data**, and generated all my **private** and **foreign keys**. 
 There are also [individual files](https://github.com/resv/MINDTIPPER/tree/master/PLANNING/REVISION%202/REVISION%203/REVISION%204/REVISION%205/DDL%20SQL%20INSERTS%20REV%205) for each table and keys, you can insert them in numerical order in the event of issues.
 
 <br>
@@ -188,7 +188,7 @@ In our [MT.entity](https://github.com/resv/MINDTIPPER/tree/master/src/MT/entity)
 2. Specifically, the **DAOImpl will initialize the SessionFactory** which will **automatically open** and **close** our **connections**, query the database, then save the result into an List array. Image shown below:
 <img src="https://imgur.com/g9LV1IL.png" width="800" height="600">
 	
-3. Our DAOs and DAOImpls contains the necessary methods for its purpose. I also have a [service package](https://github.com/resv/MINDTIPPER/tree/master/src/MT/service), a layer for future expansion and flexibility. **The service layer would allow us to add additional business logic later**. Another use for the service layer would be to seperate the DAO and DAOImpl from the user for an additional layer of **protection against any attacks**.
+3. Our DAOs and DAOImpls contains the necessary methods for its purpose. I also have a [service package](https://github.com/resv/MINDTIPPER/tree/master/src/MT/service), a layer for future expansion and flexibility. **The service layer would allow us to add additional business logic later**. Another use for the service layer would be to separate the DAO and DAOImpl from the user for an additional layer of **protection against any attacks**.
 
 |[Controller](https://github.com/resv/MINDTIPPER/blob/master/src/MT/controller/HomeController.java)|[UserInfo Entity](https://github.com/resv/MINDTIPPER/blob/master/src/MT/entity/UserInfo.java)|[UserInfoDAO](https://github.com/resv/MINDTIPPER/blob/master/src/MT/dao/UserInfoDAO.java)|[UserInfoDAOImpl](https://github.com/resv/MINDTIPPER/blob/master/src/MT/dao/UserInfoDAOImpl.java)|[UserInfoService](https://github.com/resv/MINDTIPPER/blob/master/src/MT/service/UserInfoService.java)|[UserInfoServiceImpl](https://github.com/resv/MINDTIPPER/blob/master/src/MT/service/UserInfoServiceImpl.java)|
 |---|---|---|---|---|---|
@@ -231,7 +231,7 @@ In our [MT.entity](https://github.com/resv/MINDTIPPER/tree/master/src/MT/entity)
 <img src="https://imgur.com/F8MdTJz.png" width="900" height="50">
 
 
-3. The [CSS & JS](https://github.com/resv/MINDTIPPER/tree/master/WebContent/resources) folder contains the **personal external stylings** done for the JSP pages but all **other external CSS sources** have been **credited** to the respective authors/companies on each of their files.
+3. The [CSS & JS](https://github.com/resv/MINDTIPPER/tree/master/WebContent/resources) folder contains the **personal external styling** done for the JSP pages but all **other external CSS sources** have been **credited** to the respective authors/companies on each of their files.
 
 4. [All views](https://github.com/resv/MINDTIPPER/tree/master/WebContent/WEB-INF/view) **implements bootstrap for styling** and is **responsive** for mobile or smaller resolutions.
    - [Nav bar](https://github.com/resv/MINDTIPPER/blob/master/WebContent/WEB-INF/view/static/navbar.jsp) and [footer](https://github.com/resv/MINDTIPPER/blob/master/WebContent/WEB-INF/view/static/footer.jsp) were **custom made and responsive**.
@@ -239,7 +239,7 @@ In our [MT.entity](https://github.com/resv/MINDTIPPER/tree/master/src/MT/entity)
    - **Internal and external CSS** was used as the **requirement** for this case study.
    - **JSTL tag** library was used to reference external links.
 
-5. “[Terms of use](https://github.com/resv/MINDTIPPER/blob/master/WebContent/WEB-INF/view/terms.jsp)” & “[Privacy Policy](https://github.com/resv/MINDTIPPER/blob/master/WebContent/WEB-INF/view/privacy.jsp)” has **factual information** regarding this project at its current state and for future features not yet implemented. You can generate specified documentation at [Termly](https://termly.io/). I could not afford the membership so I had to manual create my own HTML and CSS for this page as embedding was the only way to use these terms for non paid members and that was not an option. *Credit was given to the company in the jsp page*.
+5. “[Terms of use](https://github.com/resv/MINDTIPPER/blob/master/WebContent/WEB-INF/view/terms.jsp)” & “[Privacy Policy](https://github.com/resv/MINDTIPPER/blob/master/WebContent/WEB-INF/view/privacy.jsp)” has **factual information** regarding this project at its current state and for future features not yet implemented. You can generate specified documentation at [Termly](https://termly.io/). I could not afford the membership so I had to manual create my own HTML and CSS for this page as embedding was the only way to use these terms for non paid members and that was not an option. *Credit was given to the company in the JSP page*.
 
 <br>
 
@@ -282,7 +282,7 @@ I implemented a very powerful tool called [WOW.JS](https://wowjs.uk/) for **simp
 - I’ve **restarted my project** a few times. Because I made my views early in the project **not a lot of time was wasted** for each new project attempt as the views were easily transferable.
 	- My first attempt was using POJO JDBC, we ran into issues for setup as I could not find any solid path to setup the environment.
 	- The same issue occurred using JDBC template.
-	- My latest attempt was using Hibernate which I was finally able to receive concrete a “read” from my database to my jsp. 
+	- My latest attempt was using Hibernate which I was finally able to receive concrete a “read” from my database to my JSP. 
 
 <img align="right" src="https://imgur.com/ghZokjA.png" width="350" height="200">
 
@@ -312,7 +312,7 @@ I've gained so much knowledge within these past 3 months. Considering I did not 
 
 I've realized, I was more focused on being able to learn, understand and implement real world enterprise MVC skills. Of course I am disappointed at myself and disappointed others for not being able to deliver a working product. I will use this failure as a reflection of my weaknesses and where I need improvement. I will continue to practice MVC so that one day I will feel competent enough to secure a professional position as a "Java Developer".
 
-I'd like to thank [Platform PerScholas](https://www.platformbyps.org/) for the opportunity to learn Java Developement.
+I'd like to thank [Platform PerScholas](https://www.platformbyps.org/) for the opportunity to learn Java Development.
 - Special thanks to :
   - [Marcial Cordon](https://www.linkedin.com/in/marcial-cordon/): SQL and Core Java.
   - [Michael Gabriel](https://www.linkedin.com/in/michael-gabriel-964491123/): JDBC, JSP, SCRIPLET, and JPA.
