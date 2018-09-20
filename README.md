@@ -294,3 +294,22 @@ Problems:
 <br>
 <br>
 <br>
+
+<!------------------------------------------------------------------------------------------------------------------------->
+<h1 align="center" id="unfinished">Summation</h1>
+I've gained so much knowledge within these past 3 months. I was certain I would fail or fall terribly behind within the first month but making it to the last month in itself was a personal accomplishment. Realistically, I knew I wasn't going to be able to receive a high score or even receive a passing score but I no longer was concerned about my case study grade on the final week of the program during developing this case study.
+
+<br>
+
+I was more focused on being able to learn, understand and implement real world enterprise MVC skills. I certainly am disappointed at myself and am sure I've disappointed others for not being able to deliver a final working product. All this shows is my weaknesses and where I need to improve. I will continue to practice MVC and one day feel competent enough to secure a professional occupation as a "Java Developer".
+
+I'd like to thank [Platform PerScholas](https://www.platformbyps.org/) for the opportunity to learn Java Developement.
+- Special thanks to :
+  - [Marcial Cordon](https://www.linkedin.com/in/marcial-cordon/): SQL and Core Java.
+  - [Michael Gabriel](https://www.linkedin.com/in/michael-gabriel-964491123/): JDBC, JSP, SCRIPLET, and JPA.
+
+Interested in changing careers or expanding your industry knowledge? Platform PerScholas offers free training, contact me and ask about my 12 week experience at Platform PerScholas.
+
+
+
+
