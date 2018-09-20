@@ -178,12 +178,12 @@ Future integration
 3. The css & js folder contains the personal external stylings done for the JSP pages but all other external css sources have been credited to the respective authors/companies on each of their files.
 
 4. Each JSP page implements bootstrap for styling and is responsive for mobile or smaller resolutions.
-   - Nav bar and footer were custom made and responsive.
-   - Home page was inspired by [Startbootstrap](https://startbootstrap.com/) but highly modified.
+   - [Nav bar](https://github.com/resv/MINDTIPPER/blob/master/WebContent/WEB-INF/view/static/navbar.jsp) and [footer](https://github.com/resv/MINDTIPPER/blob/master/WebContent/WEB-INF/view/static/footer.jsp) were custom made and responsive.
+   - [Home](https://github.com/resv/MINDTIPPER/blob/master/WebContent/WEB-INF/view/home.jsp) page was inspired by [Startbootstrap](https://startbootstrap.com/) but highly modified.
    - Internal and external CSS was used as the requirement for this case study.
    - JSTL tag library was used to reference external links.
 
-5. “Terms of use” & “Privacy Policy” actually has factual information regarding this project at its current state and for future features not yet implemented. You can generate specified documentation at [Termly](https://termly.io/). I could not afford the membership so I had to manual create my own HTML and CSS for this page as embedding was the only way to use these terms for non paid members and that was not an option. Credit was given to the company in the jsp page.
+5. “[Terms of use](https://github.com/resv/MINDTIPPER/blob/master/WebContent/WEB-INF/view/terms.jsp)” & “[Privacy Policy](https://github.com/resv/MINDTIPPER/blob/master/WebContent/WEB-INF/view/privacy.jsp)” actually has factual information regarding this project at its current state and for future features not yet implemented. You can generate specified documentation at [Termly](https://termly.io/). I could not afford the membership so I had to manual create my own HTML and CSS for this page as embedding was the only way to use these terms for non paid members and that was not an option. Credit was given to the company in the jsp page.
 <br><br><br>
 <img align="right" src="https://imgur.com/OLYDxd2.png" width="650" height="200">
 
