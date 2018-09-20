@@ -37,7 +37,11 @@ As more unedited completed decisions are retaken by other users, more data is ga
 
 1. The case study started with a [summary](https://github.com/resv/MINDTIPPER/blob/master/PLANNING/REVISION%202/REVISION%203/REVISION%204/REVISION%205/WireFrame%20-%20CaseStudySummary%20-%20ReqAnalysis/CASE_STUDY_SUMMARY.pdf) of the application, describing what its purpose would be.
 
-<img align="center" src="https://imgur.com/ihUy5yx.png" width="400">
+| [Summary](https://github.com/resv/MINDTIPPER/blob/master/PLANNING/REVISION%202/REVISION%203/REVISION%204/REVISION%205/WireFrame%20-%20CaseStudySummary%20-%20ReqAnalysis/CASE_STUDY_SUMMARY.pdf) | [Req Analysis](https://github.com/resv/MINDTIPPER/blob/master/PLANNING/REVISION%202/REVISION%203/REVISION%204/REVISION%205/WireFrame%20-%20CaseStudySummary%20-%20ReqAnalysis/REQ_ANALYSIS_USERCASE.pdf) | [User Case](https://github.com/resv/MINDTIPPER/blob/master/PLANNING/REVISION%202/REVISION%203/REVISION%204/REVISION%205/WireFrame%20-%20CaseStudySummary%20-%20ReqAnalysis/REQ_ANALYSIS_USERCASE.pdf) | [WireFrame](https://github.com/resv/MINDTIPPER/blob/master/PLANNING/REVISION%202/REVISION%203/REVISION%204/REVISION%205/WireFrame%20-%20CaseStudySummary%20-%20ReqAnalysis/wireframePDF.pdf) | [Entity Relation Diagram](https://github.com/resv/MINDTIPPER/blob/master/PLANNING/REVISION%202/REVISION%203/REVISION%204/REVISION%205/ERD_MODIFIED%20REV%205.pdf) | [Mock Database View](https://github.com/resv/MINDTIPPER/blob/master/PLANNING/REVISION%202/REVISION%203/REVISION%204/REVISION%205/MOCK%20UP%20OF%20ICANTPICK%20DATABASE%20REV%205.pdf) |
+|---|---|---|---|---|---|
+| <img align="center" src="https://imgur.com/f58EEvA.png" width="150" height="200"> | <img align="center" src="https://imgur.com/SLUG94e.png" width="150" height="200"> | <img align="center" src="https://imgur.com/DxKWj8c.png" width="150" height="200"> | <img align="center" src="https://imgur.com/Bz29r4w.png" width="150" height="200"> | <img align="center" src="https://imgur.com/egKUVn1.png" width="150" height="200"> | <img align="center" src="https://imgur.com/b8KDNbe.png" width="150" height="200"> |
+
+
 
 Insert summary picture here
 Next came requirement analysis that would detail the necessary components the project must have, and soon after the user case which would describe what the user wants to do.
