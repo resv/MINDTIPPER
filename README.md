@@ -17,8 +17,8 @@ ___
 
 ###### Repository Notes
 Deleted and made a brand new Case Study repository in attempt to keep this project seperate from Java Training (exercises).
-<br><br>
-<!----------------------------------------------------------------------------------------------------------------------------------->
+<br><br><br><br><br><br><br><br><br><br>
+<!------------------------------------------------------------------------------------------------------------------------->
 <h1 align="center" id="summary"> Summary</h1>
 An dynamic web application to help decision making that doesn’t rely on a random generator. A decision title is split into two columns called choices, each choice has a supporting detail set that weigh against the opposing choice’s detail set. <br><br>
 <img align="right"src="https://imgur.com/4P30ZvW.png"height="320"> <br><br><br><br>
@@ -59,7 +59,7 @@ There is also [individual files](https://github.com/resv/MINDTIPPER/tree/master/
 It was unecessary to use JIRA for a one man project, so I instead used [Trello](https://trello.com/b/cFsNYBow/mindtipper) which help keep track of my progress of the entire development. 
 <br><br><br><br><br><br><br><br><br><br>
 
-
+<br><br><br><br><br><br><br><br><br><br>
 <!---------------------------------------------------------------------------------------------------------------------------->
 <h1 align="center" id="installation">Installation</h1>
 
@@ -170,26 +170,20 @@ Future integration
 
 1. Some API sources used were for learning purposes only, any API libraries that were used are located in the [resources](https://github.com/resv/MINDTIPPER/tree/master/WebContent/resources) folder, labeled respectively. 
 
-2. The css & js folder contains the personal modified external stylings done for the JSP pages. All external sources have been credited to the respective authors/companies on each of their files.
+2. We have removed boilerplate code by creating a [static JSP folder](https://github.com/resv/MINDTIPPER/tree/master/WebContent/WEB-INF/view/static) to hold header footer and nav bars JSP files that were included in each JSP file.
 
-3. Each JSP page implements bootstrap API for styling and is responsive for mobile or smaller resolutions.
-   - Navigation bar and footer were custom made and also responsive.
-With the exception of the homepage, no template was copied, each page was heavily modified to get the current results.
+3. The css & js folder contains the personal external stylings done for the JSP pages but all other external css sources have been credited to the respective authors/companies on each of their files.
+
+4. Each JSP page implements bootstrap for styling and is responsive for mobile or smaller resolutions.
+   - Nav bar and footer were custom made and responsive.
    - Home page was inspired by [Startbootstrap](https://startbootstrap.com/) but highly modified.
    - Internal and external CSS was used as the requirement for this case study.
+   - JSTL tag library was used to reference external links.
 
-HTML and design were first created using a text editor, VScode. This allowed faster front end testing. Once the HTML was satisfactory, I’ve moved it over to a JSP file in eclipse for the final touches it needed to work with the supported JSTL tag library.
-
-“Terms of use” & “Privacy Policy” have factual information regarding this project at its current state and for future features not yet implemented. You can generate specified documentation at https://termly.io/. I could not afford the membership so I had to manual create my own HTML and CSS for this page as embedding was the only way to use these terms for non paid members and that was not an option.
-
-Their protection layer  made nearly impossible to extract the documentation in plain text. I was able to use what I learned from Platform PerScholas HTML debugging and managed to get this information. Once extraction was complete, a long process of descrambling had to be done. Credit was given to the company in the jsp page.
-
-Animation
-I implemented a very powerful tool called WOW.JS. for simple animations. Customized timers can be found in animate.css(LINK)
-
-JSP 
- There are currently 12 JSP pages located in the view(LINK) folder.
-We have removed boilerplate code by creating a folder(LINK) to hold static header footer and nav bars JSP files that were included in each JSP file.
+5. “Terms of use” & “Privacy Policy” actually has factual information regarding this project at its current state and for future features not yet implemented. You can generate specified documentation at [Termly](https://termly.io/). I could not afford the membership so I had to manual create my own HTML and CSS for this page as embedding was the only way to use these terms for non paid members and that was not an option. Credit was given to the company in the jsp page.
+<br>
+##### *Animation*
+I implemented a very powerful tool called [WOW.JS](https://wowjs.uk/). for simple animations. Customized timers can be found in [animate.css](https://github.com/resv/MINDTIPPER/blob/master/WebContent/resources/css/animate.css).
 
 
 <br><br><br><br><br><br><br><br><br><br>
