@@ -24,7 +24,7 @@ ___
 <!------------------------------------------------------------------------------------------------------------------------->
 <h1 align="center" id="preview">Preview</h1>
 
-<img src="https://github.com/resv/MINDTIPPER/blob/master/PLANNING/readme%20files/2search.gif" width="890" height="560" />
+<img src="https://github.com/resv/MINDTIPPER/blob/master/PLANNING/readme%20files/2search.gif" width="900" height="560" />
 
 <img align="right" src="https://github.com/resv/MINDTIPPER/blob/master/PLANNING/readme%20files/4decision.gif" width="400" height="260" />
 <img src="https://github.com/resv/MINDTIPPER/blob/master/PLANNING/readme%20files/3register.gif" width="400" height="260" /> <br>
@@ -82,6 +82,7 @@ I started testing the database by entering **mock data** using [Mockaroo](https:
 
 Not all data may make complete sense but it was vital to have, **mock data allowed to develop and test queries**.
 
+<br>
 <br>
 <br>
 <br>
