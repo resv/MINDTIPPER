@@ -24,7 +24,7 @@ ___
 <!------------------------------------------------------------------------------------------------------------------------->
 <h1 align="center" id="preview">Preview</h1>
 <img src="https://github.com/resv/MINDTIPPER/blob/master/PLANNING/readme%20files/2search.gif" width="850" height="560" />
-<br>
+
 <br>
 
 <img align="right" src="https://github.com/resv/MINDTIPPER/blob/master/PLANNING/readme%20files/4decision.gif" width="400" height="260" />
