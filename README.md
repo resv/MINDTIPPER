@@ -28,8 +28,8 @@ ___
 
 <img align="right" src="https://github.com/resv/MINDTIPPER/blob/master/PLANNING/readme%20files/4decision.gif" width="400" height="260" />
 <img src="https://github.com/resv/MINDTIPPER/blob/master/PLANNING/readme%20files/3register.gif" width="400" height="260" /> <br>
-<img align="right" src="https://github.com/resv/MINDTIPPER/blob/master/PLANNING/readme%20files/6footer.gif" width="400" height="260" />
-<img src="https://github.com/resv/MINDTIPPER/blob/master/PLANNING/readme%20files/5scaling.gif" width="400" height="260" />
+
+<img align="right" src="https://github.com/resv/MINDTIPPER/blob/master/PLANNING/readme%20files/6footer.gif" width="400" height="260" /><img src="https://github.com/resv/MINDTIPPER/blob/master/PLANNING/readme%20files/5scaling.gif" width="400" height="260" />
 
 <br>
 <br>
