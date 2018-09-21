@@ -55,7 +55,7 @@
 	<!-- REGISTER CARD SPACING -->
 	<div class="card card-register mx-auto mt-5 animated wow fadeIn">
 					
-		<!-- REGISTER CONTENTS -->
+		<!------------------------------------------------------------ REGISTER CONTENTS -------------------------------------------------------------------->
 		<div class="card-header text-center">Register</div>
 				<div class="card-body">
         
@@ -65,7 +65,7 @@
 		        <div class="form-label-group">
 		           	<!-- <label for="regUsername">Username</label> -->
 		           	
-		           	
+<!-- USER NAME -->
 		        <form:input path="username" type="text" id="regUsername" class="form-control" required="required" placeholder="Username" 
 		           	pattern="[A-Za-z0-9_]{4,25}"
 		            title="Minimum of 4-25 characters. Only letters (either case), numbers, and the underscore."/>   
@@ -78,7 +78,7 @@
 	            </div>
 		   	</div>
 		
-		
+<!-- EMAIL ADDRESS -->	
 	     	<div class="form-group">
 	         	<div class="form-row">
 	         	
@@ -88,7 +88,7 @@
 	               			<form:input path="email" type="email" id="regEmail" class="form-control" required="required" placeholder="Email Address" />   
 		             	</div>
 		          	</div>
-		
+<!-- CONFIRM EMAIL ADDRESS -->			
 		          	<div class="col-md-6">
 		          		<div class="form-label-group">
 		                 	<!-- <label for="regConfirmEmail">Confirm Email</label> -->
@@ -100,7 +100,7 @@
 		         	<small class="form-text text-muted">We believe in privacy and will never give out your email address.</small>
 		       		</div>
 		
-		
+<!-- PASSWORD  -->			
 	        <div class="form-group">
 	         	<div class="form-row">
 	         	
@@ -113,7 +113,7 @@
 		             	</div>
 		           	</div>
 		
-		
+<!-- CONFIRM PASSWORD  -->			
 		           <div class="col-md-6">
 		             	<div class="form-label-group">
 		                 	<!-- <label for="regConfirmPassword">Confirm password</label> -->
@@ -141,7 +141,7 @@
 	</div>
         
 
-		<!-- LOGIN CARD BOX (HTML5 DEFAULT VALIDATION FOR EMAIL IS PRESENT, CAN REMOVE JAVASCRIPT FUNCTIONS) ----------------------------------------->
+		<!--------------------------------------------------- LOGIN CARD BOX (HTML5 DEFAULT VALIDATION FOR EMAIL IS PRESENT, CAN REMOVE JAVASCRIPT FUNCTIONS) ----------------------------------------->
 		<div class="col-md-8 col-lg-4 mx-auto text-center">
 		    <!-- LOGIN CARD SPACING -->
 		    <div class="card card-login mx-auto mt-5 text-center animated wow fadeIn">
@@ -151,6 +151,7 @@
 		            
 			              <form name="logForm" action="userLogin" onsubmit="return logValidate()" method="post"> 
 			              
+			              <!-- EMAIL -->
 				                <div class="form-group">
 					                  <div class="form-label-group">
 						                    <br>
@@ -158,7 +159,8 @@
 						                    <!-- <label for="logEmail">Email address</label> -->
 					                  </div>
 				                </div>
-				                
+				          
+				          <!-- PASSWORD -->     
 				                <div class="form-group">
 					                  <div class="form-label-group">
 						                    <input type="password"  id="logPassword" class="form-control" placeholder="Password" required="required" name="logPass">
@@ -166,17 +168,20 @@
 					                  </div>
 				                </div>
 				                
+				          <!-- REMEMBER ME CHECK BOX -->      
 				                <div class="form-group">
 					                  <div class="checkbox">
 					                    <label><input type="checkbox" value="remember-me">Remember Password</label>
 					                  </div>
 				                </div>
 				                
+				         <!-- LOGIN BUTTON -->       
 				                <!-- <a class="btn btn-primary btn-block" href="GO TO USER HOME PAGE">Login</a> -->
 				                <input class="btn btn-primary btn-block" type="submit" name="submit" value="Login to your account">
 				                
 			              </form>
 			              
+			              <!-- FORGOT PASSWORD BUTTON -->
 			              		<div class="text-center">
 			                    <br>
 			                    <a class="d-block small" href="<c:url value="forgotPassword" />">Forgot Password?</a>

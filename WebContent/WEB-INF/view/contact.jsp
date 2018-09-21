@@ -24,12 +24,20 @@
 <!-- CONTACT SECTION, TWITTER LINK ICON LINK INSIDE h2 TAG, CSS STYLING IS INTERNAL NO UNDERLINE OVER HOVER -->
 <section class="js-scroll-trigger" style="padding: 8rem 2rem 4rem; height: auto;">
     <div class="container">
-        <h2 class="text-center text-black mb-0">CONTACT US<a href="https://twitter.com/Resv_" style="text-decoration: none;">
-                                                          	<i class="fa fa-twitter fa-1x fa-fw animated wow pulse infinite"></i>
-                                                          </a></h2>
+        <h2 class="text-center text-black mb-0">
+       		 CONTACT US
+       		 	<a href="https://twitter.com/Resv_" style="text-decoration: none;">
+         			<i class="fa fa-twitter fa-1x fa-fw animated wow pulse infinite"></i>
+                </a>
+        </h2>
+                
+                
+                
             <div class="row">
             <div class="col-lg-8 mx-auto">
                 <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                
+<!-- NAME -->               
                 <div class="control-group">
                     <div class="form-group floating-label-form-group controls mb-0 pb-2">
                         <label>Name</label>
@@ -37,6 +45,8 @@
                         <p class="help-block text-danger"></p>
                     </div>
                 </div>
+                
+<!-- EMAIL ADDRESS -->                
                 <div class="control-group">
                     <div class="form-group floating-label-form-group controls mb-0 pb-2">
                         <label>Email Address</label>
@@ -44,6 +54,8 @@
                         <p class="help-block text-danger"></p>
                     </div>
                 </div>
+                
+<!-- DECISION ID -->
                 <div class="control-group">
                         <div class="form-group floating-label-form-group controls mb-0 pb-2">
                             <label>Decision #ID</label>
@@ -51,6 +63,8 @@
                             <p class="help-block text-danger"></p>
                         </div>
                     </div>
+                    
+<!-- SUBJECT -->
                 <div class="control-group">
                     <div class="form-group floating-label-form-group controls mb-0 pb-2">
                         <label>Subject</label>
@@ -58,6 +72,8 @@
                         <p class="help-block text-danger"></p>
                     </div>
                 </div>
+                
+<!-- MESSAGE -->
                 <div class="control-group">
                     <div class="form-group floating-label-form-group controls mb-0 pb-2">
                         <label>Message</label>
@@ -66,6 +82,8 @@
                     </div>
                 </div>
                 <br>
+                
+<!-- SUBMIT BUTTON -->
                 <div id="success"></div>
                     <div class="form-group text-center">
                         <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Send</button>

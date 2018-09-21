@@ -22,8 +22,6 @@
 
 	
 	
-	
-	
 <!-- learnOrPick SECTION ( ON PAGE SEARCH BAR WITH INTERNAL STYLE CSS ) -->
 <section class="js-scroll-trigger" style="padding: 7rem 2rem 5rem; height: auto;">
   <div class="container">
@@ -47,6 +45,7 @@
   <div class="container">
     <div class="row">
          
+<!-- TUTORIAL -->         
       <div class="col-md-4 mb-3 mb-md-0">
           <a href="GO TO NEW DECISION PAGEE OR SINGUP OR LOGIN IF SESSION SAYS SO" style="color:black; text-decoration: none;">
               <div class="card py-4 h-100 animated wow zoomIn">
@@ -63,6 +62,7 @@
           </a>
       </div>
 
+<!-- TEMPLATE --> 
       <div class="col-md-4 mb-3 mb-md-0">
           <a href="<c:url value="/search" />" style="color:black; text-decoration: none;">
               <div class="card py-4 h-100 animated wow zoomIn">
@@ -79,6 +79,7 @@
           </a>
       </div>
 
+<!-- NEW DECISION -->
       <div class="col-md-4 mb-3 mb-md-0">
           <a href="<c:url value="/newDecision" />" style="color:black; text-decoration: none;">
               <div class="card py-4 h-100 animated wow zoomIn">
@@ -99,9 +100,7 @@
   </div>
 </section>
 
-	
-	
-	
+
 <!----------------------------FOOTER---------------------------->
 	<%@include file="/WEB-INF/view/static/footer.jsp"%>
 </body>

@@ -169,10 +169,6 @@
 	
 	
 	
-	
-	
-	
-	
 <!----------------------------FOOTER---------------------------->
 	<%@include file="/WEB-INF/view/static/footer.jsp"%>
 </body>

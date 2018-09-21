@@ -62,11 +62,6 @@
                         <td class="text-center" contenteditable="true">Detail A</td>
                         <td class="text-center" contenteditable="true">Detail B</td>
                     </tr>
-                    <!-- THIS IS THE + GENERATOR, !** AT THE TR CLASS  "<tr class="hide">"-->   
-                        <tr>
-                            <td class="text-center" contenteditable="true">Detail A</td>
-                            <td class="text-center" contenteditable="true">Detail B</td>
-                        </tr>
                 </table>
         	</div>
     	</div>

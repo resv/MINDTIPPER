@@ -12,7 +12,6 @@ import MT.entity.Choice;
 @Service
 public class ChoiceServiceImpl implements ChoiceService {
 
-	
 		@Autowired
 		private ChoiceDAO choiceDAO;
 		

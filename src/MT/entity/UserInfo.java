@@ -30,10 +30,11 @@ public class UserInfo {
 		@Column(name="lvl")
 		private int lvl = 0;
 
-		//DEFAULT CONSTRUCTORS
+		//DEFAULT CONSTRUCTOR
 		public UserInfo() {
 		}
-
+		
+		//CONSTRUCTOR WITH OUT ID
 		public UserInfo(String username, String email, String password, int lvl) {
 			super();
 			this.username = username;
@@ -42,6 +43,7 @@ public class UserInfo {
 			this.lvl = lvl;
 		}
 		
+		//CONSTRUCTOR WITH ID
 		public UserInfo(int user_id, String username, String email, String password, int lvl) {
 			super();
 			this.user_id = user_id;

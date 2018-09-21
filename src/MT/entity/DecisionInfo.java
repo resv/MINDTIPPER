@@ -39,10 +39,6 @@ public class DecisionInfo {
 	private int star;
 	
 	
-	
-	
-
-	
 	//DEFAULT CONSTRUCTOR
 	public DecisionInfo() {
 		super();

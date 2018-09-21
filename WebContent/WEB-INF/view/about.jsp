@@ -20,27 +20,29 @@
 	
 <!----------------------------CONTENT---------------------------->
 
-<!-- POLICY CONTENT CONTAINER -->
+<!-- ABOUT US CONTENT CONTAINER -->
 <div class="container animated wow fadeIn">
-
-<!--POLICY JUMBOTRON -->
 <div class="col-md-10 col-lg-8 mx-auto" style="padding: 7rem 0rem 1rem; height: auto;">
+    
     <h1 class="display-1 text-center">About Us</h1>
+    
     <div>
     
     <br>
     <br>
     
-	This is a dynamic web application using Spring MVC, a final project assigned by PlatForm PerScholas.
+		This is a dynamic web application using Spring MVC, a final project assigned by PlatForm PerScholas.
 	
 	<br>
 	<br>
 	
-	This is still currently being built. 
+		This is still currently being built. 
 	
 	<br>
 	<br>
-	Thank you for visiting.
+	
+		Thank you for visiting.
+		
     </div>
 </div>
 

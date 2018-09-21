@@ -34,6 +34,7 @@
 					  	<p>Enter the email address linked to your account, instructions on how to reset your password will be sent.</p>
 					  </div>
 					  
+					  <!-- EMAIL ADDRESS TEXT FIELD -->
 					  <form>
 					    <div class="form-group">
 					      <div class="form-label-group">
@@ -42,10 +43,12 @@
 					      </div>
 					    </div>
 					    
+					   <!-- RESET PASSWORD BUTTON --> 
 					    <a class="btn btn-primary btn-block" href="login.html">Reset Password</a>
 					    
 					  </form>
 					  
+					  <!-- BACK BUTTON -->
 					  <div class="text-center">
 					    <a class="d-block small mt-3" href="registerLogin.html">Back to Login / Register page</a>
 					  </div>

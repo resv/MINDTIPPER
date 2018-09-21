@@ -23,7 +23,7 @@
 	
 	
 	
-<!-- landingPage // MASTHEAD -->
+<!-- LANDING PAGE // MASTHEAD -->
     <header class="masthead text-white text-center js-scroll-trigger" style="background-image: url('resources/imgs/bg3.jpg');" id="landingPage">
       <div class="overlay"></div>
       <div class="container">
@@ -90,6 +90,7 @@
     <section class="showcase js-scroll-trigger">
       <div class="container-fluid p-0">
         
+        <!-- 1ST ROW -->
         <div class="row no-gutters">
           <div class="col-lg-6 order-lg-2 text-white showcase-img animated wow fadeIn delay-1s" style="background-image: url('resources/imgs/weigh1.jpg');"></div>  
           <div class="col-lg-6 order-lg-1 my-auto showcase-text animated wow fadeInLeftBig" id="feature1">
@@ -100,7 +101,7 @@
           </div> 
         </div>
         
-        
+        <!-- 2ND ROW -->
         <div class="row no-gutters">
           <div class="col-lg-6 text-white showcase-img animated wow fadeIn delay-1s" style="background-image: url('resources/imgs/share1.jpg');"></div>
           <div class="col-lg-6 my-auto showcase-text animated wow fadeInRightBig" id="feature2">
@@ -111,6 +112,7 @@
           </div>
         </div>
         
+        <!-- 3RD ROW -->
         <div class="row no-gutters">
           <div class="col-lg-6 order-lg-2 text-white showcase-img animated wow fadeIn delay-1s" style="background-image: url('resources/imgs/share2.jpg');"></div>
           <div class="col-lg-6 order-lg-1 my-auto showcase-text animated wow fadeInLeftBig" id="feature3">
@@ -130,6 +132,7 @@
         <h2 class="mb-5">Made Possible By...</h2>
         <div class="row">
           
+          <!-- PLATFORM PERSCHOLAS -->
           <div class="col-lg-4">
             <div class="testimonial-item mx-auto mb-5 mb-lg-0">
               <a href="https://www.platformbyps.org/">
@@ -141,6 +144,7 @@
             </div>
           </div>
           
+          <!-- COGNIZANT -->
           <div class="col-lg-4">
             <div class="testimonial-item mx-auto mb-5 mb-lg-0">
               <a href="https://www.cognizant.com/">
@@ -152,6 +156,7 @@
             </div>
           </div>
           
+          <!-- ADAM KIM -->
           <div class="col-lg-4">
             <div class="testimonial-item mx-auto mb-5 mb-lg-0">
               <a href="https://www.linkedin.com/in/adamkim456/">

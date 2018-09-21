@@ -24,22 +24,25 @@ public class TestDbServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
 		
-		//setup connection variables
+		//SETUP CONNECTION VARIABLES
 		String user = "akim456";
 		String pass = "adminadmin";
 		
 		String jdbcUrl = "jdbc:oracle:thin:@icantpickdb.chbcmccevvr4.us-east-1.rds.amazonaws.com:1521:orcl";
 		String driver = "oracle.jdbc.driver.OracleDriver";
 		
-		//get a connection to database
+		//GET A CONNECTION TO DATABASE
 		try {
 			PrintWriter out = response.getWriter();
+			
+			//PRINTS OUT JDBCURL
 			out.println("Connecting to database : " + jdbcUrl);
 			
 			Class.forName(driver);
 			
 			Connection myConn = DriverManager.getConnection(jdbcUrl, user, pass);
 			
+			//PRINT OUT FOR ADDITIONAL CONFIRMATION
 			out.println("Success!!!!");
 			
 			myConn.close();

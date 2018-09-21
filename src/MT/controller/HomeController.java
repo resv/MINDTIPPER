@@ -62,7 +62,7 @@ public class HomeController {
 		return "registerLogin";
 	}
 	
-	//WRITES DATA FROM REG PAGE TO DB
+	//REGISTERS USER'S DATA INPUT INTO THE DB 
 	@PostMapping("/registerUser")
 	public String registerUser(@ModelAttribute("user") UserInfo theUser) {
 		
@@ -70,13 +70,7 @@ public class HomeController {
 		
 		return "menu";
 	}
-	
-	
-	
-	
-	
-	
-	
+
 //	//READS TITLE FROM DB TO SEARCH PAGE
 //	@Autowired
 //	private TitleService titleservice;
@@ -107,12 +101,6 @@ public class HomeController {
 //	}
 	
 	
-
-	
-	
-	
-//---------------------------------------LINKS AND REDIRECTS---------------------------------//
-	
 //------------NAVBAR CONTROLLERS---------------//	
 
 	//NAVBAR & HOME PAGE - NAVBAR BRAND BUTTON	
@@ -130,10 +118,10 @@ public class HomeController {
 	}
 	
 	//NAVBAR - REGISTERLOGIN BUTTON
-		@RequestMapping("/registerLogin")
-		public ModelAndView registerLogin() {
-			ModelAndView mav = new ModelAndView("registerLogin");
-			return mav;
+	@RequestMapping("/registerLogin")
+	public ModelAndView registerLogin() {
+		ModelAndView mav = new ModelAndView("registerLogin");
+		return mav;
 		}
 			
 //------------FOOTER CONTROLLERS--------------//		
@@ -164,11 +152,8 @@ public class HomeController {
 		ModelAndView mav = new ModelAndView("privacy");
 		return mav;
 	}
-			
-			
-			
-			
-//------------REGISTERLOGIN PAGE--------------//	
+				
+//------------REGISTERLOGIN PAGE-------------//	
 			
 	//FORGOT PASSWORD LINK
 	@RequestMapping("/forgotPassword")
@@ -177,8 +162,7 @@ public class HomeController {
 		return mav;
 	}	
 			
-			
-//////------------USER PAGE--------------//	
+//////------------USER PAGE------------------//	
 //
 //	//USER PAGE REDIRECT
 //	@RequestMapping("/user")
@@ -196,8 +180,7 @@ public class HomeController {
 		return mav;
 	}	
 
-		
-//------------SEARCH PAGE--------------//	
+//------------SEARCH PAGE--------------------//	
 
 	//SEARCH PAGE
 	@RequestMapping("/search")
@@ -206,9 +189,6 @@ public class HomeController {
 		return mav;
 	}	
 	
-		
-
-		
 //------------TEMPLATE DECISION--------------//	
 
 	//TEMPLATE DECISION PAGE
