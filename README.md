@@ -32,10 +32,6 @@ ___
 <img align="right" src="https://github.com/resv/MINDTIPPER/blob/master/PLANNING/readme%20files/6footer.gif" width="400" height="260" /><img src="https://github.com/resv/MINDTIPPER/blob/master/PLANNING/readme%20files/5scaling.gif" width="400" height="260" />
 
 <br>
-<br>
-<br>
-<br>
-<br>
 
 <!------------------------------------------------------------------------------------------------------------------------->
 <h1 align="center" id="summary"> Summary</h1>
