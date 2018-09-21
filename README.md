@@ -20,19 +20,25 @@
 ###### Repository Notes
 Remade a Case Study repository in attempt to keep this project seperate from Java Training (exercises).
 ___
-<br>
-<br>
-<br>
+
 <!------------------------------------------------------------------------------------------------------------------------->
 <h1 align="center" id="preview">Preview</h1>
+<img src="https://github.com/resv/MINDTIPPER/blob/master/PLANNING/readme%20files/2search.gif" width="850" height="560" />
+<br>
+<br>
 
-<img src="https://github.com/resv/MINDTIPPER/blob/master/PLANNING/readme%20files/2search.gif" width="40" height="40" />
-<img src="https://github.com/resv/MINDTIPPER/blob/master/PLANNING/readme%20files/3register.gif" width="600" height="360" />
-<img src="https://github.com/resv/MINDTIPPER/blob/master/PLANNING/readme%20files/4decision.gif" width="600" height="360" />
-<img src="https://github.com/resv/MINDTIPPER/blob/master/PLANNING/readme%20files/5scaling.gif" width="600" height="360" />
-<img src="https://github.com/resv/MINDTIPPER/blob/master/PLANNING/readme%20files/6footer.gif" width="600" height="360" />
+<img align="right" src="https://github.com/resv/MINDTIPPER/blob/master/PLANNING/readme%20files/4decision.gif" width="400" height="260" />
+<img src="https://github.com/resv/MINDTIPPER/blob/master/PLANNING/readme%20files/3register.gif" width="400" height="260" />
 
+<img align="right" src="https://github.com/resv/MINDTIPPER/blob/master/PLANNING/readme%20files/6footer.gif" width="400" height="260" />
 
+<img src="https://github.com/resv/MINDTIPPER/blob/master/PLANNING/readme%20files/5scaling.gif" width="400" height="260" />
+
+<br>
+<br>
+<br>
+<br>
+<br>
 
 <!------------------------------------------------------------------------------------------------------------------------->
 <h1 align="center" id="summary"> Summary</h1>
