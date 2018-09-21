@@ -107,7 +107,8 @@
 		           	<div class="col-md-6">
 		             	<div class="form-label-group">
 		                 	<!-- <label for="regPassword">Password</label> -->
-		               		<form:input path="password" id="regPassword" class="form-control" required="required" placeholder="Password" 
+		               		<form:input path="password"  type="password" id="regPassword" class="form-control" required="required" placeholder="Password" 
+		               		
 		                           pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,25}$"
 		                    title="You must enter a minimum of 8-25 characters and must contain at least one number, one uppercase, and one lowercase letter. No special characters." />
 		             	</div>
