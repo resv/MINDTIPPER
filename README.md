@@ -32,10 +32,11 @@ ___
 <img align="right" src="https://github.com/resv/MINDTIPPER/blob/master/PLANNING/readme%20files/6footer.gif" width="400" height="260" /><img src="https://github.com/resv/MINDTIPPER/blob/master/PLANNING/readme%20files/5scaling.gif" width="400" height="260" />
 
 <br>
+<br>
 
 <!------------------------------------------------------------------------------------------------------------------------->
 <h1 align="center" id="summary"> Summary</h1>
-An dynamic web application to help decision making that doesnâ€™t rely on a random generator. A decision title is split into two columns called choices, each choice has a supporting detail set that weigh against the opposing choiceâ€™s detail set. <br><br>
+An dynamic web application to help decision making that doesn't rely on a random generator. A decision title is split into two columns called choices, each choice has a supporting detail set that weigh against the opposing choice's detail set. <br><br>
 <img align="right"src="https://imgur.com/4P30ZvW.png"height="320"> <br><br><br><br>
 You can make a selection of which detail wins over the other. Once all selections are complete, the number of selections made for each choice are tallied up and calculated as the winning decision. <br><br>
 <img align="right" src="https://imgur.com/OLtgI65.png"height="400">
@@ -85,10 +86,8 @@ Not all data may make complete sense but it was vital to have, **mock data allow
 <br>
 <br>
 <br>
-<br>
-<br>
 
-With constant modifications and testing being done for my database, it was crucial to **drop and recreate my data tables quickly**, so I created a â€œ[One-Shot](https://github.com/resv/MINDTIPPER/blob/master/PLANNING/REVISION%202/REVISION%203/REVISION%204/REVISION%205/DDL%20SQL%20INSERTS%20REV%205/DDL%20ONE%20SHOT%20INSERTS.txt)â€� DDL insert file. This handled the **creation** of my **tables**, inserts for **mock data**, and generated all my **private** and **foreign keys**. 
+With constant modifications and testing being done for my database, it was crucial to **drop and recreate my data tables quickly**, so I created a a "[One-Shot](https://github.com/resv/MINDTIPPER/blob/master/PLANNING/REVISION%202/REVISION%203/REVISION%204/REVISION%205/DDL%20SQL%20INSERTS%20REV%205/DDL%20ONE%20SHOT%20INSERTS.txt)" DDL insert file. This handled the **creation** of my **tables**, inserts for **mock data**, and generated all my **private** and **foreign keys**. 
 There are also [individual files](https://github.com/resv/MINDTIPPER/tree/master/PLANNING/REVISION%202/REVISION%203/REVISION%204/REVISION%205/DDL%20SQL%20INSERTS%20REV%205) for each table and keys, you can insert them in numerical order in the event of issues.
 
 <br>
@@ -131,18 +130,18 @@ Although a domain name has been secured (MindTipper.com), the **application is n
 
 2. Create a new connection, and remember your connection properties as you will insert this data into the project later.
 
-3. Open up the work sheet for the database and insert the SQL DDL, I have provided a â€œ[One Shot](https://github.com/resv/MINDTIPPER/blob/master/PLANNING/REVISION%202/REVISION%203/REVISION%204/REVISION%205/DDL%20SQL%20INSERTS%20REV%205/DDL%20ONE%20SHOT%20INSERTS.txt)â€� DDL file for you to run. This will create all tables and records, set primary and foreign keys. Iâ€™ve also provided [individual SQL DDL files](https://github.com/resv/MINDTIPPER/tree/master/PLANNING/REVISION%202/REVISION%203/REVISION%204/REVISION%205/DDL%20SQL%20INSERTS%20REV%205) that you may insert one at a time in numerical order in the event of issues.
+3. Open up the work sheet for the database and insert the SQL DDL, I have provided a "[One Shot](https://github.com/resv/MINDTIPPER/blob/master/PLANNING/REVISION%202/REVISION%203/REVISION%204/REVISION%205/DDL%20SQL%20INSERTS%20REV%205/DDL%20ONE%20SHOT%20INSERTS.txt)" DDL file for you to run. This will create all tables and records, set primary and foreign keys. Iâ€™ve also provided [individual SQL DDL files](https://github.com/resv/MINDTIPPER/tree/master/PLANNING/REVISION%202/REVISION%203/REVISION%204/REVISION%205/DDL%20SQL%20INSERTS%20REV%205) that you may insert one at a time in numerical order in the event of issues.
 			
 4. Clone this repository, once download is complete, you may open up this project in your Eclipse IDE.
 
-5. You need to modify the â€œ[spring-mvc-crud-demo-servlet.xml](https://github.com/resv/MINDTIPPER/blob/master/WebContent/WEB-INF/spring-mvc-crud-demo-servlet.xml)â€� file, replace "User", "Pass", "jdbcURL", driver to match your connection in your DBMS. *(currently assigned to my AWS database)*               
+5. You need to modify the "[spring-mvc-crud-demo-servlet.xml](https://github.com/resv/MINDTIPPER/blob/master/WebContent/WEB-INF/spring-mvc-crud-demo-servlet.xml)" file, replace "User", "Pass", "jdbcURL", driver to match your connection in your DBMS. *(currently assigned to my AWS database)*               
                 
 <img align="center" src="https://imgur.com/vFv5IoH.png" width="900" height="150">
                 
-6. Right click the â€œMTâ€� project in your project explorer -> run as ->run on server, Set Tomcat to version 9 and hit finish.
+6. Right click the "MT" project in your project explorer -> run as ->run on server, Set Tomcat to version 9 and hit finish.
 
 7. The web application should take a few seconds to load and run.
-I highly advise that you copy and paste the url â€œ**[http://localhost:8080/MT/](http://localhost:8080/MT/)**â€� from your eclipse web explorer and open it on your local browser for the full front end user experience.
+I highly advise that you copy and paste the url "**[http://localhost:8080/MT/](http://localhost:8080/MT/)**" from your eclipse web explorer and open it on your local browser for the full front end user experience.
 
 <img align="center" src="https://imgur.com/hI50UqX.png" width="900" height="80">
 
@@ -243,7 +242,7 @@ In our [MT.entity](https://github.com/resv/MINDTIPPER/tree/master/src/MT/entity)
    - **Internal and external CSS** was used as the **requirement** for this case study.
    - **JSTL tag** library was used to reference external links.
 
-5. â€œ[Terms of use](https://github.com/resv/MINDTIPPER/blob/master/WebContent/WEB-INF/view/terms.jsp)â€� & â€œ[Privacy Policy](https://github.com/resv/MINDTIPPER/blob/master/WebContent/WEB-INF/view/privacy.jsp)â€� has **factual information** regarding this project at its current state and for future features not yet implemented. You can generate specified documentation at [Termly](https://termly.io/). I could not afford the membership so I had to manual create my own HTML and CSS for this page as embedding was the only way to use these terms for non paid members and that was not an option. *Credit was given to the company in the JSP page*.
+5. "[Terms of use](https://github.com/resv/MINDTIPPER/blob/master/WebContent/WEB-INF/view/terms.jsp)" & "[Privacy Policy](https://github.com/resv/MINDTIPPER/blob/master/WebContent/WEB-INF/view/privacy.jsp)" has **factual information** regarding this project at its current state and for future features not yet implemented. You can generate specified documentation at [Termly](https://termly.io/). I could not afford the membership so I had to manual create my own HTML and CSS for this page as embedding was the only way to use these terms for non paid members and that was not an option. *Credit was given to the company in the JSP page*.
 
 <br>
 
@@ -283,10 +282,10 @@ I implemented a very powerful tool called [WOW.JS](https://wowjs.uk/) for **simp
 <h1 align="center" id="unfinished">UNFINISHED / PROBLEMS</h1>
 
 **Environment Problems**:
-- Iâ€™ve **restarted my project** a few times. Because I made my views early in the project **not a lot of time was wasted** for each new project attempt as the views were easily transferable.
+- I've **restarted my project** a few times. Because I made my views early in the project **not a lot of time was wasted** for each new project attempt as the views were easily transferable.
 	- My first attempt was using POJO JDBC, we ran into issues for setup as I could not find any solid path to setup the environment.
 	- The same issue occurred using JDBC template.
-	- My latest attempt was using Hibernate which I was finally able to receive concrete a â€œreadâ€� from my database to my JSP. 
+	- My latest attempt was using Hibernate which I was finally able to receive data from my database to my JSP. 
 
 <img align="right" src="https://imgur.com/ghZokjA.png" width="350" height="200">
 
