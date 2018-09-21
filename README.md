@@ -201,6 +201,8 @@ In our [MT.entity](https://github.com/resv/MINDTIPPER/tree/master/src/MT/entity)
 <br>
 <br>
 <br>
+<br>
+<br>
 
 <!---------------------------------------------------------------------------------------------------------------------------->
 <h1 align="center" id="view">MVC - VIEW</h1>
@@ -323,6 +325,15 @@ I'd like to thank [Platform PerScholas](https://www.platformbyps.org/) for the o
 
 Interested in changing careers or expanding your industry knowledge? Platform PerScholas offers free training, [contact me](https://www.linkedin.com/in/adamkim456/) and ask about my 12 week experience at Platform PerScholas.
 
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
