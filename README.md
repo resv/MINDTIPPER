@@ -311,12 +311,8 @@ I implemented a very powerful tool called [WOW.JS](https://wowjs.uk/) for **simp
 
 <!------------------------------------------------------------------------------------------------------------------------->
 <h1 align="center" id="summation">Summation</h1>
-I've gained so much knowledge within these past 3 months. Considering I did not have any prior formal training/education on Java, I was certain I would fail or fall terribly behind within the first month but making it to the last month in itself was a personal accomplishment. Realistically, I knew I wasn't going to be able to receive a high score or even receive a passing score but I no longer was concerned about my case study grade during the last few days of developing this case study.
+The current progress made of this project was all done in a 10 day time span, I will continue to study and build this application further for an official release.
 
-<br>
-<br>
-
-I've realized, I was more focused on being able to learn, understand and implement real world enterprise MVC skills. Of course I am disappointed at myself and disappointed others for not being able to deliver a working product. I will use this failure as a reflection of my weaknesses and where I need improvement. I will continue to practice MVC so that one day I will feel competent enough to secure a professional position as a "Java Developer".
 
 I'd like to thank [Platform PerScholas](https://www.platformbyps.org/) for the opportunity to learn Java Development.
 - Special thanks to :

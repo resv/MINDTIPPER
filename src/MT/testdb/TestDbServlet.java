@@ -25,10 +25,10 @@ public class TestDbServlet extends HttpServlet {
 
 		
 		//SETUP CONNECTION VARIABLES
-		String user = "akim456";
-		String pass = "adminadmin";
+		String user = "C##ADAMICANTPICK";
+		String pass = "password";
 		
-		String jdbcUrl = "jdbc:oracle:thin:@icantpickdb.chbcmccevvr4.us-east-1.rds.amazonaws.com:1521:orcl";
+		String jdbcUrl = "jdbc:oracle:thin:@localhost:1521:orcl";
 		String driver = "oracle.jdbc.driver.OracleDriver";
 		
 		//GET A CONNECTION TO DATABASE

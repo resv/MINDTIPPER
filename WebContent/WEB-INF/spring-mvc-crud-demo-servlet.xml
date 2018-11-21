@@ -31,9 +31,9 @@
 	<bean id="myDataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource"
           destroy-method="close">
         <property name="driverClass" value="oracle.jdbc.driver.OracleDriver" />
-        <property name="jdbcUrl" value="jdbc:oracle:thin:@icantpickdb.chbcmccevvr4.us-east-1.rds.amazonaws.com:1521:orcl" />
-        <property name="user" value="akim456" />
-        <property name="password" value="adminadmin" /> 
+        <property name="jdbcUrl" value="jdbc:oracle:thin:@localhost:1521:orcl" />
+        <property name="user" value="C##ADAMICANTPICK" />
+        <property name="password" value="password" /> 
 
         <!-- these are connection pool properties for C3P0 -->
 		<property name="initialPoolSize" value="5"/>
