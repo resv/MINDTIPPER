@@ -217,6 +217,7 @@ In our [MT.entity](https://github.com/resv/MINDTIPPER/tree/master/src/MT/entity)
   - [Mdboostrap](https://mdbootstrap.com/)
   - [Startbootstrap](https://startbootstrap.com/)
   - [Datatables](https://datatables.net/)
+  - [Scaler](https://www.scaler.com/topics/css/)
 - **JS**
   - [Jquery](https://jquery.com/)
   - [Wow.js](https://wowjs.uk/) (*animations*)
